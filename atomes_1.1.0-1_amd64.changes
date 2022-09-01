@@ -1,0 +1,38 @@
+Format: 1.8
+Date: Thu, 01 Sep 2022 17:22:57 +0200
+Source: atomes
+Binary: atomes
+Built-For-Profiles: noudeb
+Architecture: source amd64
+Version: 1.1.0-1
+Distribution: UNRELEASED
+Urgency: medium
+Maintainer: Sébastien Le Roux <sebastien.leroux@ipcms.unistra.fr>
+Changed-By: Sébastien Le Roux <sebastien.leroux@ipcms.unistra.fr>
+Description:
+ atomes     - <insert up to 60 chars description>
+Changes:
+ atomes (1.1.0-1) UNRELEASED; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 5fd45f0f4e82e43c7c5b944b4eccf7f941232306 858 atomes_1.1.0-1.dsc
+ 88fce2042e14329a6723d221627253fb5236864c 2109684 atomes_1.1.0.orig.tar.xz
+ 7276b193c8ce02e7db3aec1f55a3283d0474a4fa 8676 atomes_1.1.0-1.debian.tar.xz
+ 851e698721852a3de0f54da7dc2e3b9c13cae68a 2263428 atomes-dbgsym_1.1.0-1_amd64.ddeb
+ 9e32f30610b37f24ba9cc33ef251a0457ae35b28 5992 atomes_1.1.0-1_amd64.buildinfo
+ 61924b63b5cf6f40e839c9d582d1d32c7cf4959b 2157474 atomes_1.1.0-1_amd64.deb
+Checksums-Sha256:
+ b470a6b22c455f90e382b43003905a5afa2d81c211ac1a22cdd3cd053a1c6254 858 atomes_1.1.0-1.dsc
+ 827406e30c00aab523557be77c9f2f794c2edf0d81c359a0ab22577466f88092 2109684 atomes_1.1.0.orig.tar.xz
+ 26217fb16a4d412936d4c6c76b6f250ccb08bc4483b09d63437a9ed1c35b1105 8676 atomes_1.1.0-1.debian.tar.xz
+ 0978fc2209d34ca5c1d36b0ebbec35e9682d5f572ba9cd3fe91be42a4a35bf52 2263428 atomes-dbgsym_1.1.0-1_amd64.ddeb
+ 1fae418e52b4f6201e97510a1ff7d723a4d7f5883dbf2421e0e8da1c5f0766ba 5992 atomes_1.1.0-1_amd64.buildinfo
+ b8989c6a5f03048952eb0582d77062190f6087c72a7bf41ce162420c08a95dd9 2157474 atomes_1.1.0-1_amd64.deb
+Files:
+ c920b613d0654c023bffdddeb4d4c88f 858 unknown optional atomes_1.1.0-1.dsc
+ 9b19c4780599785b6dc61caf4ac74d54 2109684 unknown optional atomes_1.1.0.orig.tar.xz
+ 0fe9a764256204a7216d42f00339bfa6 8676 unknown optional atomes_1.1.0-1.debian.tar.xz
+ 0b73926f15b2934d8b0ad48a2114d4fc 2263428 debug optional atomes-dbgsym_1.1.0-1_amd64.ddeb
+ a97b3e408cbf16ea623dd2e075afc796 5992 unknown optional atomes_1.1.0-1_amd64.buildinfo
+ 20444b3a7095718189724ecbe427da7e 2157474 unknown optional atomes_1.1.0-1_amd64.deb
