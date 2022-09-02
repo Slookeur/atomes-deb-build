@@ -1,0 +1,5 @@
+atomes (1.1.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Sébastien Le Roux <sebastien.leroux@ipcms.unistra.fr>  Fri, 02 Sep 2022 11:14:05 +0200

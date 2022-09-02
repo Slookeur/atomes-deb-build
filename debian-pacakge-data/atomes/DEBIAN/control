@@ -1,0 +1,10 @@
+Package: atomes
+Version: 1.1.0-1
+Architecture: amd64
+Maintainer: Sébastien Le Roux <sebastien.leroux@ipcms.unistra.fr>
+Installed-Size: 10140
+Depends: libavcodec58 (>= 7:4.2), libavformat58 (>= 7:4.2), libavutil56 (>= 7:4.0), libc6 (>= 2.29), libcairo2 (>= 1.6.0), libepoxy0 (>= 1.0), libgcc-s1 (>= 4.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libgfortran5 (>= 10), libglib2.0-0 (>= 2.37.0), libgomp1 (>= 4.9), libgtk-3-0 (>= 3.21.5), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), libswscale5 (>= 7:4.0), libxml2 (>= 2.7.4)
+Section: Science
+Priority: optional
+Homepage: <insert the upstream URL, if relevant>
+Description: Atomes: a toolbox to analyze, visualize and edit 3D atomistic models.
