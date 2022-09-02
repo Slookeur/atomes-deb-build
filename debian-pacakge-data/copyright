@@ -1,8 +1,0 @@
-Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: atomes
-Upstream-Contact: sebastien.leroux@ipcms.unistra.fr
-Source: https://github.com/Slookeur/Atomes-deb-build/blob/main/atomes-1.1.0.tar.gz
-
-Files: *
-Copyright: 2022 - Dr. Sébastien Le Roux - sebastien.leroux@ipcms.unistra.fr
-License: Affero GPLv3+
