@@ -2,7 +2,9 @@
 
 VERSION="1.1.0"
 
-rm -rf atomes-$VERSION
+if [ -f atomes-$VERSION ]; then
+  rm -rf atomes-$VERSION
+fi
 tar -zxf atomes-$VERSION.tar.gz
 cd atomes-$VERSION
 cp -r ../debian-package-data ./debian
