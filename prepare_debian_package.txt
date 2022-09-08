@@ -36,6 +36,7 @@ history
 changelog (to be modified between each release, synthax is very tricky, be carefull)
 README.* 
 manpage.* (for Debian it is mandatory to prepare man pages for your package)
+-> Question do I need to edit all of them or is one enough 
 control
 atomes.doc-base.EX
 watch.ex (Seems tricky, to say the least)
@@ -60,3 +61,5 @@ salsa-ci.yml.ex
 ]$ dpkg-buildpackage
 
 And that should do the trick ;-)
+
+Note: between each build clean the *.orig.* archive to refresh it
