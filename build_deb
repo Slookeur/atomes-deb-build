@@ -1,0 +1,16 @@
+#!/bin/bash
+
+VERSION="1.1.1"
+
+#rm -rf atomes-$VERSION
+tar -zxf atomes-$VERSION.tar.gz
+rm -f *.orig.* 
+cp -r debian-package-data atomes-$VERSION/debian
+cd atomes-$VERSION
+
+export DEBEMAIL="sebastien.leroux@ipcms.unistra.fr"
+export DEBFULLNAME="Sébastien Le Roux"
+dh_make --createorig -s -y
+dpkg-buildpackage
+cd ..
+scp * leroux@pc-chess:files/git-files/atomes/atomes-deb-build/atomes-deb-build/

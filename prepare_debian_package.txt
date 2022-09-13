@@ -61,5 +61,3 @@ salsa-ci.yml.ex
 ]$ dpkg-buildpackage
 
 And that should do the trick ;-)
-
-Note: between each build clean the *.orig.* archive to refresh it
