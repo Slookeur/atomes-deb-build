@@ -1,20 +1,29 @@
 #!/bin/bash
 
-VERSION="1.1.0"
+function autoclean
+{
+  rm -f aclocal.m4
+  rm -f configure~
+  aclocal
+  autoconf
+  automake --add-missing
+  rm -f configure~
+}
 
-<<<<<<< HEAD
-rm -rf atomes-$VERSION
-rm -f *.orig.*
-=======
+VERSION="1.1.1"
+
 if [ -f atomes-$VERSION ]; then
   rm -rf atomes-$VERSION
 fi
->>>>>>> df88eea4ce6e2604617f77368272a0d07b32a2b6
 tar -zxf atomes-$VERSION.tar.gz
+rm -f *.orig.* 
+cp -r debian-package-data atomes-$VERSION/debian
 cd atomes-$VERSION
-cp -r ../debian-package-data ./debian
+autoclean
 export DEBEMAIL="sebastien.leroux@ipcms.unistra.fr"
-export export DEBFULLNAME="Sébastien Le Roux"
+export DEBFULLNAME="Sébastien Le Roux"
 dh_make --createorig -s -y
 dpkg-buildpackage
 cd ..
+scp * leroux@pc-chess:files/git-files/atomes/atomes-deb-build/atomes-deb-build/
+scp -r debian-package-data leroux@pc-chess:files/git-files/atomes/atomes-deb-build/atomes-deb-build/
