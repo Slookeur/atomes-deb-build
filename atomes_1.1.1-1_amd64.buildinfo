@@ -4,20 +4,20 @@ Binary: atomes atomes-dbgsym
 Architecture: amd64 source
 Version: 1.1.1-1
 Checksums-Md5:
- 71fc430aa065dafb74a64f82b2e1e964 844 atomes_1.1.1-1.dsc
+ 9b1219071d1be0dedbe5078f68e6b8cf 844 atomes_1.1.1-1.dsc
  5dfce58c69eebc5bcd79f64b71a81b7d 1763148 atomes-dbgsym_1.1.1-1_amd64.deb
- 06bf311956d8c79ed69dc8233ce07375 2085184 atomes_1.1.1-1_amd64.deb
+ 5dcf89270777cef86e4fb10bc2cc6655 2085244 atomes_1.1.1-1_amd64.deb
 Checksums-Sha1:
- 0c30fbf41ba5628c9fce2282f47201a744db5bc6 844 atomes_1.1.1-1.dsc
+ d720471d1f7bb21a56590e8bd5be371ddc656810 844 atomes_1.1.1-1.dsc
  f7b74e8925421f65790fa2204ba73f382980ccd0 1763148 atomes-dbgsym_1.1.1-1_amd64.deb
- 01f34f20d7f237018576aa1fa94a748533d67100 2085184 atomes_1.1.1-1_amd64.deb
+ 64efd09be7c6c33375c0e90ab066dd8138197ecb 2085244 atomes_1.1.1-1_amd64.deb
 Checksums-Sha256:
- 290a1fda9a0f2201097bd61da243375453ad7be4017a76e191010888798cbcad 844 atomes_1.1.1-1.dsc
+ 66a65e28aa147e79abb7205eee85963bf4f03353f0c2a1dd7f9106a28c5d12bb 844 atomes_1.1.1-1.dsc
  3f5034a92124df02e0902dcfd7414a61b1aba6769bf588b39135fff4a7017844 1763148 atomes-dbgsym_1.1.1-1_amd64.deb
- 5e00ae16fa7eee1e523fce63f1f07e711b36838d48496cc83fa40365fe0bafb2 2085184 atomes_1.1.1-1_amd64.deb
+ a0b3ad3fc29466a6c4749d50248d0fb89bf2102257728a891101110d273bc3c0 2085244 atomes_1.1.1-1_amd64.deb
 Build-Origin: Debian
 Build-Architecture: amd64
-Build-Date: Tue, 13 Sep 2022 11:40:13 +0200
+Build-Date: Tue, 13 Sep 2022 13:15:14 +0200
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
 Installed-Build-Depends:
@@ -25,7 +25,7 @@ Installed-Build-Depends:
  automake (= 1:1.16.3-2),
  autopoint (= 0.21-4),
  autotools-dev (= 20180224.1+nmu1),
- base-files (= 11.1+deb11u4),
+ base-files (= 11.1+deb11u5),
  base-passwd (= 3.5.51),
  bash (= 5.1-2+deb11u1),
  binutils (= 2.35.2-2),
@@ -45,8 +45,8 @@ Installed-Build-Depends:
  dh-autoreconf (= 20),
  dh-strip-nondeterminism (= 1.12.0-1),
  diffutils (= 1:3.7-5),
- dpkg (= 1.20.11),
- dpkg-dev (= 1.20.11),
+ dpkg (= 1.20.12),
+ dpkg-dev (= 1.20.12),
  dwz (= 0.13+20210201-1),
  file (= 1:5.39-3),
  findutils (= 4.8.0-1),
@@ -73,10 +73,10 @@ Installed-Build-Depends:
  libbinutils (= 2.35.2-2),
  libblkid1 (= 2.36.1-8+deb11u1),
  libbz2-1.0 (= 1.0.8-4),
- libc-bin (= 2.31-13+deb11u3),
- libc-dev-bin (= 2.31-13+deb11u3),
- libc6 (= 2.31-13+deb11u3),
- libc6-dev (= 2.31-13+deb11u3),
+ libc-bin (= 2.31-13+deb11u4),
+ libc-dev-bin (= 2.31-13+deb11u4),
+ libc6 (= 2.31-13+deb11u4),
+ libc6-dev (= 2.31-13+deb11u4),
  libcap-ng0 (= 0.7.9-2.2+b1),
  libcc1-0 (= 10.2.1-6),
  libcom-err2 (= 1.46.2-2),
@@ -87,7 +87,7 @@ Installed-Build-Depends:
  libdb5.3 (= 5.3.28+dfsg1-0.8),
  libdebconfclient0 (= 0.260),
  libdebhelper-perl (= 13.3.4),
- libdpkg-perl (= 1.20.11),
+ libdpkg-perl (= 1.20.12),
  libelf1 (= 0.183-1),
  libfile-stripnondeterminism-perl (= 1.12.0-1),
  libgcc-10-dev (= 10.2.1-6),
@@ -98,14 +98,14 @@ Installed-Build-Depends:
  libgmp10 (= 2:6.2.1+dfsg-1+deb11u1),
  libgomp1 (= 10.2.1-6),
  libgpg-error0 (= 1.38-2),
- libgssapi-krb5-2 (= 1.18.3-6+deb11u1),
+ libgssapi-krb5-2 (= 1.18.3-6+deb11u2),
  libicu67 (= 67.1-7),
  libisl23 (= 0.23-1),
  libitm1 (= 10.2.1-6),
- libk5crypto3 (= 1.18.3-6+deb11u1),
+ libk5crypto3 (= 1.18.3-6+deb11u2),
  libkeyutils1 (= 1.6.1-2),
- libkrb5-3 (= 1.18.3-6+deb11u1),
- libkrb5support0 (= 1.18.3-6+deb11u1),
+ libkrb5-3 (= 1.18.3-6+deb11u2),
+ libkrb5support0 (= 1.18.3-6+deb11u2),
  liblsan0 (= 10.2.1-6),
  liblz4-1 (= 1.9.3-2),
  liblzma5 (= 5.2.5-2.1~deb11u1),
@@ -120,7 +120,7 @@ Installed-Build-Depends:
  libpam-modules-bin (= 1.4.0-9+deb11u1),
  libpam-runtime (= 1.4.0-9+deb11u1),
  libpam0g (= 1.4.0-9+deb11u1),
- libpcre2-8-0 (= 10.36-2),
+ libpcre2-8-0 (= 10.36-2+deb11u1),
  libpcre3 (= 2:8.39-13),
  libperl5.32 (= 5.32.1-4+deb11u2),
  libpipeline1 (= 1.5.3-1),
@@ -133,7 +133,7 @@ Installed-Build-Depends:
  libstdc++-10-dev (= 10.2.1-6),
  libstdc++6 (= 10.2.1-6),
  libsub-override-perl (= 0.09-2),
- libsystemd0 (= 247.3-7),
+ libsystemd0 (= 247.3-7+deb11u1),
  libtinfo6 (= 6.2+20201114-2),
  libtirpc-common (= 1.3.1-1+deb11u1),
  libtirpc-dev (= 1.3.1-1+deb11u1),
@@ -142,12 +142,12 @@ Installed-Build-Depends:
  libtsan0 (= 10.2.1-6),
  libubsan1 (= 10.2.1-6),
  libuchardet0 (= 0.0.7-1),
- libudev1 (= 247.3-7),
+ libudev1 (= 247.3-7+deb11u1),
  libunistring2 (= 0.9.10-4),
  libuuid1 (= 2.36.1-8+deb11u1),
  libxml2 (= 2.9.10+dfsg-6.7+deb11u2),
  libzstd1 (= 1.4.8+dfsg-2.1),
- linux-libc-dev (= 5.10.136-1),
+ linux-libc-dev (= 5.10.140-1),
  login (= 1:4.8.1-1),
  lsb-base (= 11.1.0),
  m4 (= 1.4.18-5),
