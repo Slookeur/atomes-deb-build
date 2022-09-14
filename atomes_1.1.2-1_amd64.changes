@@ -15,23 +15,23 @@ Changes:
  .
    * Release of version 1.1.2 (Closes: #nnnn)  <nnnn is the bug number of your ITP>
 Checksums-Sha1:
- f584aace7680d09584b1bde0cc08ab7f3d3ffcec 844 atomes_1.1.2-1.dsc
- 1b55c4bc5dcdde4f0f923eccc0a92a8ef075c754 2092648 atomes_1.1.2.orig.tar.xz
+ c4bb65670da0ebfe81f5d68af5b69beaf3eb49e9 844 atomes_1.1.2-1.dsc
+ 56b99640b4bb670ff263b96ee512d4aef31cfe57 2092992 atomes_1.1.2.orig.tar.xz
  479cda38ba71113b130423493ac2732ce3445777 7596 atomes_1.1.2-1.debian.tar.xz
- 0caab57c03d8bae19fd73a74a104e95587d304d6 1763140 atomes-dbgsym_1.1.2-1_amd64.deb
- 15eb559b1fc13f07918b252d79a6a7e4dc2d645e 5274 atomes_1.1.2-1_amd64.buildinfo
- e636b1f430735304a8bcc99eb95568d391757a96 2083868 atomes_1.1.2-1_amd64.deb
+ 9c8d6dc60bf7bb4ef4c6cd9a7e9a94466fb8e87f 1763272 atomes-dbgsym_1.1.2-1_amd64.deb
+ 19f5c95763ee25c908ad6896046e473e86f07685 5274 atomes_1.1.2-1_amd64.buildinfo
+ 1b287b1f6c911a1f760ceb4def642959fffbd54f 2084492 atomes_1.1.2-1_amd64.deb
 Checksums-Sha256:
- 87317bd159c9eec9edb7acf16a580b2d9474f89a8c79e774c2f8a1174eea59d3 844 atomes_1.1.2-1.dsc
- 4175d12d17c0032d9a9c990b66c4fe7540d3205657683a7f60d4380585051d24 2092648 atomes_1.1.2.orig.tar.xz
+ 39e6dedb36bb900863d7a295664a6375e58cd86c8d5ad0070296f3e7514165aa 844 atomes_1.1.2-1.dsc
+ fa9967829f371cf8357a28c6facb5ef109b9ae268f5b29c341dae409c404205d 2092992 atomes_1.1.2.orig.tar.xz
  2ed54e11e03f73969dac73e4f205cda0696b11ee0682954171978d8ece604c70 7596 atomes_1.1.2-1.debian.tar.xz
- a760d8cc03e5fedbd13430a4b11cb6a5d7caceb4e57cdfc719ff6ae75c4480c4 1763140 atomes-dbgsym_1.1.2-1_amd64.deb
- a17cd4199a5f212b88863fe95ce9d9a89374f8a29e87c98a4224e037d4ed8ab4 5274 atomes_1.1.2-1_amd64.buildinfo
- 964d2028f063aee023bbdd9f97a3fb9ecffe4ccb70e7e5b96a3859f821c06341 2083868 atomes_1.1.2-1_amd64.deb
+ e02650942526bb38f506e16f683e065713d5bebe6c055ac8a46d7602a2cef1e2 1763272 atomes-dbgsym_1.1.2-1_amd64.deb
+ f089b98114c5db587dd776a5e0245efb0e2c0edae7426f7f0d89b6cf8c9405a4 5274 atomes_1.1.2-1_amd64.buildinfo
+ c8d8154e6852ecdecd2ddebf8c0a40b82f8709a3c7a2a220226ec18f39514651 2084492 atomes_1.1.2-1_amd64.deb
 Files:
- eb51561a134925952704f72549ba3622 844 Science optional atomes_1.1.2-1.dsc
- 8abe26cbbfeb2e3a2514b3b9103e96b9 2092648 Science optional atomes_1.1.2.orig.tar.xz
+ 7dac9b28411b48cca33f35bd1bacdcf7 844 Science optional atomes_1.1.2-1.dsc
+ e64d73e9467c7586f3c40629d698ffe1 2092992 Science optional atomes_1.1.2.orig.tar.xz
  f5db299c104da7e3bf83ad009e93a795 7596 Science optional atomes_1.1.2-1.debian.tar.xz
- 7857b02635b90cfb7bfe735706fc29e7 1763140 debug optional atomes-dbgsym_1.1.2-1_amd64.deb
- 6a61f47910506e2b12e613f9874c1066 5274 Science optional atomes_1.1.2-1_amd64.buildinfo
- 21aadd55973b2313d3024e4da4e838b9 2083868 Science optional atomes_1.1.2-1_amd64.deb
+ 0bc3b32c7ea96554640ccbe650acd102 1763272 debug optional atomes-dbgsym_1.1.2-1_amd64.deb
+ 7b2ba4409d3fb403462fb71a5aba6140 5274 Science optional atomes_1.1.2-1_amd64.buildinfo
+ 71b7490f6fc6edb16f9cee92c8c0fbf2 2084492 Science optional atomes_1.1.2-1_amd64.deb

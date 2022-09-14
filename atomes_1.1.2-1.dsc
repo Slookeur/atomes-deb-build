@@ -10,11 +10,11 @@ Build-Depends: debhelper-compat (= 13), autotools-dev
 Package-List:
  atomes deb Science optional arch=any
 Checksums-Sha1:
- 1b55c4bc5dcdde4f0f923eccc0a92a8ef075c754 2092648 atomes_1.1.2.orig.tar.xz
+ 56b99640b4bb670ff263b96ee512d4aef31cfe57 2092992 atomes_1.1.2.orig.tar.xz
  479cda38ba71113b130423493ac2732ce3445777 7596 atomes_1.1.2-1.debian.tar.xz
 Checksums-Sha256:
- 4175d12d17c0032d9a9c990b66c4fe7540d3205657683a7f60d4380585051d24 2092648 atomes_1.1.2.orig.tar.xz
+ fa9967829f371cf8357a28c6facb5ef109b9ae268f5b29c341dae409c404205d 2092992 atomes_1.1.2.orig.tar.xz
  2ed54e11e03f73969dac73e4f205cda0696b11ee0682954171978d8ece604c70 7596 atomes_1.1.2-1.debian.tar.xz
 Files:
- 8abe26cbbfeb2e3a2514b3b9103e96b9 2092648 atomes_1.1.2.orig.tar.xz
+ e64d73e9467c7586f3c40629d698ffe1 2092992 atomes_1.1.2.orig.tar.xz
  f5db299c104da7e3bf83ad009e93a795 7596 atomes_1.1.2-1.debian.tar.xz
