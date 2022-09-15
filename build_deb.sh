@@ -10,7 +10,7 @@ function autoclean
   rm -f configure~
 }
 
-VERSION="1.1.1"
+VERSION="1.1.3"
 
 if [ -f atomes-$VERSION ]; then
   rm -rf atomes-$VERSION
