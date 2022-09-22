@@ -1,3 +1,10 @@
+atomes (1.1.4-1) unstable; urgency=medium
+
+  * Release of version 1.1.4 (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Sébastien Le Roux <sebastien.leroux@ipcms.unistra.fr>  Thu, 22 Sep 2022
+15:28:00 +0200
+
 atomes (1.1.3-1) unstable; urgency=medium
 
   * Release of version 1.1.3 (Closes: #nnnn)  <nnnn is the bug number of your ITP>

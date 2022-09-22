@@ -1,0 +1,36 @@
+Format: 1.8
+Date: Thu, 22 Sep 2022 15:39:31 +0200
+Source: atomes
+Binary: atomes atomes-dbgsym
+Architecture: source amd64
+Version: 1.1.4-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Sébastien Le Roux <sebastien.leroux@ipcms.unistra.fr>
+Description:
+ atomes     - Atomes: a toolbox to analyze, visualize and edit/create 3D atomis
+Changes:
+ atomes (1.1.4-1) unstable; urgency=medium
+ .
+   * Release of version 1.1.4 (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ b74af0b53c3a07b38745cb57c3c2b3d46afe99e3 844 atomes_1.1.4-1.dsc
+ c4f693c466daae1a4fa53c0050f0e40781a7048e 2058328 atomes_1.1.4.orig.tar.xz
+ 66516f9b7ca3493fae9bf1d555e5598558e8fbdc 7944 atomes_1.1.4-1.debian.tar.xz
+ d60a072c97ad22071343afc961eefc679ed678bb 1763484 atomes-dbgsym_1.1.4-1_amd64.deb
+ eb714aa07d16996d33f1c9417f8d08d3f8a9e7ae 5274 atomes_1.1.4-1_amd64.buildinfo
+ cc20d96743a2766ca86f64ff56b883aeaaedcccf 2083400 atomes_1.1.4-1_amd64.deb
+Checksums-Sha256:
+ 98b2bd3fd116b35bcfacebf065f3882ee78a10baa3f9f9bc896e9e1a952b0617 844 atomes_1.1.4-1.dsc
+ fdaaa9b35990478aafcc57caffbaa5e94e61eec7013712249531d6cc39df9768 2058328 atomes_1.1.4.orig.tar.xz
+ 3f0520f1d684162622c8944a502f98ebe1aaecec5a4081c45d306a537e8c02c8 7944 atomes_1.1.4-1.debian.tar.xz
+ 0e56121dfe9f39ed2068cb6fe03ff28ab1fa9b36e024ed0cff6b9aa0c285eac2 1763484 atomes-dbgsym_1.1.4-1_amd64.deb
+ da63dc3b0433535905fe76aa6519d9dbc2fbcdfb1098895491f5a3711e370e1e 5274 atomes_1.1.4-1_amd64.buildinfo
+ e55347c534fbb0eb319539d3082583e43bb72e11d65d40396153fdac626f868c 2083400 atomes_1.1.4-1_amd64.deb
+Files:
+ 30f751a6f7a2c08cc8e587c37df72931 844 Science optional atomes_1.1.4-1.dsc
+ 3a41af063f05bb5c00d8cd16d4b914c0 2058328 Science optional atomes_1.1.4.orig.tar.xz
+ b15ccb9c452c8ad2d78543acffd80274 7944 Science optional atomes_1.1.4-1.debian.tar.xz
+ b864f91debbb1288fafa8538a57d028d 1763484 debug optional atomes-dbgsym_1.1.4-1_amd64.deb
+ 8528a41f24081fa2f11bea762e75b78a 5274 Science optional atomes_1.1.4-1_amd64.buildinfo
+ 23a76d668da24ec6472340bdae50425a 2083400 Science optional atomes_1.1.4-1_amd64.deb
