@@ -10,8 +10,10 @@ function autoclean
   rm -f configure~
 }
 
-VERSION="1.1.4"
-
+VERSION="1.1.5"
+OVER="1.1.4"
+rm -f "*_"$OVER"*"
+scp leroux@pc-chess:files/git-files/atomes/atomes-all/atomes-$VERSION.tar.gz .
 if [ -f atomes-$VERSION ]; then
   rm -rf atomes-$VERSION
 fi
