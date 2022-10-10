@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 10 Oct 2022 13:55:05 +0200
+Source: atomes
+Binary: atomes atomes-dbgsym
+Architecture: source amd64
+Version: 1.1.6-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Sébastien Le Roux <sebastien.leroux@ipcms.unistra.fr>
+Changed-By: Sébastien Le Roux <sebastien.leroux@ipcms.unistra.fr>
+Description:
+ atomes     - Atomes: a toolbox to analyze, visualize and edit/create 3D atomis
+Changes:
+ atomes (1.1.6-1) unstable; urgency=medium
+ .
+   * Release of version 1.1.6 (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ e6c6e8767786dcb0c9460a0bd5bb3aba2f1b0d5a 844 atomes_1.1.6-1.dsc
+ 6ffc6a7a42e9df9ae8bfe646c1c8e00227e8b4d4 2101816 atomes_1.1.6.orig.tar.xz
+ 6c45e2d13e3f432d4b840472a2635c29ede0eb0b 7652 atomes_1.1.6-1.debian.tar.xz
+ c6db0738cf54331104c8476ba01027e789c82506 1764344 atomes-dbgsym_1.1.6-1_amd64.deb
+ 268e009b35e7db7f9018d224b996fb0d460e991b 5274 atomes_1.1.6-1_amd64.buildinfo
+ 6018b71af1b7008dacec7de81cc7d0a16b6ae8b7 2086564 atomes_1.1.6-1_amd64.deb
+Checksums-Sha256:
+ c1c530f012f83abc95c3dac83e1792ff7f4a775f46f6fc28c4bd2305fbf54b82 844 atomes_1.1.6-1.dsc
+ 2827cafcd679c922ded79a58745c55b3f9acc6efd376bf436a10664f23490649 2101816 atomes_1.1.6.orig.tar.xz
+ 1fe33192895446506cc1d55281759ec8add4e12fd08ee07d2c123b3f6cc7d932 7652 atomes_1.1.6-1.debian.tar.xz
+ 61b7ef297d5ad03edc0a80719915acfcedea770491952b4b4221e1189dcff4c0 1764344 atomes-dbgsym_1.1.6-1_amd64.deb
+ c1caa6cfd2c30e496c4c485c3447eaf67574d96b8b9702947164206f7fb86445 5274 atomes_1.1.6-1_amd64.buildinfo
+ e60767d652bc007c604fcdcf12e0858b60d5d836a0c6215a1dc6ecb26c1de660 2086564 atomes_1.1.6-1_amd64.deb
+Files:
+ 61b2b7b9bcc096c4b76c9f8245274cfb 844 Science optional atomes_1.1.6-1.dsc
+ e238ed91f1ff74e60fba31939abb201a 2101816 Science optional atomes_1.1.6.orig.tar.xz
+ cdbc7f43ba7dca1403968b992f283779 7652 Science optional atomes_1.1.6-1.debian.tar.xz
+ a37a330537aadc288384a47a0b692469 1764344 debug optional atomes-dbgsym_1.1.6-1_amd64.deb
+ 1819cb43c100b3a8eac9a613ccb35b28 5274 Science optional atomes_1.1.6-1_amd64.buildinfo
+ c361ad6b55721211d7044135029e266a 2086564 Science optional atomes_1.1.6-1_amd64.deb

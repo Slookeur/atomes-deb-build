@@ -2,22 +2,22 @@ Format: 1.0
 Source: atomes
 Binary: atomes atomes-dbgsym
 Architecture: amd64 source
-Version: 1.1.5-1
+Version: 1.1.6-1
 Checksums-Md5:
- 095273249a0cad84a17b3b44e4ce9e5d 844 atomes_1.1.5-1.dsc
- 46700c185d3cd7fc5a0fa694f8c2adc6 1763432 atomes-dbgsym_1.1.5-1_amd64.deb
- 3ce097a3f003027b670430270ac6f01b 2084148 atomes_1.1.5-1_amd64.deb
+ 61b2b7b9bcc096c4b76c9f8245274cfb 844 atomes_1.1.6-1.dsc
+ a37a330537aadc288384a47a0b692469 1764344 atomes-dbgsym_1.1.6-1_amd64.deb
+ c361ad6b55721211d7044135029e266a 2086564 atomes_1.1.6-1_amd64.deb
 Checksums-Sha1:
- c7cca2d0f39260ff0b77053682f62639526e3e33 844 atomes_1.1.5-1.dsc
- 016676a4d26783174576646e5ffa104e4649e68b 1763432 atomes-dbgsym_1.1.5-1_amd64.deb
- 6934ac6b8580d5fa23ef85ba89866b651e40b88f 2084148 atomes_1.1.5-1_amd64.deb
+ e6c6e8767786dcb0c9460a0bd5bb3aba2f1b0d5a 844 atomes_1.1.6-1.dsc
+ c6db0738cf54331104c8476ba01027e789c82506 1764344 atomes-dbgsym_1.1.6-1_amd64.deb
+ 6018b71af1b7008dacec7de81cc7d0a16b6ae8b7 2086564 atomes_1.1.6-1_amd64.deb
 Checksums-Sha256:
- 1ed667b7304eb0194893538950b355b0c183a692d5ce34b03b441ff50fe34c05 844 atomes_1.1.5-1.dsc
- a370d6c286a40a465739620968035b6456a5c702daec3a2f56f8fb761dd3105c 1763432 atomes-dbgsym_1.1.5-1_amd64.deb
- f4ff1e71fd55fc789991cffce9828de857701368ee03fe3fd3e3bfc4a906d860 2084148 atomes_1.1.5-1_amd64.deb
+ c1c530f012f83abc95c3dac83e1792ff7f4a775f46f6fc28c4bd2305fbf54b82 844 atomes_1.1.6-1.dsc
+ 61b7ef297d5ad03edc0a80719915acfcedea770491952b4b4221e1189dcff4c0 1764344 atomes-dbgsym_1.1.6-1_amd64.deb
+ e60767d652bc007c604fcdcf12e0858b60d5d836a0c6215a1dc6ecb26c1de660 2086564 atomes_1.1.6-1_amd64.deb
 Build-Origin: Debian
 Build-Architecture: amd64
-Build-Date: Wed, 28 Sep 2022 14:14:22 +0200
+Build-Date: Mon, 10 Oct 2022 13:49:09 +0200
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
 Installed-Build-Depends:
@@ -171,4 +171,4 @@ Installed-Build-Depends:
 Environment:
  DEB_BUILD_OPTIONS="parallel=1"
  LANG="fr_FR.UTF-8"
- SOURCE_DATE_EPOCH="1664367181"
+ SOURCE_DATE_EPOCH="1665402905"

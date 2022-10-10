@@ -1,7 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: atomes
 Upstream-Contact: sebastien.leroux@ipcms.unistra.fr
-Source: https://github.com/Slookeur/Atomes-deb-build/raw/main/atomes-1.1.5.tar.gz
+Source: https://github.com/Slookeur/Atomes-deb-build/raw/main/atomes-1.1.6.tar.gz
 
 Files: *
 Copyright: 2022 - Dr. Sébastien Le Roux - sebastien.leroux@ipcms.unistra.fr
