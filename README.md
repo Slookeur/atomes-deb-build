@@ -37,9 +37,15 @@ This repository contains the latest version of the Debian requires to build a '.
 
 To build ***Atomes***: 
 
-> ./configure
+```
+./configure
+```
 
-> make
+Followed by:
+
+```
+make
+```
 
 ### Build options
 
@@ -47,17 +53,21 @@ To build ***Atomes***:
 
 ***Atomes*** uses the [GTK][gtk] lib for the GUI, by default GTK3 is used, however it is possible to build the GTK4 version (beta), to do that edit the `Makefile` and change:
 
-  1. Edit the file "configure.ac": 
+  1. Edit the file `configure.ac` 
 
 And change: 
 
-> PKG_CHECK_MODULES(GTK, [gtk+-3.0 >= 3.16])
-> dnl PKG_CHECK_MODULES(GTK, [gtk4 >= 4.60])
+```
+PKG_CHECK_MODULES(GTK, [gtk+-3.0 >= 3.16])
+dnl PKG_CHECK_MODULES(GTK, [gtk4 >= 4.60])
+```
 
 To:
 
+```
 dnl PKG_CHECK_MODULES(GTK, [gtk+-3.0 >= 3.16])
 PKG_CHECK_MODULES(GTK, [gtk4 >= 4.60])
+```
 
   2. Edit the file `scr/Makefile.am`
 
@@ -71,11 +81,13 @@ To:
 
   3. Update the `configure` script:
 
-> rm -f aclocal.m4
-> rm -f configure~
-> aclocal
-> autoconf
-> automake --add-missing
+```
+rm -f aclocal.m4
+rm -f configure~
+aclocal
+autoconf
+automake --add-missing
+```
 
   4. Build ***Atomes***
 
@@ -100,17 +112,21 @@ And remove all:
 
   2. Update the `configure` script:
 
-> rm -f aclocal.m4
-> rm -f configure~
-> aclocal
-> autoconf
-> automake --add-missing
+```
+rm -f aclocal.m4
+rm -f configure~
+aclocal
+autoconf
+automake --add-missing
+```
 
   3. Build ***Atomes***
 
 ## Install ***Atomes***
 
-> make install
+```
+make install
+```
 
 ## Who's behind ***Atomes***
 
@@ -149,3 +165,5 @@ Tutorial are regrouped and hosted on [GitHub][github] here: [Atomes tutorials][a
 [cp2k]:http://cp2k.berlios.de
 [gtk]:https://www.gtk.org/
 [openmp]:https://www.openmp.org/
+[fedora]:https://getfedora.org/
+[fusion]:https://rpmfusion.org/
