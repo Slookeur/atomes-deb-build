@@ -1,0 +1,10 @@
+Document: atomes
+Title: Atomes user manual
+Author: Sébastien Le Roux
+Abstract: Atomes: a toolbox to analyze, visualize and create/edit 3D atomistic models.
+Section: Science/Chemistry/Physics
+
+Format: HTML
+Index: /usr/share/doc/atomes/html/index.html
+Files: /usr/share/doc/atomes/html/i*.html
+

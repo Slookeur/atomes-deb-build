@@ -29,7 +29,7 @@ autoclean
 export DEBEMAIL="sebastien.leroux@ipcms.unistra.fr"
 export DEBFULLNAME="Sébastien Le Roux"
 dh_make --createorig -s -y
-dpkg-buildpackage
+dpkg-buildpackage -katomes@ipcms.unistra.fr
 cd ..
 scp * leroux@pc-chess:files/git-files/atomes/atomes-deb-build/atomes-deb-build/
 scp -r debian-package-data leroux@pc-chess:files/git-files/atomes/atomes-deb-build/atomes-deb-build/
