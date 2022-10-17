@@ -13,19 +13,19 @@ Build-Depends: debhelper-compat (= 13), autotools-dev, make, autoconf, pkg-confi
 Package-List:
  atomes deb Science optional arch=any
 Checksums-Sha1:
- 49cace2a9a77eff5b79cecfbd11aa7830f5c6932 2101452 atomes_1.1.7.orig.tar.xz
- cc3776a1a0feda60cb4c30e8f0d77687747cdd7f 13744 atomes_1.1.7-1.debian.tar.xz
+ 810861e1cc2a729cf01f811ce77975cae9bb3a9d 2101476 atomes_1.1.7.orig.tar.xz
+ 80f2a008483eff47cbbcef672a32cbdcd43b05fe 13808 atomes_1.1.7-1.debian.tar.xz
 Checksums-Sha256:
- 3d0f9fc5e971b7b008d0ca4564d3253444d06c13c777dd4fb14a0a582162fcf2 2101452 atomes_1.1.7.orig.tar.xz
- e371d427922da2c742e915cf8d3fb4f951b13a1b54f2c5548f87bab22cc9dcdc 13744 atomes_1.1.7-1.debian.tar.xz
+ ecb239225bcdd749a55737b5851121bb055840f6248cdf74cbe4b0bc9be5ef0d 2101476 atomes_1.1.7.orig.tar.xz
+ 03343093852e79067c915458192420a9b7cfb42dd03735b3e16628823f20ddc6 13808 atomes_1.1.7-1.debian.tar.xz
 Files:
- a0dbf2c23dda9d77eca28396713701c1 2101452 atomes_1.1.7.orig.tar.xz
- ca539225fc7b91b0c6d34c459f63cd4d 13744 atomes_1.1.7-1.debian.tar.xz
+ c248bf3da122bd09ecfbd732083a257b 2101476 atomes_1.1.7.orig.tar.xz
+ 6860347823c85a376944e0548b56ae0c 13808 atomes_1.1.7-1.debian.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iI4EARYIADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCY01mERgcYXRvbWVzQGlw
-Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cPQ1AD+LsB57ymcMOwYQuYPy66IKRpd
-heyzxjvPo9ckAB1abakA/23cID9b/F2XW9/WL0MUWWJuk/qdS/TjB+yjcAxaOw8N
-=gqFc
+iI4EARYIADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCY01rnxgcYXRvbWVzQGlw
+Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cNlcQEAt0pt8xBI15FiH4YNidKLv1Km
+ufhZHdvf6ufOwOA2EJUBAOrSVz6uT5jYqS6mWrwVpD4iHAQbgJXW134FEMUi8mUA
+=0OKd
 -----END PGP SIGNATURE-----

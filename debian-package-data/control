@@ -30,5 +30,16 @@ Rules-Requires-Root: no
 
 Package: atomes
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, 
+         libgfortran5, 
+         libgtk-3-0, 
+         libxml2,
+         freeglut3,
+         libglu1-mesa,
+         libavutil56,
+         libavcodec58,
+         libavformat58,
+         libswscale5,
+         desktop-file-utils,
+         bash-completion
 Description: Atomes: a toolbox to analyze, visualize and create/edit 3D atomistic models.
