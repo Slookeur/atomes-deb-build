@@ -13,14 +13,18 @@ function autoclean
 VERSION="1.1.7"
 OVER="1.1.6"
 rm -f "*_"$OVER"*"
-scp leroux@pc-chess:files/git-files/atomes/atomes-all/atomes-$VERSION.tar.gz .
+wget https://github.com/Slookeur/Atomes-GNU/archive/refs/tags/v$VERSION.tar.gz
+#scp leroux@pc-chess:files/git-files/atomes/atomes-all/atomes-$VERSION.tar.gz .
 if [ -d atomes-$VERSION ]; then
   rm -rf atomes-$VERSION
 fi
 if [ -d atomes-$OVER ]; then
   rm -rf atomes-$OVER
 fi
-tar -zxf atomes-$VERSION.tar.gz
+tar -zxf v$VERSION.tar.gz
+mv Atomes-GNU-$VERSION atomes-$VERSION
+rm v$VERSION.tar.gz
+tar -zcf atomes-$VERSION.tar.gz  atomes-$VERSION
 rm -f *.orig.* 
 cp -r debian-package-data atomes-$VERSION/debian
 cd atomes-$VERSION
