@@ -18,31 +18,31 @@ Changes:
  .
    * Release of version 1.1.7 (Closes: #nnnn)  <nnnn is the bug number of your ITP>
 Checksums-Sha1:
- 02ac84c1240b9117d4e305fc19a804ea62c0a464 1388 atomes_1.1.7-1.dsc
- 6ce3a652c6fe7d0bcf526071c042a4c3ccb63a5e 2101824 atomes_1.1.7.orig.tar.xz
+ ba2b7ee4bcd7f25f48d243db19d553dfda05b9d2 1388 atomes_1.1.7-1.dsc
+ 1051defa74bf52a27a4d0dc966c89e0af53d1e79 2101808 atomes_1.1.7.orig.tar.xz
  80f2a008483eff47cbbcef672a32cbdcd43b05fe 13808 atomes_1.1.7-1.debian.tar.xz
  9830e2ca9de31e78a9c8cb9a763bdf5f1c52509d 1764308 atomes-dbgsym_1.1.7-1_amd64.deb
- 6f3988a02e7d899050339ba6dc2dc2d22336e1aa 16032 atomes_1.1.7-1_amd64.buildinfo
+ 2dc52aff304606b5a12667bf4b1a9c4b80d17d65 16032 atomes_1.1.7-1_amd64.buildinfo
  b813ce0de2d7881ffc51ddf0cbec5b8cbada206c 2087012 atomes_1.1.7-1_amd64.deb
 Checksums-Sha256:
- af95daca57c25e49fb30463fecbbd3953dabd5a78a8ea05586b252b551a66d50 1388 atomes_1.1.7-1.dsc
- 6b98c7ebcb80d2660a382663e633e81047dd039aba8671d0948a63ac9e9b43de 2101824 atomes_1.1.7.orig.tar.xz
+ a626539348d1393ca1dd7bde0f485e2b28dfe229cd5b63f4d414ce59ed4c6713 1388 atomes_1.1.7-1.dsc
+ ffb7bc509fa39d67fa810505c184c668d1fa8c6c1858eca309d353ba5ada87ed 2101808 atomes_1.1.7.orig.tar.xz
  03343093852e79067c915458192420a9b7cfb42dd03735b3e16628823f20ddc6 13808 atomes_1.1.7-1.debian.tar.xz
  68f73b6061e53136514f0e4c673f162809c7ccdf6ee4ef22002c83add8921aa9 1764308 atomes-dbgsym_1.1.7-1_amd64.deb
- fd96f22f76175af2aecf8ac0441536e2419bdbede37cb72831ad6f7f5981a97d 16032 atomes_1.1.7-1_amd64.buildinfo
+ 68cc0043493c645e38013e7f4277a670c2bda8c321219e13c92d04a476592071 16032 atomes_1.1.7-1_amd64.buildinfo
  1b8fda2dcae5a76f6d35869981b6f35b8ca03f05d879acb3f98e9e655460437b 2087012 atomes_1.1.7-1_amd64.deb
 Files:
- 42f745a57d2634dcafadd916aa12ef7b 1388 Science optional atomes_1.1.7-1.dsc
- f6b60d7507d1713a7e0c4668dfc96f58 2101824 Science optional atomes_1.1.7.orig.tar.xz
+ e61453042fa358c45e89659ce2624be1 1388 Science optional atomes_1.1.7-1.dsc
+ f573bb416c3844664074951ddc9554d3 2101808 Science optional atomes_1.1.7.orig.tar.xz
  6860347823c85a376944e0548b56ae0c 13808 Science optional atomes_1.1.7-1.debian.tar.xz
  2c44e764fe2f0bea04d26d60c94a6791 1764308 debug optional atomes-dbgsym_1.1.7-1_amd64.deb
- 22ef98ba6cffce5a31ff1a7278abb0fa 16032 Science optional atomes_1.1.7-1_amd64.buildinfo
+ 351e26e74af5580c916ce5a240eb0046 16032 Science optional atomes_1.1.7-1_amd64.buildinfo
  9fc5262561ee4eb11424aa089d0b1c6b 2087012 Science optional atomes_1.1.7-1_amd64.deb
 
 -----BEGIN PGP SIGNATURE-----
 
-iI4EARYIADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCY0/+phgcYXRvbWVzQGlw
-Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cOxwAEAnvmYEu40FKga0f1/3li0fX8A
-sokAn87WygNqVJn8HJQBAKz65TGSkxNElyipNQye+h9hJTuH64B3Or1H9jfttu0A
-=UNxB
+iI4EARYIADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCY1AYIhgcYXRvbWVzQGlw
+Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cNrCQEAo2sjbQ7TBoriLdjnZ9otin4L
+ddqsFCWmDmna5WA0JLwBALkJypSEAIHh7J4pTh3KgshNi7M2LyT8uEQczvBLmGwL
+=FI01
 -----END PGP SIGNATURE-----
