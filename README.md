@@ -69,7 +69,7 @@ dnl PKG_CHECK_MODULES(GTK, [gtk+-3.0 >= 3.16])
 PKG_CHECK_MODULES(GTK, [gtk4 >= 4.60])
 ```
 
-  2. Edit the file `scr/Makefile.am`
+  2. Edit the file `src/Makefile.am`
 
 And change:
 
