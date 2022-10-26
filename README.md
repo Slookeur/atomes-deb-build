@@ -91,6 +91,11 @@ automake --add-missing
 
   4. Build ***Atomes***
 
+```
+./configure
+make
+```
+
 Here are some issues with GTK4 that cannot be sovled for the time being:
   1. No way to use Pango markups in menus
   2. Add widgets to menus is impossible, ex: color selections
@@ -121,6 +126,11 @@ automake --add-missing
 ```
 
   3. Build ***Atomes***
+
+```
+./configure
+make
+```
 
 ## Install ***Atomes***
 
