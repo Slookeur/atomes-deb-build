@@ -3,6 +3,7 @@
 function autoclean
 {
   rm -f aclocal.m4
+  rm -rf auto4te.cache
   rm -f configure~
   aclocal
   autoconf
@@ -10,8 +11,8 @@ function autoclean
   rm -f configure~
 }
 
-VERSION="1.1.7"
-OVER="1.1.6"
+VERSION="1.1.8"
+OVER="1.1.7"
 rm -f "*_"$OVER"*"
 wget https://github.com/Slookeur/Atomes-GNU/archive/refs/tags/v$VERSION.tar.gz
 #scp leroux@pc-chess:files/git-files/atomes/atomes-all/atomes-$VERSION.tar.gz .

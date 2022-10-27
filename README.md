@@ -83,6 +83,7 @@ To:
 
 ```
 rm -f aclocal.m4
+rm -rf autom4te.cache
 rm -f configure~
 aclocal
 autoconf
@@ -119,6 +120,7 @@ And remove all:
 
 ```
 rm -f aclocal.m4
+rm -rf autom4te.cache
 rm -f configure~
 aclocal
 autoconf

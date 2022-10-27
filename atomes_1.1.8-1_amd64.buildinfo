@@ -5,22 +5,22 @@ Format: 1.0
 Source: atomes
 Binary: atomes atomes-dbgsym
 Architecture: amd64 source
-Version: 1.1.7-1
+Version: 1.1.8-1
 Checksums-Md5:
- f2063f0cfc4116103d159b61e9d4d419 1388 atomes_1.1.7-1.dsc
- 2c44e764fe2f0bea04d26d60c94a6791 1764308 atomes-dbgsym_1.1.7-1_amd64.deb
- 9fc5262561ee4eb11424aa089d0b1c6b 2087012 atomes_1.1.7-1_amd64.deb
+ 3ada021a1e4d5d919b133a5bf335f062 1388 atomes_1.1.8-1.dsc
+ e6c84a692811a991676d13b89e6bc64e 1765980 atomes-dbgsym_1.1.8-1_amd64.deb
+ 260ac282bc88b8a66d660a6dafd95ecc 2088452 atomes_1.1.8-1_amd64.deb
 Checksums-Sha1:
- 061bcb288086f1e4349850e050c06b4064c94807 1388 atomes_1.1.7-1.dsc
- 9830e2ca9de31e78a9c8cb9a763bdf5f1c52509d 1764308 atomes-dbgsym_1.1.7-1_amd64.deb
- b813ce0de2d7881ffc51ddf0cbec5b8cbada206c 2087012 atomes_1.1.7-1_amd64.deb
+ 0eac8cc8b2a808022d625e8793eaea981df6394a 1388 atomes_1.1.8-1.dsc
+ 8ece70c317ab935e884812d1a717e9b475525924 1765980 atomes-dbgsym_1.1.8-1_amd64.deb
+ 62e4a09eeb269326c7e5969c20f9c012c860b4f5 2088452 atomes_1.1.8-1_amd64.deb
 Checksums-Sha256:
- 611bfbd4fe7be3689cd2c6fd9d5c26acb1f9dcb739c9ff324081d77427376d09 1388 atomes_1.1.7-1.dsc
- 68f73b6061e53136514f0e4c673f162809c7ccdf6ee4ef22002c83add8921aa9 1764308 atomes-dbgsym_1.1.7-1_amd64.deb
- 1b8fda2dcae5a76f6d35869981b6f35b8ca03f05d879acb3f98e9e655460437b 2087012 atomes_1.1.7-1_amd64.deb
+ dea47ae87963b322e4ef8f9efa584c34ecb505a571c167d6a16b2ff4bce4af95 1388 atomes_1.1.8-1.dsc
+ cf293620e074b00a19bf15afd7801fd0cb7e8c87451861769664acc9db8aad09 1765980 atomes-dbgsym_1.1.8-1_amd64.deb
+ a6b74507608700747ffceea6094b9160cebdecec76cf7eff83453222202632b5 2088452 atomes_1.1.8-1_amd64.deb
 Build-Origin: Debian
 Build-Architecture: amd64
-Build-Date: Fri, 21 Oct 2022 15:56:59 +0200
+Build-Date: Thu, 27 Oct 2022 18:08:16 +0200
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
 Installed-Build-Depends:
@@ -498,7 +498,7 @@ Installed-Build-Depends:
  systemd-sysv (= 247.3-7+deb11u1),
  sysvinit-utils (= 2.96-7+deb11u1),
  tar (= 1.34+dfsg-1),
- tzdata (= 2021a-1+deb11u6),
+ tzdata (= 2021a-1+deb11u7),
  ucf (= 3.0043),
  util-linux (= 2.36.1-8+deb11u1),
  uuid-dev (= 2.36.1-8+deb11u1),
@@ -519,12 +519,12 @@ Installed-Build-Depends:
 Environment:
  DEB_BUILD_OPTIONS="parallel=1"
  LANG="fr_FR.UTF-8"
- SOURCE_DATE_EPOCH="1665670085"
+ SOURCE_DATE_EPOCH="1666879685"
 
 -----BEGIN PGP SIGNATURE-----
 
-iI4EARYIADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCY1KlLBgcYXRvbWVzQGlw
-Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cNFRQD/TVEyosJOTRR5TKoOvYmIDLIo
-rEiy5lPGTqc7QJTpx3wBAIVVYir1bODdWVhM5UY9Kpk7AlbLkk9swMkVhkm1aoAO
-=4i3Q
+iI4EARYIADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCY1qs8RgcYXRvbWVzQGlw
+Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cPIuQD+IKz/nLjJ3VaqtMs+YK5g8OLm
+cWoAU/F0vcsxKAPPFvoBAJK3ZEQrx5e+XP+zGLeHIQmJDzrTE9rbQNyVrCat8KoF
+=B1Rg
 -----END PGP SIGNATURE-----
