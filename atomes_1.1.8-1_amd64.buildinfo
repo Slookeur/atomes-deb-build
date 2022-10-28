@@ -7,20 +7,20 @@ Binary: atomes atomes-dbgsym
 Architecture: amd64 source
 Version: 1.1.8-1
 Checksums-Md5:
- 3ada021a1e4d5d919b133a5bf335f062 1388 atomes_1.1.8-1.dsc
+ 82dfe39488cb4f8e40742fffe4703783 1388 atomes_1.1.8-1.dsc
  e6c84a692811a991676d13b89e6bc64e 1765980 atomes-dbgsym_1.1.8-1_amd64.deb
  260ac282bc88b8a66d660a6dafd95ecc 2088452 atomes_1.1.8-1_amd64.deb
 Checksums-Sha1:
- 0eac8cc8b2a808022d625e8793eaea981df6394a 1388 atomes_1.1.8-1.dsc
+ ab86a7d99daa776a8d78b1ff041ecbe87249574c 1388 atomes_1.1.8-1.dsc
  8ece70c317ab935e884812d1a717e9b475525924 1765980 atomes-dbgsym_1.1.8-1_amd64.deb
  62e4a09eeb269326c7e5969c20f9c012c860b4f5 2088452 atomes_1.1.8-1_amd64.deb
 Checksums-Sha256:
- dea47ae87963b322e4ef8f9efa584c34ecb505a571c167d6a16b2ff4bce4af95 1388 atomes_1.1.8-1.dsc
+ abdd17982ee35ead0ba65efd9dce9324e20ee1af81a66fa459bf063a56d9c523 1388 atomes_1.1.8-1.dsc
  cf293620e074b00a19bf15afd7801fd0cb7e8c87451861769664acc9db8aad09 1765980 atomes-dbgsym_1.1.8-1_amd64.deb
  a6b74507608700747ffceea6094b9160cebdecec76cf7eff83453222202632b5 2088452 atomes_1.1.8-1_amd64.deb
 Build-Origin: Debian
 Build-Architecture: amd64
-Build-Date: Thu, 27 Oct 2022 18:08:16 +0200
+Build-Date: Fri, 28 Oct 2022 13:34:09 +0200
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
 Installed-Build-Depends:
@@ -138,10 +138,10 @@ Installed-Build-Depends:
  libbrotli1 (= 1.0.9-2+b2),
  libbsd0 (= 0.11.3-1),
  libbz2-1.0 (= 1.0.8-4),
- libc-bin (= 2.31-13+deb11u4),
- libc-dev-bin (= 2.31-13+deb11u4),
- libc6 (= 2.31-13+deb11u4),
- libc6-dev (= 2.31-13+deb11u4),
+ libc-bin (= 2.31-13+deb11u5),
+ libc-dev-bin (= 2.31-13+deb11u5),
+ libc6 (= 2.31-13+deb11u5),
+ libc6-dev (= 2.31-13+deb11u5),
  libcairo-gobject2 (= 1.16.0-5),
  libcairo-script-interpreter2 (= 1.16.0-5),
  libcairo2 (= 1.16.0-5),
@@ -464,7 +464,7 @@ Installed-Build-Depends:
  libzstd1 (= 1.4.8+dfsg-2.1),
  libzvbi-common (= 0.2.35-18),
  libzvbi0 (= 0.2.35-18),
- linux-libc-dev (= 5.10.149-1),
+ linux-libc-dev (= 5.10.149-2),
  login (= 1:4.8.1-1),
  lsb-base (= 11.1.0),
  m4 (= 1.4.18-5),
@@ -523,8 +523,8 @@ Environment:
 
 -----BEGIN PGP SIGNATURE-----
 
-iI4EARYIADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCY1qs8RgcYXRvbWVzQGlw
-Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cPIuQD+IKz/nLjJ3VaqtMs+YK5g8OLm
-cWoAU/F0vcsxKAPPFvoBAJK3ZEQrx5e+XP+zGLeHIQmJDzrTE9rbQNyVrCat8KoF
-=B1Rg
+iI4EARYIADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCY1u+MxgcYXRvbWVzQGlw
+Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cPgaQD/eAojxc30oQmjh11/Pc06nJaM
+BNX7BLUkges04C9/F1gA/2CQjVdQfK31ST1c19IYR8VZbUQZl/ILRrR8zsLyaGAH
+=Ufja
 -----END PGP SIGNATURE-----

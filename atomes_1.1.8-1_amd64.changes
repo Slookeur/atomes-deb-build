@@ -18,31 +18,31 @@ Changes:
  .
    * Release of version 1.1.8 (Closes: #nnnn)  <nnnn is the bug number of your ITP>
 Checksums-Sha1:
- 0eac8cc8b2a808022d625e8793eaea981df6394a 1388 atomes_1.1.8-1.dsc
- 3d48b83b163bf12f655278f615a43f127a64a875 2102952 atomes_1.1.8.orig.tar.xz
+ ab86a7d99daa776a8d78b1ff041ecbe87249574c 1388 atomes_1.1.8-1.dsc
+ 94c44120d8100ddb9ff3fe8e53199001819fca4c 2102920 atomes_1.1.8.orig.tar.xz
  4205e35abdede5a62e2e567ca2846a7ed42fc693 13812 atomes_1.1.8-1.debian.tar.xz
  8ece70c317ab935e884812d1a717e9b475525924 1765980 atomes-dbgsym_1.1.8-1_amd64.deb
- dd9efc3751460f7eaad7127f53c5b97fe133c6fd 16032 atomes_1.1.8-1_amd64.buildinfo
+ 6f0916344d81b5d453547e6c9fad5c5d4c8c7301 16032 atomes_1.1.8-1_amd64.buildinfo
  62e4a09eeb269326c7e5969c20f9c012c860b4f5 2088452 atomes_1.1.8-1_amd64.deb
 Checksums-Sha256:
- dea47ae87963b322e4ef8f9efa584c34ecb505a571c167d6a16b2ff4bce4af95 1388 atomes_1.1.8-1.dsc
- ac6204ce12f2e4c9e9d4acb69db72ddbeafff334c5362c511d525bc6a98ee946 2102952 atomes_1.1.8.orig.tar.xz
+ abdd17982ee35ead0ba65efd9dce9324e20ee1af81a66fa459bf063a56d9c523 1388 atomes_1.1.8-1.dsc
+ df0ce0b52942e1c64803cf2f5dc8b56a13786996160126f47671c35150820f84 2102920 atomes_1.1.8.orig.tar.xz
  f1a57c2e2fdeea6ba3de42a1b370574b57f4f8c27b5da0646cd0cd120c899ee0 13812 atomes_1.1.8-1.debian.tar.xz
  cf293620e074b00a19bf15afd7801fd0cb7e8c87451861769664acc9db8aad09 1765980 atomes-dbgsym_1.1.8-1_amd64.deb
- 76f23edbcc3559cfebe4527c2ecc0a9f5f13e4fa309d9e228263af3221e52b6b 16032 atomes_1.1.8-1_amd64.buildinfo
+ 6a8a7ef45552dd6aedeff0c869f262a148b79fe9d17e4c3d616fd5f5aca2700c 16032 atomes_1.1.8-1_amd64.buildinfo
  a6b74507608700747ffceea6094b9160cebdecec76cf7eff83453222202632b5 2088452 atomes_1.1.8-1_amd64.deb
 Files:
- 3ada021a1e4d5d919b133a5bf335f062 1388 Science optional atomes_1.1.8-1.dsc
- 074d685e73766602a194756bc7602173 2102952 Science optional atomes_1.1.8.orig.tar.xz
+ 82dfe39488cb4f8e40742fffe4703783 1388 Science optional atomes_1.1.8-1.dsc
+ 87f5c6936655c6d30b7376ae06f98b41 2102920 Science optional atomes_1.1.8.orig.tar.xz
  cb76880959e143e7431486a2c7324da0 13812 Science optional atomes_1.1.8-1.debian.tar.xz
  e6c84a692811a991676d13b89e6bc64e 1765980 debug optional atomes-dbgsym_1.1.8-1_amd64.deb
- 559c54b3047082b86a7111e559319f21 16032 Science optional atomes_1.1.8-1_amd64.buildinfo
+ 44a8d1f7f705ccaf9b45c696ccb8878e 16032 Science optional atomes_1.1.8-1_amd64.buildinfo
  260ac282bc88b8a66d660a6dafd95ecc 2088452 Science optional atomes_1.1.8-1_amd64.deb
 
 -----BEGIN PGP SIGNATURE-----
 
-iI4EARYIADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCY1qs8RgcYXRvbWVzQGlw
-Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cN/jgEAxuE8EUI8OHfMI8dAZ6u955lV
-OvFjbaMX3UimtR6Oms8BAPYcrb5A+mdoQn/v+ndzocOCM95D2VVF18BNjQA0g38J
-=gD0c
+iI4EARYIADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCY1u+MxgcYXRvbWVzQGlw
+Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cMLiAEA9rS48NUaze3NtaZNSbsoF6oe
+Sp+8DNY3pmzjwh4KW8EA/13bU/nnv2UjSC7GMKLqbUpcTvtlGsF1CUypzLZ6DuEG
+=mwsp
 -----END PGP SIGNATURE-----
