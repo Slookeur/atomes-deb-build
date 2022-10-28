@@ -11,8 +11,8 @@ function autoclean
   rm -f configure~
 }
 
-VERSION="1.1.8"
-OVER="1.1.7"
+VERSION="1.1.9"
+OVER="1.1.8"
 rm -f "*_"$OVER"*"
 wget https://github.com/Slookeur/Atomes-GNU/archive/refs/tags/v$VERSION.tar.gz
 #scp leroux@pc-chess:files/git-files/atomes/atomes-all/atomes-$VERSION.tar.gz .
@@ -36,3 +36,5 @@ export DEBFULLNAME="Sébastien Le Roux"
 dh_make --createorig -s -y
 dpkg-buildpackage -katomes@ipcms.unistra.fr
 cd ..
+scp * leroux@pc-chess:files/git-files/atomes/atomes-deb-build/atomes-deb-build/
+scp -r debian-package-data leroux@pc-chess:files/git-files/atomes/atomes-deb-build/atomes-deb-build/

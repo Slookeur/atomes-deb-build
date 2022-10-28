@@ -1,0 +1,48 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Thu, 28 Oct 2022 18:31:05 +0200
+Source: atomes
+Binary: atomes atomes-dbgsym
+Architecture: source amd64
+Version: 1.1.9-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Sébastien Le Roux <sebastien.leroux@ipcms.unistra.fr>
+Changed-By: Sébastien Le Roux <sebastien.leroux@ipcms.unistra.fr>
+Description:
+ atomes     - Atomes: a toolbox to analyze, visualize and create/edit 3D atomis
+Changes:
+ atomes (1.1.9-1) unstable; urgency=medium
+ .
+   * Release of version 1.1.9 (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 9413c8726e21d5d72fab1d327d855d87e03c6fe1 1388 atomes_1.1.9-1.dsc
+ b04b082052548189eed95c996a6dfe98a3f13e62 2104412 atomes_1.1.9.orig.tar.xz
+ 35e7e788d0e19d838ca9c2d2be4251b13a19b445 13820 atomes_1.1.9-1.debian.tar.xz
+ ab1924d2fe52cb627c303fae0ac94814d9d176eb 1766024 atomes-dbgsym_1.1.9-1_amd64.deb
+ 06a7f00620e7bfcdeceba0a8f20ddc002623465e 16032 atomes_1.1.9-1_amd64.buildinfo
+ 8090b47abb06c46213229ca978f99088979c0add 2088552 atomes_1.1.9-1_amd64.deb
+Checksums-Sha256:
+ bfe6df0471ff73027533f29f064565941e50b26bca0d8b88e9f53dd9aaf633db 1388 atomes_1.1.9-1.dsc
+ 0d17e3f5464bf8deb0e319886c914bb10797101c1a55d4fcf81e9f8120b15100 2104412 atomes_1.1.9.orig.tar.xz
+ ee3ff70a14aff979c37623808727232b0025e4b9416916b3c6794d6c440d5358 13820 atomes_1.1.9-1.debian.tar.xz
+ c0addd1dc4c0cd116e2b16cb27adf1eb83d47ec1943920a954bd6d9df4b689c7 1766024 atomes-dbgsym_1.1.9-1_amd64.deb
+ cc32fe82146fa13c6edcec74b4053dad87ce6a3c6b2b0d86bc555e9713cf7492 16032 atomes_1.1.9-1_amd64.buildinfo
+ 3ff5e797d0220c0663c26ef95c4054fce6673db21dec228705e11a7be9be1b96 2088552 atomes_1.1.9-1_amd64.deb
+Files:
+ 4dc954203d74ec61bad05988e845f629 1388 Science optional atomes_1.1.9-1.dsc
+ c5cd742f9ed3ebf17a8ddbc2f00cc7c1 2104412 Science optional atomes_1.1.9.orig.tar.xz
+ b6e86ed76ae894eb5ecfd0297de02a84 13820 Science optional atomes_1.1.9-1.debian.tar.xz
+ 117d3adfaa0f0ef3d5685318b5570d27 1766024 debug optional atomes-dbgsym_1.1.9-1_amd64.deb
+ 885f6b536fbd1a21a8152d8bef4b6fce 16032 Science optional atomes_1.1.9-1_amd64.buildinfo
+ 416d5e8c5228053ff18cbf1c10366fcf 2088552 Science optional atomes_1.1.9-1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iI4EARYIADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCY1wF9hgcYXRvbWVzQGlw
+Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cONLwD/aE5PCp71xmdhmc4u0EHCPwrI
+3hds0AVba7kYPHh4srEBAIKaztQ8pJtTJCEY7Z5AbJiSNNwEniN0Dn7MU9BJM94N
+=x6tW
+-----END PGP SIGNATURE-----
