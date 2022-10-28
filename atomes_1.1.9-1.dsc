@@ -13,19 +13,19 @@ Build-Depends: debhelper-compat (= 13), autotools-dev, make, autoconf, pkg-confi
 Package-List:
  atomes deb Science optional arch=any
 Checksums-Sha1:
- b04b082052548189eed95c996a6dfe98a3f13e62 2104412 atomes_1.1.9.orig.tar.xz
- 35e7e788d0e19d838ca9c2d2be4251b13a19b445 13820 atomes_1.1.9-1.debian.tar.xz
+ 3b938d75e0fad77860ee9afd717deb906804f506 2103860 atomes_1.1.9.orig.tar.xz
+ 6493c0434c7e449b443224279d1a87b795a8ac07 13836 atomes_1.1.9-1.debian.tar.xz
 Checksums-Sha256:
- 0d17e3f5464bf8deb0e319886c914bb10797101c1a55d4fcf81e9f8120b15100 2104412 atomes_1.1.9.orig.tar.xz
- ee3ff70a14aff979c37623808727232b0025e4b9416916b3c6794d6c440d5358 13820 atomes_1.1.9-1.debian.tar.xz
+ f41d25794dfa3929939b4141c2fb1da9c90320548103851990368c3e5f025e74 2103860 atomes_1.1.9.orig.tar.xz
+ 67e48b58a141c85fb55414371b547798fcb6c7cf32c1a525432239b14c5f1307 13836 atomes_1.1.9-1.debian.tar.xz
 Files:
- c5cd742f9ed3ebf17a8ddbc2f00cc7c1 2104412 atomes_1.1.9.orig.tar.xz
- b6e86ed76ae894eb5ecfd0297de02a84 13820 atomes_1.1.9-1.debian.tar.xz
+ 1213114383b2ecedec7b54350026f98f 2103860 atomes_1.1.9.orig.tar.xz
+ 26150d0f55b034fec9555effcc037e2c 13836 atomes_1.1.9-1.debian.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iI4EARYIADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCY1wF9RgcYXRvbWVzQGlw
-Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cNoywD/ZggirOxT7+qb6Tp5qG/wVvcU
-LyxkAlyM2JnjS33DI48BAL4pOUtRD3povWieuuVudSMzumvrLl9pLgwKJ8WPimYM
-=tisB
+iI4EARYIADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCY1xXDRgcYXRvbWVzQGlw
+Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cPqBgD/fBKoheJbPSupF5DkTCCZqXMr
+2oIHGr+rAU4zU3pQeo4BAI9g7StzRX4A4lshHfrTmQUWuorXGQhSYx0DWwTVPIYA
+=H7qa
 -----END PGP SIGNATURE-----
