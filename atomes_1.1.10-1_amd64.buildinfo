@@ -5,22 +5,22 @@ Format: 1.0
 Source: atomes
 Binary: atomes atomes-dbgsym
 Architecture: amd64 source
-Version: 1.1.9-1
+Version: 1.1.10-1
 Checksums-Md5:
- dc9ec4a4f11dd226b0061d5dc9bd0454 1388 atomes_1.1.9-1.dsc
- ce71adb3cdaf9facba2753b59cc623fd 1766020 atomes-dbgsym_1.1.9-1_amd64.deb
- cc9717e0578509ce764736c2966e5ff2 2088740 atomes_1.1.9-1_amd64.deb
+ 929815cf43116a57d67868b15f6acdbd 1395 atomes_1.1.10-1.dsc
+ d4dc2533ecc493937132b8693b37e585 1765972 atomes-dbgsym_1.1.10-1_amd64.deb
+ e054a80cba42a869c93236298aff9bb0 2087968 atomes_1.1.10-1_amd64.deb
 Checksums-Sha1:
- 49dfe16b9a9c0048edd83e33beb80754292b0e55 1388 atomes_1.1.9-1.dsc
- 4001bb37ecfa675af54f032247c41a6b38648b35 1766020 atomes-dbgsym_1.1.9-1_amd64.deb
- 5d7e444cba1de3d7760e7545da39ccd699131d33 2088740 atomes_1.1.9-1_amd64.deb
+ 738025c0330154057a0e63528d113a772681475c 1395 atomes_1.1.10-1.dsc
+ 85de5ec95ea3b498f89e6932f6e4cb890cea8eb8 1765972 atomes-dbgsym_1.1.10-1_amd64.deb
+ 17f080df2cb5abfed916a2cd1aa4f3c14e50bc01 2087968 atomes_1.1.10-1_amd64.deb
 Checksums-Sha256:
- 127a2ff5b5508267acb496f2769f76e83e24c4defac1cc4bc0bea3b4ca7669b2 1388 atomes_1.1.9-1.dsc
- 5cccaf006d5826632c5dc1c95d7ea7ac7b1142a2fb10d182abdf606b1c2bb466 1766020 atomes-dbgsym_1.1.9-1_amd64.deb
- 602e1dc392d11aaf126a97293b565701054ed8e8ba047c9449d51643ec451076 2088740 atomes_1.1.9-1_amd64.deb
+ ea8861d9ed12e03aeadea28a6a0054b7fc1ccbd905a9a746a263a356ff1e3c3f 1395 atomes_1.1.10-1.dsc
+ ebec0521c66a0cf75a99bd9330790102e6826b5c60403d84cd15e37d2c19e4a7 1765972 atomes-dbgsym_1.1.10-1_amd64.deb
+ cd36b1867db76dc26d2a2207ca88d3a345e6235a5aa1b962aa0734f6c324ed8c 2087968 atomes_1.1.10-1_amd64.deb
 Build-Origin: Debian
 Build-Architecture: amd64
-Build-Date: Sat, 29 Oct 2022 00:26:20 +0200
+Build-Date: Fri, 04 Nov 2022 15:38:34 +0100
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
 Installed-Build-Depends:
@@ -519,12 +519,12 @@ Installed-Build-Depends:
 Environment:
  DEB_BUILD_OPTIONS="parallel=1"
  LANG="fr_FR.UTF-8"
- SOURCE_DATE_EPOCH="1666995785"
+ SOURCE_DATE_EPOCH="1667568900"
 
 -----BEGIN PGP SIGNATURE-----
 
-iI4EARYIADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCY1xXDRgcYXRvbWVzQGlw
-Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cOmGgD9HMAgHEWtCRXkqS4MUtvzsLQ6
-XY7can+v/itbbBaPoHwBAOJi259o2dS3PrTGL1d8jAn8HNJs7BfS8jVMPOdgik8M
-=XJQE
+iI4EARYIADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCY2Uj6xgcYXRvbWVzQGlw
+Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cMtpwEA+HX0tUv9DaAbiaYOJlgEIzmM
+61KB80l/SpVZ3L8mMOwBAPuIS4Ri1hFn5DTd7g+6poU67aReqsNcqpvlB84sF28C
+=Jvjf
 -----END PGP SIGNATURE-----
