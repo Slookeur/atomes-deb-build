@@ -1,13 +1,13 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: Atomes-GNU
 Upstream-Contact: sebastien.leroux@ipcms.unistra.fr
-Source: https://github.com/Slookeur/Atomes-GNU/archive/refs/tags/v1.1.10.tar.gz
+Source: https://github.com/Slookeur/Atomes-GNU/archive/refs/tags/v1.1.11.tar.gz
 Files: *
-Copyright: 2022 - Dr. Sébastien Le Roux - sebastien.leroux@ipcms.unistra.fr
+Copyright: 2022-2023 - Dr. Sébastien Le Roux - sebastien.leroux@ipcms.unistra.fr
 License: Affero GPLv3+
 
 Files: debian/*
-Copyright: 2022 - Dr. Sébastien Le Roux - sebastien.leroux@ipcms.unistra.fr
+Copyright: 2022-2023 - Dr. Sébastien Le Roux - sebastien.leroux@ipcms.unistra.fr
 License: GPL
 
 License: Affero GPLv3+

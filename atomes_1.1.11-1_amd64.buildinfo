@@ -5,22 +5,22 @@ Format: 1.0
 Source: atomes
 Binary: atomes atomes-dbgsym
 Architecture: amd64 source
-Version: 1.1.10-1
+Version: 1.1.11-1
 Checksums-Md5:
- 929815cf43116a57d67868b15f6acdbd 1395 atomes_1.1.10-1.dsc
- d4dc2533ecc493937132b8693b37e585 1765972 atomes-dbgsym_1.1.10-1_amd64.deb
- e054a80cba42a869c93236298aff9bb0 2087968 atomes_1.1.10-1_amd64.deb
+ 31f1816a07c7145714cc9445fc6703b2 1395 atomes_1.1.11-1.dsc
+ 2e6c5ee3bcb8c87c6bae3777283d4ade 1765860 atomes-dbgsym_1.1.11-1_amd64.deb
+ 17e9f941fba6ffd687cda2408bd00dba 2087492 atomes_1.1.11-1_amd64.deb
 Checksums-Sha1:
- 738025c0330154057a0e63528d113a772681475c 1395 atomes_1.1.10-1.dsc
- 85de5ec95ea3b498f89e6932f6e4cb890cea8eb8 1765972 atomes-dbgsym_1.1.10-1_amd64.deb
- 17f080df2cb5abfed916a2cd1aa4f3c14e50bc01 2087968 atomes_1.1.10-1_amd64.deb
+ 45df7708080c7a2c3be2ac753005a1e801965538 1395 atomes_1.1.11-1.dsc
+ 9e62c431c4a7ee10a541e27717f33a4f07f13d72 1765860 atomes-dbgsym_1.1.11-1_amd64.deb
+ c38d67ac177cd474b4578601b6f926dbca5105fa 2087492 atomes_1.1.11-1_amd64.deb
 Checksums-Sha256:
- ea8861d9ed12e03aeadea28a6a0054b7fc1ccbd905a9a746a263a356ff1e3c3f 1395 atomes_1.1.10-1.dsc
- ebec0521c66a0cf75a99bd9330790102e6826b5c60403d84cd15e37d2c19e4a7 1765972 atomes-dbgsym_1.1.10-1_amd64.deb
- cd36b1867db76dc26d2a2207ca88d3a345e6235a5aa1b962aa0734f6c324ed8c 2087968 atomes_1.1.10-1_amd64.deb
+ 3dd303541e573879ab743d224ed7832bd107a6b033841dd3af4f0b1bf7900e46 1395 atomes_1.1.11-1.dsc
+ 8b666de0225aca60c4078c35ee145af36253de1ee36514fd888d6a794ad9d4aa 1765860 atomes-dbgsym_1.1.11-1_amd64.deb
+ 8daaaaffa69e16177098ce97c2b5f8791e6358b5f64bd10a96c98df67cbf7441 2087492 atomes_1.1.11-1_amd64.deb
 Build-Origin: Debian
 Build-Architecture: amd64
-Build-Date: Fri, 04 Nov 2022 15:38:34 +0100
+Build-Date: Mon, 27 Mar 2023 23:19:10 +0200
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
 Installed-Build-Depends:
@@ -124,12 +124,12 @@ Installed-Build-Depends:
  libavahi-client3 (= 0.8-5+deb11u1),
  libavahi-common-data (= 0.8-5+deb11u1),
  libavahi-common3 (= 0.8-5+deb11u1),
- libavcodec-dev (= 7:4.3.4-0+deb11u1),
- libavcodec58 (= 7:4.3.4-0+deb11u1),
- libavformat-dev (= 7:4.3.4-0+deb11u1),
- libavformat58 (= 7:4.3.4-0+deb11u1),
- libavutil-dev (= 7:4.3.4-0+deb11u1),
- libavutil56 (= 7:4.3.4-0+deb11u1),
+ libavcodec-dev (= 7:4.3.5-0+deb11u1),
+ libavcodec58 (= 7:4.3.5-0+deb11u1),
+ libavformat-dev (= 7:4.3.5-0+deb11u1),
+ libavformat58 (= 7:4.3.5-0+deb11u1),
+ libavutil-dev (= 7:4.3.5-0+deb11u1),
+ libavutil56 (= 7:4.3.5-0+deb11u1),
  libbinutils (= 2.35.2-2),
  libblkid-dev (= 2.36.1-8+deb11u1),
  libblkid1 (= 2.36.1-8+deb11u1),
@@ -185,8 +185,8 @@ Installed-Build-Depends:
  libelf1 (= 0.183-1),
  libepoxy-dev (= 1.5.5-1),
  libepoxy0 (= 1.5.5-1),
- libexpat1 (= 2.2.10-2+deb11u4),
- libexpat1-dev (= 2.2.10-2+deb11u4),
+ libexpat1 (= 2.2.10-2+deb11u5),
+ libexpat1-dev (= 2.2.10-2+deb11u5),
  libffi-dev (= 3.3-6),
  libffi7 (= 3.3-6),
  libfile-stripnondeterminism-perl (= 1.12.0-1),
@@ -363,10 +363,10 @@ Installed-Build-Depends:
  libstdc++6 (= 10.2.1-6),
  libstemmer0d (= 2.1.0-1),
  libsub-override-perl (= 0.09-2),
- libswresample-dev (= 7:4.3.4-0+deb11u1),
- libswresample3 (= 7:4.3.4-0+deb11u1),
- libswscale-dev (= 7:4.3.4-0+deb11u1),
- libswscale5 (= 7:4.3.4-0+deb11u1),
+ libswresample-dev (= 7:4.3.5-0+deb11u1),
+ libswresample3 (= 7:4.3.5-0+deb11u1),
+ libswscale-dev (= 7:4.3.5-0+deb11u1),
+ libswscale5 (= 7:4.3.5-0+deb11u1),
  libsystemd0 (= 247.3-7+deb11u1),
  libtasn1-6 (= 4.16.0-2),
  libthai-data (= 0.1.28-3),
@@ -498,7 +498,7 @@ Installed-Build-Depends:
  systemd-sysv (= 247.3-7+deb11u1),
  sysvinit-utils (= 2.96-7+deb11u1),
  tar (= 1.34+dfsg-1),
- tzdata (= 2021a-1+deb11u7),
+ tzdata (= 2021a-1+deb11u8),
  ucf (= 3.0043),
  util-linux (= 2.36.1-8+deb11u1),
  uuid-dev (= 2.36.1-8+deb11u1),
@@ -519,12 +519,12 @@ Installed-Build-Depends:
 Environment:
  DEB_BUILD_OPTIONS="parallel=1"
  LANG="fr_FR.UTF-8"
- SOURCE_DATE_EPOCH="1667568900"
+ SOURCE_DATE_EPOCH="1679951640"
 
 -----BEGIN PGP SIGNATURE-----
 
-iI4EARYIADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCY2Uj6xgcYXRvbWVzQGlw
-Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cMtpwEA+HX0tUv9DaAbiaYOJlgEIzmM
-61KB80l/SpVZ3L8mMOwBAPuIS4Ri1hFn5DTd7g+6poU67aReqsNcqpvlB84sF28C
-=Jvjf
+iI4EARYIADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCZCIITxgcYXRvbWVzQGlw
+Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cM41AEA1wJrTVU/A7HCKgGA9aGbIMJS
+T9ud7Wq1SrftHGx0gsUA/2w7OPbLKaFMzQaMvyM9QRoCjY/w0OI88qgWi/zhw1QA
+=3XpZ
 -----END PGP SIGNATURE-----

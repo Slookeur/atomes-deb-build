@@ -11,8 +11,8 @@ function autoclean
   rm -f configure~
 }
 
-VERSION="1.1.10"
-OVER="1.1.9"
+VERSION="1.1.11"
+OVER="1.1.10"
 rm -f "*_"$OVER"*"
 wget https://github.com/Slookeur/Atomes-GNU/archive/refs/tags/v$VERSION.tar.gz
 #scp leroux@pc-chess:files/git-files/atomes/atomes-all/atomes-$VERSION.tar.gz .
