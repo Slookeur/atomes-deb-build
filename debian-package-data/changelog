@@ -1,3 +1,7 @@
+atomes (1.1.11-2) unstable; urgency=medium
+
+  * Release of version 1.1.11 (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
 atomes (1.1.11-1) unstable; urgency=medium
 
   * Release of version 1.1.11 (Closes: #nnnn)  <nnnn is the bug number of your ITP>

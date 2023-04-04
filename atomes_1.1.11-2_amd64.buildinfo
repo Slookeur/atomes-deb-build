@@ -5,22 +5,22 @@ Format: 1.0
 Source: atomes
 Binary: atomes atomes-dbgsym
 Architecture: amd64 source
-Version: 1.1.11-1
+Version: 1.1.11-2
 Checksums-Md5:
- 31f1816a07c7145714cc9445fc6703b2 1395 atomes_1.1.11-1.dsc
- 2e6c5ee3bcb8c87c6bae3777283d4ade 1765860 atomes-dbgsym_1.1.11-1_amd64.deb
- 17e9f941fba6ffd687cda2408bd00dba 2087492 atomes_1.1.11-1_amd64.deb
+ fbb908602a33ea34efb3c0e0ca83121a 1380 atomes_1.1.11-2.dsc
+ 5eb2bc437220b3f95706b7bbfccc2445 1765864 atomes-dbgsym_1.1.11-2_amd64.deb
+ 6bdd1ebeeb13d3e42402de4e84e6b4fa 2099512 atomes_1.1.11-2_amd64.deb
 Checksums-Sha1:
- 45df7708080c7a2c3be2ac753005a1e801965538 1395 atomes_1.1.11-1.dsc
- 9e62c431c4a7ee10a541e27717f33a4f07f13d72 1765860 atomes-dbgsym_1.1.11-1_amd64.deb
- c38d67ac177cd474b4578601b6f926dbca5105fa 2087492 atomes_1.1.11-1_amd64.deb
+ 4532c045bef9ede3684580ad94ee7a15c843db3b 1380 atomes_1.1.11-2.dsc
+ 4fb8e28ef594e850611103b1467aabc83ca9708b 1765864 atomes-dbgsym_1.1.11-2_amd64.deb
+ d0e281f09d7376658a37531b90ad992c7c5c31d8 2099512 atomes_1.1.11-2_amd64.deb
 Checksums-Sha256:
- 3dd303541e573879ab743d224ed7832bd107a6b033841dd3af4f0b1bf7900e46 1395 atomes_1.1.11-1.dsc
- 8b666de0225aca60c4078c35ee145af36253de1ee36514fd888d6a794ad9d4aa 1765860 atomes-dbgsym_1.1.11-1_amd64.deb
- 8daaaaffa69e16177098ce97c2b5f8791e6358b5f64bd10a96c98df67cbf7441 2087492 atomes_1.1.11-1_amd64.deb
+ a2281792dedea37e1714bf9c1fe7f8c395d16821c8b40ed794eae338a421e6b7 1380 atomes_1.1.11-2.dsc
+ 36760f25c19ea1a0427eb7c3a3109f15edb26355d208bf29fa35448eeadb9567 1765864 atomes-dbgsym_1.1.11-2_amd64.deb
+ 1d4609a7f08ce5b9e47ec4693bd8b5bb6c403a0e70dcee8d8fb893c4cd2a5040 2099512 atomes_1.1.11-2_amd64.deb
 Build-Origin: Debian
 Build-Architecture: amd64
-Build-Date: Mon, 27 Mar 2023 23:19:10 +0200
+Build-Date: Wed, 05 Apr 2023 01:13:32 +0200
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
 Installed-Build-Depends:
@@ -70,8 +70,6 @@ Installed-Build-Depends:
  fonts-liberation (= 1:1.07.4-11),
  fonts-liberation2 (= 2.1.3-1),
  fonts-urw-base35 (= 20200910-1),
- freeglut3 (= 2.8.1-6),
- freeglut3-dev (= 2.8.1-6),
  g++ (= 4:10.2.1-1),
  g++-10 (= 10.2.1-6),
  gcc (= 4:10.2.1-1),
@@ -358,7 +356,7 @@ Installed-Build-Depends:
  libsqlite3-0 (= 3.34.1-3),
  libsrt1.4-gnutls (= 1.4.2-1.3),
  libssh-gcrypt-4 (= 0.9.5-1+deb11u1),
- libssl1.1 (= 1.1.1n-0+deb11u3),
+ libssl1.1 (= 1.1.1n-0+deb11u4),
  libstdc++-10-dev (= 10.2.1-6),
  libstdc++6 (= 10.2.1-6),
  libstemmer0d (= 2.1.0-1),
@@ -445,15 +443,13 @@ Installed-Build-Depends:
  libxinerama1 (= 2:1.1.4-2),
  libxkbcommon-dev (= 1.0.3-2),
  libxkbcommon0 (= 1.0.3-2),
- libxml2 (= 2.9.10+dfsg-6.7+deb11u2),
- libxml2-dev (= 2.9.10+dfsg-6.7+deb11u2),
+ libxml2 (= 2.9.10+dfsg-6.7+deb11u3),
+ libxml2-dev (= 2.9.10+dfsg-6.7+deb11u3),
  libxrandr-dev (= 2:1.5.1-1),
  libxrandr2 (= 2:1.5.1-1),
  libxrender-dev (= 1:0.9.10-1),
  libxrender1 (= 1:0.9.10-1),
  libxshmfence1 (= 1.3-1),
- libxt-dev (= 1:1.2.0-1),
- libxt6 (= 1:1.2.0-1),
  libxtst-dev (= 2:1.2.3-1),
  libxtst6 (= 2:1.2.3-1),
  libxvidcore4 (= 2:1.3.7-1),
@@ -519,12 +515,12 @@ Installed-Build-Depends:
 Environment:
  DEB_BUILD_OPTIONS="parallel=1"
  LANG="fr_FR.UTF-8"
- SOURCE_DATE_EPOCH="1679951640"
+ SOURCE_DATE_EPOCH="1680649920"
 
 -----BEGIN PGP SIGNATURE-----
 
-iI4EARYIADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCZCIITxgcYXRvbWVzQGlw
-Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cM41AEA1wJrTVU/A7HCKgGA9aGbIMJS
-T9ud7Wq1SrftHGx0gsUA/2w7OPbLKaFMzQaMvyM9QRoCjY/w0OI88qgWi/zhw1QA
-=3XpZ
+iI4EARYIADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCZCyvHBgcYXRvbWVzQGlw
+Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cMCUQEAugkN4H+PVaEA/RifQ95PnZZ2
+F3U2rqxgDV3vLyFZZOsBAO+ULgqrSVah61nD1SPeHZ45kayAfJv42qBRkJa9i7sF
+=WdZW
 -----END PGP SIGNATURE-----
