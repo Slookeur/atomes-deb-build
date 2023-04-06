@@ -1,0 +1,44 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Thu, 06 Apr 2023 11:55:20 +0200
+Source: atomes
+Binary: atomes atomes-dbgsym
+Architecture: source amd64
+Version: 1.1.11-4
+Distribution: unstable
+Urgency: medium
+Maintainer: Sébastien Le Roux <sebastien.leroux@ipcms.unistra.fr>
+Description:
+ atomes     - Atomes: a toolbox to analyze, visualize and create/edit 3D atomis
+Changes:
+ atomes (1.1.11-4) unstable; urgency=medium
+ .
+   * Release of version 1.1.11 (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ b4de688e977f550e034550ed4642ab06aeb6d407 1380 atomes_1.1.11-4.dsc
+ ec4263ee95259b8e2621fe3040bd1ec401132242 13872 atomes_1.1.11-4.debian.tar.xz
+ 835f0aaef029b341ac09dc5fdb8cefb6d9f54c30 1765860 atomes-dbgsym_1.1.11-4_amd64.deb
+ ae3a9158456da82d1ff0d29e5f24f25fec4ce725 15969 atomes_1.1.11-4_amd64.buildinfo
+ 79cf3d5ca7ae79964ec4638a7b991910a3cb8d52 2097636 atomes_1.1.11-4_amd64.deb
+Checksums-Sha256:
+ c7b6695dd73e35829d1d5e4c471db50e1ff2eb5e40b42fcf235fb0477b519675 1380 atomes_1.1.11-4.dsc
+ 71b45b5150503e84c41434e34d022ec38a4edfe294097a7e4f262ddea05fb03f 13872 atomes_1.1.11-4.debian.tar.xz
+ f2a61dae091e0b287afc2f3959b626a8ffd8b11b6f5879f293582d0caeb1fd92 1765860 atomes-dbgsym_1.1.11-4_amd64.deb
+ 2671f6e7e5689dc3ac68713fc3c3f6bb32cc8683c420a704fbd2e1aa5b032e74 15969 atomes_1.1.11-4_amd64.buildinfo
+ 4da592b7dbcd77fffd724240f25f8c47a2d409d6cdfe6cda90e2470557e37956 2097636 atomes_1.1.11-4_amd64.deb
+Files:
+ 9627980545a17d76f54040f96625f0fa 1380 Science optional atomes_1.1.11-4.dsc
+ 8cf5b1d46d75bea0e9acbdcaa8f05a8e 13872 Science optional atomes_1.1.11-4.debian.tar.xz
+ 4cd90a52d40b73fa1f78fe4b326616b0 1765860 debug optional atomes-dbgsym_1.1.11-4_amd64.deb
+ 185a58db83db221293bd419b0cf942fa 15969 Science optional atomes_1.1.11-4_amd64.buildinfo
+ da9773cc952aff44e1c54d6af9f0e173 2097636 Science optional atomes_1.1.11-4_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iI4EARYIADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCZC6XCRgcYXRvbWVzQGlw
+Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cMQxQD8DZ9PueZbyn7SV3J1vBXHegow
+DdnZlFdD41jIoqR/GIYA/Rzi55KDHoW7xMRU+DfEAELuZjHkbh6U4yI38DoNf2sA
+=baQB
+-----END PGP SIGNATURE-----
