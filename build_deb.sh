@@ -12,7 +12,7 @@ function autoclean
 }
 
 VERSION="1.1.11"
-OVER="1.1.10"
+OVER="1.1.11"
 rm -f "*_"$OVER"*"
 wget https://github.com/Slookeur/Atomes-GNU/archive/refs/tags/v$VERSION.tar.gz
 #scp leroux@pc-chess:files/git-files/atomes/atomes-all/atomes-$VERSION.tar.gz .
@@ -27,14 +27,19 @@ mv Atomes-GNU-$VERSION atomes-$VERSION
 rm v$VERSION.tar.gz
 tar -zcf atomes-$VERSION.tar.gz  atomes-$VERSION
 rm -f *.orig.* 
-cp -r debian-package-data atomes-$VERSION/debian
 cd atomes-$VERSION
+cp -r ../debian-package-data debian
 cp README.md README
 autoclean
 export DEBEMAIL="sebastien.leroux@ipcms.unistra.fr"
 export DEBFULLNAME="Sébastien Le Roux"
 dh_make --createorig -s -y
 dpkg-buildpackage -katomes@ipcms.unistra.fr
+echo "Lintian on changes:"
+lintian ../atomes_*changes
+echo "Lintian on deb:"
+lintian ../atomes_*amd64.deb
 cd ..
-scp * leroux@pc-chess:files/git-files/atomes/atomes-deb-build/atomes-deb-build/
+scp build_deb.sh leroux@pc-chess:files/git-files/atomes/atomes-deb-build/atomes-deb-build/
+scp atomes_* leroux@pc-chess:files/git-files/atomes/atomes-deb-build/atomes-deb-build/
 scp -r debian-package-data leroux@pc-chess:files/git-files/atomes/atomes-deb-build/atomes-deb-build/

@@ -2,7 +2,7 @@
 Hash: SHA256
 
 Format: 1.8
-Date: Thu, 06 Apr 2023 11:55:20 +0200
+Date: Wed, 10 May 2023 15:32:00 +0200
 Source: atomes
 Binary: atomes atomes-dbgsym
 Architecture: source amd64
@@ -10,35 +10,40 @@ Version: 1.1.11-4
 Distribution: unstable
 Urgency: medium
 Maintainer: Sébastien Le Roux <sebastien.leroux@ipcms.unistra.fr>
+Changed-By: Sébastien Le Roux <sebastien.leroux@ipcms.unistra.fr>
 Description:
- atomes     - Atomes: a toolbox to analyze, visualize and create/edit 3D atomis
+ atomes     - This package provides Atomes.
+Closes: 1019387
 Changes:
  atomes (1.1.11-4) unstable; urgency=medium
  .
-   * Release of version 1.1.11 (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+   * Release of version 1.1.11 (Closes: #1019387)
 Checksums-Sha1:
- b4de688e977f550e034550ed4642ab06aeb6d407 1380 atomes_1.1.11-4.dsc
- ec4263ee95259b8e2621fe3040bd1ec401132242 13872 atomes_1.1.11-4.debian.tar.xz
- 835f0aaef029b341ac09dc5fdb8cefb6d9f54c30 1765860 atomes-dbgsym_1.1.11-4_amd64.deb
- ae3a9158456da82d1ff0d29e5f24f25fec4ce725 15969 atomes_1.1.11-4_amd64.buildinfo
- 79cf3d5ca7ae79964ec4638a7b991910a3cb8d52 2097636 atomes_1.1.11-4_amd64.deb
+ df9cff7dbc706270bdbfedb6f0a41160751bb042 1381 atomes_1.1.11-4.dsc
+ 3904db027334cb366c2493f4a2cc39a4e00d20f9 2136156 atomes_1.1.11.orig.tar.xz
+ 4234677b00f505325baf10c74a8926e3e6a8ce53 12384 atomes_1.1.11-4.debian.tar.xz
+ 662dcdb0c01a8d65fecfe4ebfcc54c32ea55075b 1765836 atomes-dbgsym_1.1.11-4_amd64.deb
+ c7fb52eef7b50c8ea6e47447a4aed56152c5ddf1 16077 atomes_1.1.11-4_amd64.buildinfo
+ 1335ca5797dab2f530345b608cae35d6d5086f81 2099320 atomes_1.1.11-4_amd64.deb
 Checksums-Sha256:
- c7b6695dd73e35829d1d5e4c471db50e1ff2eb5e40b42fcf235fb0477b519675 1380 atomes_1.1.11-4.dsc
- 71b45b5150503e84c41434e34d022ec38a4edfe294097a7e4f262ddea05fb03f 13872 atomes_1.1.11-4.debian.tar.xz
- f2a61dae091e0b287afc2f3959b626a8ffd8b11b6f5879f293582d0caeb1fd92 1765860 atomes-dbgsym_1.1.11-4_amd64.deb
- 2671f6e7e5689dc3ac68713fc3c3f6bb32cc8683c420a704fbd2e1aa5b032e74 15969 atomes_1.1.11-4_amd64.buildinfo
- 4da592b7dbcd77fffd724240f25f8c47a2d409d6cdfe6cda90e2470557e37956 2097636 atomes_1.1.11-4_amd64.deb
+ 05f1c9f0ca580d4b7ceedcad26a320af9360a8dfe00b9bd878aa8a3ee1e8fe86 1381 atomes_1.1.11-4.dsc
+ 7fd563f629aa11163e1a71f0c5b58ca4e85c3525dbbdc86cb2caf7d263ea7469 2136156 atomes_1.1.11.orig.tar.xz
+ ec9568ae0ba48379fd29cb322681449023dff0fb66cf2d55a6fa71ad66949ef0 12384 atomes_1.1.11-4.debian.tar.xz
+ c022742344231f02bf09161f5862252832999bdea1fbb14b656d5342d4382cde 1765836 atomes-dbgsym_1.1.11-4_amd64.deb
+ afa40c50a8b2df51581b414fb76032552a7c88b03b4a1fb91cb89b2f6f7bbb64 16077 atomes_1.1.11-4_amd64.buildinfo
+ 403ca0c64f81a5a07daa3fdbd08fab4bd67996731e8433a0f6932aca2c9e279b 2099320 atomes_1.1.11-4_amd64.deb
 Files:
- 9627980545a17d76f54040f96625f0fa 1380 Science optional atomes_1.1.11-4.dsc
- 8cf5b1d46d75bea0e9acbdcaa8f05a8e 13872 Science optional atomes_1.1.11-4.debian.tar.xz
- 4cd90a52d40b73fa1f78fe4b326616b0 1765860 debug optional atomes-dbgsym_1.1.11-4_amd64.deb
- 185a58db83db221293bd419b0cf942fa 15969 Science optional atomes_1.1.11-4_amd64.buildinfo
- da9773cc952aff44e1c54d6af9f0e173 2097636 Science optional atomes_1.1.11-4_amd64.deb
+ 9b9ed9d5e8a7dc0c08e2220b268f5cae 1381 science optional atomes_1.1.11-4.dsc
+ 7bbdfb91e1dc71963c6d6ea2abb7d863 2136156 science optional atomes_1.1.11.orig.tar.xz
+ b33d63083680512b5a32e51def61f11d 12384 science optional atomes_1.1.11-4.debian.tar.xz
+ 24a6e88d25ff044171d7a158bebbb1ad 1765836 debug optional atomes-dbgsym_1.1.11-4_amd64.deb
+ 624cdfdc6b8e421b53f84bc3f77527e5 16077 science optional atomes_1.1.11-4_amd64.buildinfo
+ 30f3e0c76f0987509f98585ec67c2f3a 2099320 science optional atomes_1.1.11-4_amd64.deb
 
 -----BEGIN PGP SIGNATURE-----
 
-iI4EARYIADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCZC6XCRgcYXRvbWVzQGlw
-Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cMQxQD8DZ9PueZbyn7SV3J1vBXHegow
-DdnZlFdD41jIoqR/GIYA/Rzi55KDHoW7xMRU+DfEAELuZjHkbh6U4yI38DoNf2sA
-=baQB
+iI4EARYIADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCZF0UKxgcYXRvbWVzQGlw
+Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cPU2wEA9AwOtH6CVyeUFJWw4J79zNab
+iBsVmCnJ0Y7dtpfTLbkBAPbWQiQ3lLcsIpoK4n6Xj9thmYOFTKrfpbgv6NELYjkO
+=krGE
 -----END PGP SIGNATURE-----

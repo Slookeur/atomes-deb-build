@@ -1,18 +1,17 @@
 Source: atomes
-Section: Science
+Section: science
 Priority: optional
 Maintainer: Sébastien Le Roux <sebastien.leroux@ipcms.unistra.fr>
 #Maintainer: Debichem Team <debichem-devel@lists.alioth.debian.org>
 Build-Depends: debhelper-compat (= 13),
-               autotools-dev,
-               make,
+               automake,
                autoconf,
                pkg-config,
-               gcc, 
                gfortran,
                libgfortran5,
                libgtk-3-dev,
                libxml2-dev,
+               libpango1.0-dev,
                libglu1-mesa-dev,
                libepoxy-dev,
                libavutil-dev,
@@ -30,14 +29,10 @@ Rules-Requires-Root: no
 Package: atomes
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, 
-         libgfortran5, 
          libgtk-3-0, 
-         libxml2,
          libglu1-mesa,
-         libavutil56,
-         libavcodec58,
-         libavformat58,
-         libswscale5,
-         desktop-file-utils,
          bash-completion
-Description: Atomes: a toolbox to analyze, visualize and create/edit 3D atomistic models.
+Description: This package provides Atomes. 
+ Atomes is an atomic-scale 3D modeling toolbox.
+ Atomes can be used to analyze, visualize and create/edit 3D atomistic models. 
+
