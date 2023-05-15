@@ -36,9 +36,11 @@ export DEBFULLNAME="Sébastien Le Roux"
 dh_make --createorig -s -y
 dpkg-buildpackage -katomes@ipcms.unistra.fr
 echo "Lintian on changes:"
-lintian ../atomes_*changes
+lintian ../atomes_*changes >& ../changes.lintian
 echo "Lintian on deb:"
-lintian ../atomes_*amd64.deb
+lintian ../atomes_*amd64.deb >& ../deb.lintian
+#scan-copyrights >& ../scan.copy
+#licensecheck --check=. --recursive --copyright . >> ../license.check
 cd ..
 scp build_deb.sh leroux@pc-chess:files/git-files/atomes/atomes-deb-build/atomes-deb-build/
 scp atomes_* leroux@pc-chess:files/git-files/atomes/atomes-deb-build/atomes-deb-build/
