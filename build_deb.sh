@@ -35,10 +35,22 @@ export DEBEMAIL="sebastien.leroux@ipcms.unistra.fr"
 export DEBFULLNAME="Sébastien Le Roux"
 dh_make --createorig -s -y
 dpkg-buildpackage -katomes@ipcms.unistra.fr
-echo "Lintian on changes:"
-lintian ../atomes_*changes >& ../changes.lintian
-echo "Lintian on deb:"
-lintian ../atomes_*amd64.deb >& ../deb.lintian
+echo "Lintian on changes:" > ../results.lintian
+echo " " >> ../results.lintian
+lintian -v ../atomes_*changes &>> ../results.lintian
+echo " " >> ../results.lintian
+echo "Lintian on deb:" >> ../results.lintian
+echo " " >> ../results.lintian
+lintian -v ../atomes_*amd64.deb &>> ../results.lintian
+echo " " >> ../results.lintian
+echo "Lintian on buildinfo:" >> ../results.lintian
+echo " " >> ../results.lintian
+lintian -v ../atomes_*amd64.buildinfo &>> ../results.lintian
+echo " " >> ../results.lintian
+echo "Lintian on dsc:" >> ../results.lintian
+echo " " >> ../results.lintian
+lintian -v ../atomes_*.dsc &>> ../results.lintian
+
 #scan-copyrights >& ../scan.copy
 #licensecheck --check=. --recursive --copyright . >> ../license.check
 cd ..
