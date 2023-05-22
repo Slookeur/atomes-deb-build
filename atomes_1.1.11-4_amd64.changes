@@ -12,38 +12,38 @@ Urgency: medium
 Maintainer: Sébastien Le Roux <sebastien.leroux@ipcms.unistra.fr>
 Changed-By: Sébastien Le Roux <sebastien.leroux@ipcms.unistra.fr>
 Description:
- atomes     - This package provides Atomes.
+ atomes     - This package, atomes, provides an atomic-scale 3D modeling toolbo
 Closes: 1019387
 Changes:
  atomes (1.1.11-4) unstable; urgency=medium
  .
    * Release of version 1.1.11 (Closes: #1019387)
 Checksums-Sha1:
- 8eb1c52391767ac2f690bf91101b012d3f375124 1381 atomes_1.1.11-4.dsc
- 07e8cd8b4b0eeba2f20b7feec41dd28cd8899112 2136100 atomes_1.1.11.orig.tar.xz
- 5f4675c6341d39367d480f7e613207998e13e272 12532 atomes_1.1.11-4.debian.tar.xz
+ fdfd770415e228bb528116e045d565e12b23c0bd 1381 atomes_1.1.11-4.dsc
+ 02a32f96a7eff4c71f1bddb8a662fdd51b8c81a4 2135896 atomes_1.1.11.orig.tar.xz
+ 98675ddb8138b1eddc31c7b4fa0b41be3f247dd4 12880 atomes_1.1.11-4.debian.tar.xz
  662dcdb0c01a8d65fecfe4ebfcc54c32ea55075b 1765836 atomes-dbgsym_1.1.11-4_amd64.deb
- 64d0bcf0438f23f310e55f58c3883624bdd69ad5 16077 atomes_1.1.11-4_amd64.buildinfo
- 033b25c18cd8090b0040d3dffbd5e0cdd0ab5b85 2098424 atomes_1.1.11-4_amd64.deb
+ 4e708476521a996083cccf1c32b912a99b722cac 16093 atomes_1.1.11-4_amd64.buildinfo
+ 719630832cb46e6facae8c8a6b5fd7904c215049 2098816 atomes_1.1.11-4_amd64.deb
 Checksums-Sha256:
- b906938df3865c3d608b2465dac9933b90a4c5dcb00d4eb7209927649a984c10 1381 atomes_1.1.11-4.dsc
- 0c6d826b0480e428139b818efe1d3237c9c05538910738230a5482376d254508 2136100 atomes_1.1.11.orig.tar.xz
- dd5dcfe0be77f51e825651fa5fa776136001fce1708f38d202a27a009e277df5 12532 atomes_1.1.11-4.debian.tar.xz
+ 113d05658775cce53594d2183753c18a200177052fa9f7e5a484fab33363b9b2 1381 atomes_1.1.11-4.dsc
+ 3b0eb239b84d0c103987568034d050a35f046b0b4e0f62bdc67168c8dc3792c0 2135896 atomes_1.1.11.orig.tar.xz
+ 1d0b39f0f26591ff63a0dbc19ee132852b4b5a53633bbed3612af4c6fc2ca675 12880 atomes_1.1.11-4.debian.tar.xz
  c022742344231f02bf09161f5862252832999bdea1fbb14b656d5342d4382cde 1765836 atomes-dbgsym_1.1.11-4_amd64.deb
- 28a66050b4ce5b016aa8ffc91702797af0e6a51939d896a1b6dc643bf91269ac 16077 atomes_1.1.11-4_amd64.buildinfo
- c046f9e8ef7da33d562bf7bc49ef62662a1326928f8a32b474fb1dc32c7e5ee3 2098424 atomes_1.1.11-4_amd64.deb
+ d2373403cc210bb653e410a2db76836a3e25219a325b28172c0cc32aad0b458a 16093 atomes_1.1.11-4_amd64.buildinfo
+ c5ea68e8316f7406e39c1c721a512e365b1da5ea02efab5363dfa5997aaa8544 2098816 atomes_1.1.11-4_amd64.deb
 Files:
- 670041057ea1c7047143d44db8e990d0 1381 science optional atomes_1.1.11-4.dsc
- ca21d566d54754b9dd9a9fc6bb831eea 2136100 science optional atomes_1.1.11.orig.tar.xz
- a9b902f3a290581e2b5aaf78fd6aff84 12532 science optional atomes_1.1.11-4.debian.tar.xz
+ b46887f30537824231cf9f75eff5a240 1381 science optional atomes_1.1.11-4.dsc
+ 25350e3e636ed891eb54b9eeffb65726 2135896 science optional atomes_1.1.11.orig.tar.xz
+ 35ded6450b14222bc4f58da5240d6351 12880 science optional atomes_1.1.11-4.debian.tar.xz
  24a6e88d25ff044171d7a158bebbb1ad 1765836 debug optional atomes-dbgsym_1.1.11-4_amd64.deb
- d3e3d7c6efd4298d04990f658fccbe7a 16077 science optional atomes_1.1.11-4_amd64.buildinfo
- 98dc5fe2a7bfc14bb8676a3eec4e6868 2098424 science optional atomes_1.1.11-4_amd64.deb
+ aaf9fb92e37a37f88a079e1ac3976271 16093 science optional atomes_1.1.11-4_amd64.buildinfo
+ f0e73a3f0e4df3de7b3d2daa59a07598 2098816 science optional atomes_1.1.11-4_amd64.deb
 
 -----BEGIN PGP SIGNATURE-----
 
-iI4EARYIADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCZGeU2xgcYXRvbWVzQGlw
-Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cMCNgEA8T7pXwpPEtz0BznIgTEg1bXg
-cWqOGzEZLHHPqRMO9i8A/Am6FAn7j+T9PE6GZAqUp+BGdrA9DYluwKcux8LcCg8E
-=HdeI
+iI4EARYIADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCZGtURBgcYXRvbWVzQGlw
+Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cMNagD/cPb61AWI3EM9uufl2JBTmqqB
+kPSbV0FX7C+WRhNDHAIA+QEk+dKlz7Kqzr+oVBXKo73qIkjCKtCjUNkj76JkUHIL
+=deCp
 -----END PGP SIGNATURE-----

@@ -7,20 +7,20 @@ Binary: atomes atomes-dbgsym
 Architecture: amd64 source
 Version: 1.1.11-4
 Checksums-Md5:
- 670041057ea1c7047143d44db8e990d0 1381 atomes_1.1.11-4.dsc
+ b46887f30537824231cf9f75eff5a240 1381 atomes_1.1.11-4.dsc
  24a6e88d25ff044171d7a158bebbb1ad 1765836 atomes-dbgsym_1.1.11-4_amd64.deb
- 98dc5fe2a7bfc14bb8676a3eec4e6868 2098424 atomes_1.1.11-4_amd64.deb
+ f0e73a3f0e4df3de7b3d2daa59a07598 2098816 atomes_1.1.11-4_amd64.deb
 Checksums-Sha1:
- 8eb1c52391767ac2f690bf91101b012d3f375124 1381 atomes_1.1.11-4.dsc
+ fdfd770415e228bb528116e045d565e12b23c0bd 1381 atomes_1.1.11-4.dsc
  662dcdb0c01a8d65fecfe4ebfcc54c32ea55075b 1765836 atomes-dbgsym_1.1.11-4_amd64.deb
- 033b25c18cd8090b0040d3dffbd5e0cdd0ab5b85 2098424 atomes_1.1.11-4_amd64.deb
+ 719630832cb46e6facae8c8a6b5fd7904c215049 2098816 atomes_1.1.11-4_amd64.deb
 Checksums-Sha256:
- b906938df3865c3d608b2465dac9933b90a4c5dcb00d4eb7209927649a984c10 1381 atomes_1.1.11-4.dsc
+ 113d05658775cce53594d2183753c18a200177052fa9f7e5a484fab33363b9b2 1381 atomes_1.1.11-4.dsc
  c022742344231f02bf09161f5862252832999bdea1fbb14b656d5342d4382cde 1765836 atomes-dbgsym_1.1.11-4_amd64.deb
- c046f9e8ef7da33d562bf7bc49ef62662a1326928f8a32b474fb1dc32c7e5ee3 2098424 atomes_1.1.11-4_amd64.deb
+ c5ea68e8316f7406e39c1c721a512e365b1da5ea02efab5363dfa5997aaa8544 2098816 atomes_1.1.11-4_amd64.deb
 Build-Origin: Debian
 Build-Architecture: amd64
-Build-Date: Fri, 19 May 2023 17:25:14 +0200
+Build-Date: Mon, 22 May 2023 13:38:43 +0200
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
 Installed-Build-Depends:
@@ -401,8 +401,8 @@ Installed-Build-Depends:
  libwayland-dev (= 1.18.0-2~exp1.1),
  libwayland-egl1 (= 1.18.0-2~exp1.1),
  libwayland-server0 (= 1.18.0-2~exp1.1),
- libwebp6 (= 0.6.1-2.1),
- libwebpmux3 (= 0.6.1-2.1),
+ libwebp6 (= 0.6.1-2.1+deb11u1),
+ libwebpmux3 (= 0.6.1-2.1+deb11u1),
  libx11-6 (= 2:1.7.2-1),
  libx11-data (= 2:1.7.2-1),
  libx11-dev (= 2:1.7.2-1),
@@ -521,8 +521,8 @@ Environment:
 
 -----BEGIN PGP SIGNATURE-----
 
-iI4EARYIADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCZGeU2xgcYXRvbWVzQGlw
-Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cNPpgD+LknH3vu0SefGOk5wmU7Ca7Go
-hHXkcUGVvCZ80nHAfkIBAL2rWaPV0dil/fheXnfODAK0Hk1kPD4hc1AOx2WqMzcM
-=Uzl5
+iI4EARYIADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCZGtURBgcYXRvbWVzQGlw
+Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cP3/wEAlxNwWM6T1mMWgnbpGsJhPZWE
+udg4ICdudIHQBWOVANcA/3fuJDdyS6vejxnneJagc7e0B6Wa+AqlBRyK2Ta1hSQC
+=as1E
 -----END PGP SIGNATURE-----

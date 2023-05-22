@@ -37,19 +37,19 @@ dh_make --createorig -s -y
 dpkg-buildpackage -katomes@ipcms.unistra.fr
 echo "Lintian on changes:" > ../results.lintian
 echo " " >> ../results.lintian
-lintian -v ../atomes_*changes &>> ../results.lintian
+lintian  -EviIL +pedantic ../atomes_*changes &>> ../results.lintian
 echo " " >> ../results.lintian
 echo "Lintian on deb:" >> ../results.lintian
 echo " " >> ../results.lintian
-lintian -v ../atomes_*amd64.deb &>> ../results.lintian
+lintian -EviIL +pedantic ../atomes_*amd64.deb &>> ../results.lintian
 echo " " >> ../results.lintian
 echo "Lintian on buildinfo:" >> ../results.lintian
 echo " " >> ../results.lintian
-lintian -v ../atomes_*amd64.buildinfo &>> ../results.lintian
+lintian -EviIL +pedantic ../atomes_*amd64.buildinfo &>> ../results.lintian
 echo " " >> ../results.lintian
 echo "Lintian on dsc:" >> ../results.lintian
 echo " " >> ../results.lintian
-lintian -v ../atomes_*.dsc &>> ../results.lintian
+lintian -EviIL +pedantic ../atomes_*.dsc &>> ../results.lintian
 
 #scan-copyrights >& ../scan.copy
 #licensecheck --check=. --recursive --copyright . >> ../license.check
