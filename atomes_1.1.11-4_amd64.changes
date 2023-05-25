@@ -19,31 +19,31 @@ Changes:
  .
    * Release of version 1.1.11 (Closes: #1019387)
 Checksums-Sha1:
- fdfd770415e228bb528116e045d565e12b23c0bd 1381 atomes_1.1.11-4.dsc
- 02a32f96a7eff4c71f1bddb8a662fdd51b8c81a4 2135896 atomes_1.1.11.orig.tar.xz
- 98675ddb8138b1eddc31c7b4fa0b41be3f247dd4 12880 atomes_1.1.11-4.debian.tar.xz
+ 7d464a73b916f1c58d72ab03e5f9b5c53fbea391 1381 atomes_1.1.11-4.dsc
+ 16e5885f31abae3b414bd1f0aa02da1cc6ac9c7c 2136144 atomes_1.1.11.orig.tar.xz
+ 7bee7d6c42e88b697ca55f5ab6ea72597677f1e0 12972 atomes_1.1.11-4.debian.tar.xz
  662dcdb0c01a8d65fecfe4ebfcc54c32ea55075b 1765836 atomes-dbgsym_1.1.11-4_amd64.deb
- 4e708476521a996083cccf1c32b912a99b722cac 16093 atomes_1.1.11-4_amd64.buildinfo
+ fc78115736e28d46c5f1a2f76bdd38f44e561846 16093 atomes_1.1.11-4_amd64.buildinfo
  719630832cb46e6facae8c8a6b5fd7904c215049 2098816 atomes_1.1.11-4_amd64.deb
 Checksums-Sha256:
- 113d05658775cce53594d2183753c18a200177052fa9f7e5a484fab33363b9b2 1381 atomes_1.1.11-4.dsc
- 3b0eb239b84d0c103987568034d050a35f046b0b4e0f62bdc67168c8dc3792c0 2135896 atomes_1.1.11.orig.tar.xz
- 1d0b39f0f26591ff63a0dbc19ee132852b4b5a53633bbed3612af4c6fc2ca675 12880 atomes_1.1.11-4.debian.tar.xz
+ 80f971a9f4b46973c8c1e9557e7046fa5be0c6c45b777f619f0d5f8ceffde44f 1381 atomes_1.1.11-4.dsc
+ b452b2d00ae91e2bd51fa94104f0e03fbcba63990f8a28e897d56892b0ab8012 2136144 atomes_1.1.11.orig.tar.xz
+ 5818941c31d07e9a9737f36a2c9ce5afc14bd6ca7a783b53586eb79a7cfdeafd 12972 atomes_1.1.11-4.debian.tar.xz
  c022742344231f02bf09161f5862252832999bdea1fbb14b656d5342d4382cde 1765836 atomes-dbgsym_1.1.11-4_amd64.deb
- d2373403cc210bb653e410a2db76836a3e25219a325b28172c0cc32aad0b458a 16093 atomes_1.1.11-4_amd64.buildinfo
+ a4836fe190508438abed079092a0b9c2fdff86e79f24d59965220dfe6bf8da9e 16093 atomes_1.1.11-4_amd64.buildinfo
  c5ea68e8316f7406e39c1c721a512e365b1da5ea02efab5363dfa5997aaa8544 2098816 atomes_1.1.11-4_amd64.deb
 Files:
- b46887f30537824231cf9f75eff5a240 1381 science optional atomes_1.1.11-4.dsc
- 25350e3e636ed891eb54b9eeffb65726 2135896 science optional atomes_1.1.11.orig.tar.xz
- 35ded6450b14222bc4f58da5240d6351 12880 science optional atomes_1.1.11-4.debian.tar.xz
+ 54f430c04cde18cebf26a355f806d91a 1381 science optional atomes_1.1.11-4.dsc
+ a1134575c7c81d6976d9ab2d18912755 2136144 science optional atomes_1.1.11.orig.tar.xz
+ a22fbeca67a1227926e8306ed95aa38d 12972 science optional atomes_1.1.11-4.debian.tar.xz
  24a6e88d25ff044171d7a158bebbb1ad 1765836 debug optional atomes-dbgsym_1.1.11-4_amd64.deb
- aaf9fb92e37a37f88a079e1ac3976271 16093 science optional atomes_1.1.11-4_amd64.buildinfo
+ 047c024f0b2f04857f491dd5f56a9b81 16093 science optional atomes_1.1.11-4_amd64.buildinfo
  f0e73a3f0e4df3de7b3d2daa59a07598 2098816 science optional atomes_1.1.11-4_amd64.deb
 
 -----BEGIN PGP SIGNATURE-----
 
-iI4EARYIADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCZGtURBgcYXRvbWVzQGlw
-Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cMNagD/cPb61AWI3EM9uufl2JBTmqqB
-kPSbV0FX7C+WRhNDHAIA+QEk+dKlz7Kqzr+oVBXKo73qIkjCKtCjUNkj76JkUHIL
-=deCp
+iI4EARYIADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCZG9WFBgcYXRvbWVzQGlw
+Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cP+PAD9HGtpMNVHqJkwplH0HxlQU4RB
+6rTNENZD9XoiOwEb96cA/0hvUTVMv4FB3+c2ewow5qafP3RATBQqYvproNygRfIN
+=PVPf
 -----END PGP SIGNATURE-----
