@@ -13,19 +13,19 @@ Build-Depends: debhelper-compat (= 13), automake, autoconf, pkg-config, gfortran
 Package-List:
  atomes deb science optional arch=any
 Checksums-Sha1:
- 16e5885f31abae3b414bd1f0aa02da1cc6ac9c7c 2136144 atomes_1.1.11.orig.tar.xz
+ 95ffdaeda2b2f6be0ab1f1a032891f4205fdc725 2135956 atomes_1.1.11.orig.tar.xz
  7bee7d6c42e88b697ca55f5ab6ea72597677f1e0 12972 atomes_1.1.11-4.debian.tar.xz
 Checksums-Sha256:
- b452b2d00ae91e2bd51fa94104f0e03fbcba63990f8a28e897d56892b0ab8012 2136144 atomes_1.1.11.orig.tar.xz
+ 522b63f42b5c1d751f2a9ea95510de737dd2ce39331bca155017c801380db486 2135956 atomes_1.1.11.orig.tar.xz
  5818941c31d07e9a9737f36a2c9ce5afc14bd6ca7a783b53586eb79a7cfdeafd 12972 atomes_1.1.11-4.debian.tar.xz
 Files:
- a1134575c7c81d6976d9ab2d18912755 2136144 atomes_1.1.11.orig.tar.xz
+ 283aee6ff8027f7d60d56a74e67a5286 2135956 atomes_1.1.11.orig.tar.xz
  a22fbeca67a1227926e8306ed95aa38d 12972 atomes_1.1.11-4.debian.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iI4EARYIADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCZG9WExgcYXRvbWVzQGlw
-Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cM3qAEAzcOhpuseJKCw3KTf898nwffm
-o31gVBGflGUANLePYJABAMtGglAElULM0up3P4IWBuvCx6FItWYKp0vOXVu0Vr4G
-=JV7t
+iI4EARYIADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCZHYI8xgcYXRvbWVzQGlw
+Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cObRgEA6MIXcXQFjqSn5Zn++K9oMaxL
+2JtMX5/vcySRKfQNY0MA/RENlNGOqCjE8ybqfbaHPJY0aWbHVvpS2WxQHZdohdQA
+=MzIu
 -----END PGP SIGNATURE-----
