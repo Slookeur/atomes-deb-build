@@ -20,7 +20,7 @@ Build-Depends: debhelper-compat (= 13),
                libswscale-dev,
                desktop-file-utils,
                appstream-util
-Standards-Version: 4.5.1
+Standards-Version: 4.6.2
 Homepage: https://atomes.ipcms.fr/
 #Vcs-Browser: https://salsa.debian.org/debichem-team/atomes
 #Vcs-Git: https://salsa.debian.org/debichem-team/atomes.git
