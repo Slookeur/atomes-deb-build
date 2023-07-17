@@ -1,23 +1,26 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
 Format: 1.0
 Source: atomes
 Binary: atomes atomes-dbgsym
 Architecture: amd64 source
-Version: 1.1.11-1
+Version: 1.1.12-1
 Checksums-Md5:
- ac2fcc67f195088c4b55de8dd6c0486e 1071 atomes_1.1.11-1.dsc
- 853aa7e4c654fff2d9f827c435a14ae6 1758976 atomes-dbgsym_1.1.11-1_amd64.deb
- 50dffe07164af6144b627116b1803877 2108196 atomes_1.1.11-1_amd64.deb
+ f368fc89d1e7753bc2a569c3f067dcb0 1381 atomes_1.1.12-1.dsc
+ 9a7f4ff115c024e2c12d564605e77203 1756484 atomes-dbgsym_1.1.12-1_amd64.deb
+ 700253914dbc41e807b0d04c878c72b2 2107668 atomes_1.1.12-1_amd64.deb
 Checksums-Sha1:
- 8af309065f40b12dc8a7de592a5fa8633130c0a1 1071 atomes_1.1.11-1.dsc
- 0556d375a6acf00ec916b7e01765cf3df74a43d7 1758976 atomes-dbgsym_1.1.11-1_amd64.deb
- 58dc751f9cd884ae54b482d556c7b74da957d380 2108196 atomes_1.1.11-1_amd64.deb
+ 48611208d9804032b1093735c27b1bd8fcce82c7 1381 atomes_1.1.12-1.dsc
+ 8ec3c50e30d18271bddb5c0f56b50fd7ace4eefb 1756484 atomes-dbgsym_1.1.12-1_amd64.deb
+ ee0d9df85768825f533984aa665915cd7f69cdb0 2107668 atomes_1.1.12-1_amd64.deb
 Checksums-Sha256:
- 076a5cc107b3ece2bbb7ba2b5b5aae0e39d2875ae2dd6cf2e1a9f06a598fa18e 1071 atomes_1.1.11-1.dsc
- 3455af3725f6985fc255a8d9cba13294d9e01bc335a3190831ed25eb3ec239a1 1758976 atomes-dbgsym_1.1.11-1_amd64.deb
- 077f3bfc8a78feb1a70fc89f70836931b0ff91b9bb8f206949b0708150a8e9ee 2108196 atomes_1.1.11-1_amd64.deb
+ 220cac679f6b244113dd11c0ca7084a221397b6119af360b3c8c6afb67061682 1381 atomes_1.1.12-1.dsc
+ c9e4b641c7777496e4be27a8d4e1e5a8ad83c85c73fe30341d8f82866e2494af 1756484 atomes-dbgsym_1.1.12-1_amd64.deb
+ cc230994b3dfd83f9a0d186bb4c52e5f17fa73eabdaf1a05b2ba6f2fa38d21a7 2107668 atomes_1.1.12-1_amd64.deb
 Build-Origin: Debian
 Build-Architecture: amd64
-Build-Date: Mon, 10 Jul 2023 14:38:55 +0200
+Build-Date: Mon, 17 Jul 2023 17:33:01 +0200
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
 Installed-Build-Depends:
@@ -531,4 +534,12 @@ Installed-Build-Depends:
 Environment:
  DEB_BUILD_OPTIONS="parallel=2"
  LANG="fr_FR.UTF-8"
- SOURCE_DATE_EPOCH="1683725520"
+ SOURCE_DATE_EPOCH="1689607560"
+
+-----BEGIN PGP SIGNATURE-----
+
+iI4EARYKADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCZLVfLRgcYXRvbWVzQGlw
+Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cNk+AEAo2FPUY5tBX3tqgFpMilgiTSI
+c/Vu6r59tKrQTZyps3wA/iT1LAsCyXsCIZKD/D6lGLUggVHetJWbkoICE4QulCQI
+=/TYJ
+-----END PGP SIGNATURE-----
