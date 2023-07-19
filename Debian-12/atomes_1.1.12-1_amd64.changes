@@ -1,0 +1,53 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon, 17 Jul 2023 17:26:00 +0200
+Source: atomes
+Binary: atomes atomes-data atomes-dbgsym
+Architecture: source amd64
+Version: 1.1.12-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Sébastien Le Roux <sebastien.leroux@ipcms.unistra.fr>
+Changed-By: Sébastien Le Roux <sebastien.leroux@ipcms.unistra.fr>
+Description:
+ atomes     - This package, atomes, provides an atomic-scale 3D modeling toolbo
+ atomes-data - This package, atomes, provides an atomic-scale 3D modeling toolbo
+Closes: 1019387
+Changes:
+ atomes (1.1.12-1) unstable; urgency=medium
+ .
+   * Initial release of version 1.1.12 (Closes: #1019387)
+Checksums-Sha1:
+ 2ae340c126f9353db1842ba0042ceda098973dff 1437 atomes_1.1.12-1.dsc
+ db8738a7377e76887341ada4db013f64d12083de 2145828 atomes_1.1.12.orig.tar.xz
+ b4088127f21328f9bfc738c00d3cce258f35e419 17612 atomes_1.1.12-1.debian.tar.xz
+ d9f35e2152c17f3ca0f12022033cecae97205726 1143172 atomes-data_1.1.12-1_amd64.deb
+ 36e3ffbda905b5daf9d65ddc7e7d9df4a62734f4 1756640 atomes-dbgsym_1.1.12-1_amd64.deb
+ 3eed88b9fa2db60cb798d72c1b143814e9d29765 16118 atomes_1.1.12-1_amd64.buildinfo
+ b5136dca29468d3cdee3a8777451fca4da37b7dd 980020 atomes_1.1.12-1_amd64.deb
+Checksums-Sha256:
+ f624dfa58d4694e1bd5c548c71ca54e0a953890e0c28ee6f71c2229ab1d66c02 1437 atomes_1.1.12-1.dsc
+ 7a856baff08ddf8a649571dae0e2a5f5b8d414257e93bbd2fdeab89f84f1400f 2145828 atomes_1.1.12.orig.tar.xz
+ a2dbf2b0451f199968b5581691e5a88eb144bd0d4f01b01cbd5b7311b0da5240 17612 atomes_1.1.12-1.debian.tar.xz
+ 87505f46dbbb4c5977696625f735612c5945628a70434644c8cae2bcf8a0e63b 1143172 atomes-data_1.1.12-1_amd64.deb
+ d74acbb5391a42a520589ea4bcdda081698f8cac988430c0036e11192ab9721c 1756640 atomes-dbgsym_1.1.12-1_amd64.deb
+ a9b8779cb0a4be899f68deeaf008c38091e9b3f132cea1d8469a3e5c01ea63d5 16118 atomes_1.1.12-1_amd64.buildinfo
+ e519a1a400ef60cb2f0f7635904e9f8847ab1d95f11e921bb97f30b20e09e818 980020 atomes_1.1.12-1_amd64.deb
+Files:
+ d646075e699673fefffeb035fb673c77 1437 science optional atomes_1.1.12-1.dsc
+ 2f469b6c0483303961852aa2b614e52a 2145828 science optional atomes_1.1.12.orig.tar.xz
+ 3e2cab6e6d758f47343717d10354306d 17612 science optional atomes_1.1.12-1.debian.tar.xz
+ 42ba554b6beb5209b47343e0681d6065 1143172 science optional atomes-data_1.1.12-1_amd64.deb
+ dcaa646bf3b7785bf0c51a1362309129 1756640 debug optional atomes-dbgsym_1.1.12-1_amd64.deb
+ 6de149e9d78947fdb0faf06c2a1d048a 16118 science optional atomes_1.1.12-1_amd64.buildinfo
+ 9521b4f22d31400d12c152008e5cc5c0 980020 science optional atomes_1.1.12-1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iI4EARYKADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCZLgj3RgcYXRvbWVzQGlw
+Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cOq8QD5AdJgXZc2GNXgRYPybqWRJko5
+q88OQnHxIpmvQBoZA6ABAPAzxtfwQHKmqSKvssdSLt+9voGacKdVK9l3cBrelOkL
+=sTVg
+-----END PGP SIGNATURE-----

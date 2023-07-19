@@ -55,7 +55,8 @@ scan-copyrights >& ../scan.copy
 licensecheck --check=. --recursive --copyright . >> ../license.check
 cd ..
 scp build_deb.sh leroux@pc-chess:files/git-files/atomes/atomes-deb-build/atomes-deb-build/
-scp atomes_* leroux@pc-chess:files/git-files/atomes/atomes-deb-build/atomes-deb-build/
-scp atomes-dbg* leroux@pc-chess:files/git-files/atomes/atomes-deb-build/atomes-deb-build/
-scp atomes-data* leroux@pc-chess:files/git-files/atomes/atomes-deb-build/atomes-deb-build/
+debian=`lsb_release -a|grep Release|awk '{print $2}'`
+scp atomes_* leroux@pc-chess:files/git-files/atomes/atomes-deb-build/atomes-deb-build/Debian-$debian/
+scp atomes-dbg* leroux@pc-chess:files/git-files/atomes/atomes-deb-build/atomes-deb-build/Debian-$debian/
+scp atomes-data* leroux@pc-chess:files/git-files/atomes/atomes-deb-build/atomes-deb-build/Debian-$debian/
 scp -r debian-package-data leroux@pc-chess:files/git-files/atomes/atomes-deb-build/atomes-deb-build/
