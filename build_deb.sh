@@ -11,20 +11,20 @@ function autoclean
   rm -f configure~
 }
 
-VERSION="1.1.11"
+VERSION="1.1.12"
 OVER="1.1.11"
 rm -f "*_"$OVER"*"
-wget https://github.com/Slookeur/Atomes-GNU/archive/refs/tags/v$VERSION.tar.gz
-#scp leroux@pc-chess:files/git-files/atomes/atomes-all/atomes-$VERSION.tar.gz .
 if [ -d atomes-$VERSION ]; then
   rm -rf atomes-$VERSION
 fi
 if [ -d atomes-$OVER ]; then
   rm -rf atomes-$OVER
 fi
+wget https://github.com/Slookeur/Atomes-GNU/archive/refs/tags/v$VERSION.tar.gz
 tar -zxf v$VERSION.tar.gz
 mv Atomes-GNU-$VERSION atomes-$VERSION
 rm v$VERSION.tar.gz
+#scp -r leroux@pc-chess:files/git-files/atomes/atomes-all/atomes-$VERSION .
 tar -zcf atomes-$VERSION.tar.gz  atomes-$VERSION
 rm -f *.orig.* 
 cd atomes-$VERSION
@@ -51,9 +51,11 @@ echo "Lintian on dsc:" >> ../results.lintian
 echo " " >> ../results.lintian
 lintian -EviIL +pedantic ../atomes_*.dsc &>> ../results.lintian
 
-#scan-copyrights >& ../scan.copy
-#licensecheck --check=. --recursive --copyright . >> ../license.check
+scan-copyrights >& ../scan.copy
+licensecheck --check=. --recursive --copyright . >> ../license.check
 cd ..
 scp build_deb.sh leroux@pc-chess:files/git-files/atomes/atomes-deb-build/atomes-deb-build/
 scp atomes_* leroux@pc-chess:files/git-files/atomes/atomes-deb-build/atomes-deb-build/
+scp atomes-dbg* leroux@pc-chess:files/git-files/atomes/atomes-deb-build/atomes-deb-build/
+scp atomes-data* leroux@pc-chess:files/git-files/atomes/atomes-deb-build/atomes-deb-build/
 scp -r debian-package-data leroux@pc-chess:files/git-files/atomes/atomes-deb-build/atomes-deb-build/

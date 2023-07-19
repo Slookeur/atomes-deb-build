@@ -3,24 +3,27 @@ Hash: SHA512
 
 Format: 1.0
 Source: atomes
-Binary: atomes atomes-dbgsym
+Binary: atomes atomes-data atomes-dbgsym
 Architecture: amd64 source
 Version: 1.1.12-1
 Checksums-Md5:
- f368fc89d1e7753bc2a569c3f067dcb0 1381 atomes_1.1.12-1.dsc
+ b9b28efb2e94dd1cee0807b4bd63c418 1437 atomes_1.1.12-1.dsc
+ 42ba554b6beb5209b47343e0681d6065 1143172 atomes-data_1.1.12-1_amd64.deb
  9a7f4ff115c024e2c12d564605e77203 1756484 atomes-dbgsym_1.1.12-1_amd64.deb
- 700253914dbc41e807b0d04c878c72b2 2107668 atomes_1.1.12-1_amd64.deb
+ b905ef25ae8d267700bee15afc659f83 979692 atomes_1.1.12-1_amd64.deb
 Checksums-Sha1:
- 48611208d9804032b1093735c27b1bd8fcce82c7 1381 atomes_1.1.12-1.dsc
+ 056bb5bd370873c8e89e43f7d5adb7fc4d9a63ed 1437 atomes_1.1.12-1.dsc
+ d9f35e2152c17f3ca0f12022033cecae97205726 1143172 atomes-data_1.1.12-1_amd64.deb
  8ec3c50e30d18271bddb5c0f56b50fd7ace4eefb 1756484 atomes-dbgsym_1.1.12-1_amd64.deb
- ee0d9df85768825f533984aa665915cd7f69cdb0 2107668 atomes_1.1.12-1_amd64.deb
+ ca487cb1715448e21e54bd1925c72b66f9148f3c 979692 atomes_1.1.12-1_amd64.deb
 Checksums-Sha256:
- 220cac679f6b244113dd11c0ca7084a221397b6119af360b3c8c6afb67061682 1381 atomes_1.1.12-1.dsc
+ ff1ae69140dba8ca1a3bc3c09c3e047acf86ca4e22e58afd34104993d25163d4 1437 atomes_1.1.12-1.dsc
+ 87505f46dbbb4c5977696625f735612c5945628a70434644c8cae2bcf8a0e63b 1143172 atomes-data_1.1.12-1_amd64.deb
  c9e4b641c7777496e4be27a8d4e1e5a8ad83c85c73fe30341d8f82866e2494af 1756484 atomes-dbgsym_1.1.12-1_amd64.deb
- cc230994b3dfd83f9a0d186bb4c52e5f17fa73eabdaf1a05b2ba6f2fa38d21a7 2107668 atomes_1.1.12-1_amd64.deb
+ f712f32f448846642562e3ca0b0ea84e2e4ff50788f611d9933c66f87410177f 979692 atomes_1.1.12-1_amd64.deb
 Build-Origin: Debian
 Build-Architecture: amd64
-Build-Date: Mon, 17 Jul 2023 17:33:01 +0200
+Build-Date: Wed, 19 Jul 2023 16:51:16 +0200
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
 Installed-Build-Depends:
@@ -475,7 +478,7 @@ Installed-Build-Depends:
  libzstd1 (= 1.5.4+dfsg2-5),
  libzvbi-common (= 0.2.41-1),
  libzvbi0 (= 0.2.41-1),
- linux-libc-dev (= 6.1.27-1),
+ linux-libc-dev (= 6.1.37-1),
  login (= 1:4.13+dfsg1-1+b1),
  m4 (= 1.4.19-3),
  mailcap (= 3.70+nmu1),
@@ -538,8 +541,8 @@ Environment:
 
 -----BEGIN PGP SIGNATURE-----
 
-iI4EARYKADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCZLVfLRgcYXRvbWVzQGlw
-Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cNk+AEAo2FPUY5tBX3tqgFpMilgiTSI
-c/Vu6r59tKrQTZyps3wA/iT1LAsCyXsCIZKD/D6lGLUggVHetJWbkoICE4QulCQI
-=/TYJ
+iI4EARYKADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCZLf4ZRgcYXRvbWVzQGlw
+Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cOyKQEA7BobxC/VSx2HFvJMmIMX0LFO
+fEVLYrYCESHDqDE3uQkBAKEa6Q01DtLfXhClgFx44h8QuXeRGsIDTOLP8VQd1/kC
+=9n3d
 -----END PGP SIGNATURE-----
