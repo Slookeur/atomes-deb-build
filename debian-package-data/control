@@ -57,7 +57,7 @@ Description: This package, atomes, provides an atomic-scale 3D modeling toolbox
 Package: atomes-data
 Architecture: any
 Multi-Arch: foreign
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, atomes
 Suggests: atomes
 Description: This package, atomes, provides an atomic-scale 3D modeling toolbox
  Atomes is a tool box to analyze (physico-chemical properties calculations),
