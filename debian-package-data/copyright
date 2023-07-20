@@ -47,6 +47,10 @@ Files:     INSTALL
 Copyright: 1994-1996, 1999-2002, 2004-2016 Free Software Foundation, Inc.
 License:   FSFULLR
 
+Files:     metadata/fr.ipcms.atomes.appdata.xml
+Copyright: 2022, 2023 Dr. Sébastien Le Roux
+License:   FSFAP
+
 Files:     debian/*
 Copyright: 2022, 2023 Dr. Sébastien Le Roux
 License:   AGPL-3.0-or-later
@@ -715,3 +719,10 @@ License: MIT
  not be used in advertising or otherwise to promote the sale, use or
  other dealings in this Software without prior written authorization
  from the X Consortium.
+ 
+License: FSFAP
+ Copying and distribution of this file, with or without modification, 
+ are permitted in any medium without royalty provided the copyright 
+ notice and this notice are preserved. 
+ This file is offered as-is, without any warranty.
+ 

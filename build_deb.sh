@@ -13,12 +13,16 @@ function autoclean
 
 VERSION="1.1.12"
 OVER="1.1.11"
-rm -f "*_"$OVER"*"
-if [ -d atomes-$VERSION ]; then
-  rm -rf atomes-$VERSION
-fi
-if [ -d atomes-$OVER ]; then
-  rm -rf atomes-$OVER
+
+CLEAN=1
+if [ $CLEAN -eq 1 ]; then
+  rm -f "*_"$OVER"*"
+  if [ -d atomes-$VERSION ]; then
+    rm -rf atomes-$VERSION
+  fi
+  if [ -d atomes-$OVER ]; then
+    rm -rf atomes-$OVER
+  fi
 fi
 
 DOWN=1

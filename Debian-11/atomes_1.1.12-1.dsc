@@ -14,19 +14,19 @@ Package-List:
  atomes deb science optional arch=any
  atomes-data deb science optional arch=any
 Checksums-Sha1:
- 7e575e5b8decab3e274830385c5fda4b6cfa4351 2161136 atomes_1.1.12.orig.tar.xz
- 1d52420c29ed79c6a8444263928deafa8eb6b74b 17656 atomes_1.1.12-1.debian.tar.xz
+ 13083787fb43ec14dfce3890bf159401d2cbaa2b 2161072 atomes_1.1.12.orig.tar.xz
+ e82cdcc7dc048a0ba6d3b33020974b70043955d9 17768 atomes_1.1.12-1.debian.tar.xz
 Checksums-Sha256:
- 00f81705f38b85f742777aedde5978032225573e3b75aa7e062a024bb3529714 2161136 atomes_1.1.12.orig.tar.xz
- bde95295a16866208ffc4e56bd47590a1ef2c242f236e40c528f57fbc1f12fc7 17656 atomes_1.1.12-1.debian.tar.xz
+ 1d10fee281badcf8757af12eddbd26cc7dc01d73667539351fd6b63f0294b5ea 2161072 atomes_1.1.12.orig.tar.xz
+ 295a9cb172301e226e0de8306a0cb64401ad99704ca54149d88f1b48eabf780d 17768 atomes_1.1.12-1.debian.tar.xz
 Files:
- ff39def4d0621c726ffda143b34b709f 2161136 atomes_1.1.12.orig.tar.xz
- 775332f47097002e28ba195eec3be35f 17656 atomes_1.1.12-1.debian.tar.xz
+ e7dfe51a4090a07a163c29d9d8cbe2ad 2161072 atomes_1.1.12.orig.tar.xz
+ 033804978c92f2e4a47f22ffd013298b 17768 atomes_1.1.12-1.debian.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iI4EARYIADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCZLgs3BgcYXRvbWVzQGlw
-Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cNZDAEAt+nD7DlUG6hIfqe8By8et2uS
-yjsmlcAax6+FSbHzZzAA/i4RBd4wdVMugWuceOBb4JJIR8hpPFCnAdX6ZZ0Md3wE
-=XM0x
+iI4EARYIADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCZLk3ORgcYXRvbWVzQGlw
+Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cP5ZgD9ENqJkyACRzVRA60PwRvlK4bX
+C9onzu0oP+pQEb+EFsIA/Ar/1gaLMwq73UazvfpEMNd+mpBVWFfUT05FmbrIOssL
+=JK1v
 -----END PGP SIGNATURE-----
