@@ -3,26 +3,27 @@ Upstream-Name: atomes
 Upstream-Contact: atomes@ipcms.unistra.fr
                   Sébastien Le Roux <sebastien.leroux@ipcms.unistra.fr>
 Source: https://github.com/Slookeur/Atomes-GNU/
-Copyright: 2022, 2023 Dr. Sébastien Le Roux
-License:  AGPL-3.0-or-later
 
 Files:     *
-Copyright: 2022, 2023 Dr. Sébastien Le Roux
+Copyright: 2022-2023 Dr. Sébastien Le Roux
 License:   AGPL-3.0-or-later
 
 Files:     Makefile.in
            src/Makefile.in
-Copyright: 1994-2020 Free Software Foundation, Inc.
+Copyright: 1994-2021 Free Software Foundation, Inc.
 License:   FSFULLR
 
 Files:     aclocal.m4
 Copyright: 1996-2020 Free Software Foundation, Inc.
+           2004 Scott James Remnant <scott@netsplit.com>.
+           2012-2015 Dan Nicholson <dbn.lists@gmail.com>
 License:   FSFULLR and GPL-2.0-or-later
 
 Files:     compile
            depcomp
-Copyright: 1999-2020 Free Software Foundation, Inc.
-License:   GPL-2.0-or-later
+           missing
+Copyright: 1996-2020 Free Software Foundation, Inc.
+License:   GPL-2.0-or-later with Autoconf-data exception
 
 Files:     config.guess
            config.sub
@@ -31,28 +32,24 @@ License:   GPL-3.0-or-later
 
 Files:     configure
            autom4te.cache/*
-Copyright: 1992-1996, 1998-2012 Free Software Foundation, Inc.
+Copyright: 1992-2021 Free Software Foundation, Inc.
 License:   FSFUL
 
 Files:     install-sh
 Copyright: 1994 X Consortium
-License:   MIT
+License:   Expat-X
 Comment:   FSF changes to this file are in the public domain.
-
-Files:     missing
-Copyright: 1996-2020 Free Software Foundation, Inc.
-License:   GPL-2.0-or-later
 
 Files:     INSTALL
 Copyright: 1994-1996, 1999-2002, 2004-2016 Free Software Foundation, Inc.
 License:   FSFULLR
 
 Files:     metadata/fr.ipcms.atomes.appdata.xml
-Copyright: 2022, 2023 Dr. Sébastien Le Roux
+Copyright: 2022-2023 Dr. Sébastien Le Roux
 License:   FSFAP
 
 Files:     debian/*
-Copyright: 2022, 2023 Dr. Sébastien Le Roux
+Copyright: 2022-2023 Dr. Sébastien Le Roux
 License:   AGPL-3.0-or-later
 
 License: AGPL-3.0-or-later
@@ -690,12 +687,46 @@ License: FSFULLR
  modifications, as long as this notice is preserved.
 
 License: GPL-2.0-or-later
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2, or (at your option)
+ any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ 02110-1301, USA.
+ .
+ On Debian systems, the complete text of version 2 of the GNU General
+ Public License can be found in '/usr/share/common-licenses/GPL-2'.
  /usr/share/common-licenses/GPL-2
 
 License: GPL-3.0-or-later
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 3, or (at your option)
+ any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ 02110-1301, USA.
+ .
+ On Debian systems, the complete text of version 3 of the GNU General
+ Public License can be found in '/usr/share/common-licenses/GPL-3'.
  /usr/share/common-licenses/GPL-3
 
-License: MIT
+License: Expat-X
  Permission is hereby granted, free of charge, to any person obtaining
  a copy of this software and associated documentation files (the
  "Software"), to deal in the Software without restriction, including
@@ -726,3 +757,26 @@ License: FSFAP
  notice and this notice are preserved. 
  This file is offered as-is, without any warranty.
  
+License: GPL-2.0-or-later with Autoconf-data exception
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2, or (at your option)
+ any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ 02110-1301, USA.
+ .
+ As a special exception to the GNU General Public License, if you
+ distribute this file as part of a program that contains a
+ configuration script generated by Autoconf, you may include it under
+ the same distribution terms that you use for the rest of that program.
+ .
+ On Debian systems, the complete text of version 2 of the GNU General
+ Public License can be found in '/usr/share/common-licenses/GPL-2'.

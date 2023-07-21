@@ -4,26 +4,26 @@ Hash: SHA512
 Format: 1.0
 Source: atomes
 Binary: atomes atomes-data atomes-dbgsym
-Architecture: amd64 source
+Architecture: all amd64 source
 Version: 1.1.12-1
 Checksums-Md5:
- ff9e059b52e9c35f7b8c67c89a255065 1437 atomes_1.1.12-1.dsc
- aa401fe331264ea8900cd39d1765e3c7 1143728 atomes-data_1.1.12-1_amd64.deb
+ 5110ad9b188a8f74f92af716108c5618 1441 atomes_1.1.12-1.dsc
+ ba7c216f1aa51b3ef66d506e810507a6 1144148 atomes-data_1.1.12-1_all.deb
  dcaa646bf3b7785bf0c51a1362309129 1756640 atomes-dbgsym_1.1.12-1_amd64.deb
- 2125f3a312be2747de29160bd23d6371 980036 atomes_1.1.12-1_amd64.deb
+ 154bb316d8bb560424c2a401528878ed 980452 atomes_1.1.12-1_amd64.deb
 Checksums-Sha1:
- a6853e239a7543c72ddfa0989df0408b1c76fe8d 1437 atomes_1.1.12-1.dsc
- e6bd0a233aa2802cfe6ecfca088a86086cf8cbfe 1143728 atomes-data_1.1.12-1_amd64.deb
+ 87433d26cf06427c8109602e02f079b0af81d3f6 1441 atomes_1.1.12-1.dsc
+ 1e59b2bbe1c974480e6a29b215e7dfa844280d7a 1144148 atomes-data_1.1.12-1_all.deb
  36e3ffbda905b5daf9d65ddc7e7d9df4a62734f4 1756640 atomes-dbgsym_1.1.12-1_amd64.deb
- 60f96b98b190418b8e2b25b45616ade2881f4576 980036 atomes_1.1.12-1_amd64.deb
+ fc9797640228b3b5d7eb86cb7cef0dbe50593cea 980452 atomes_1.1.12-1_amd64.deb
 Checksums-Sha256:
- aac444aa9d5d4952d970eba24d36ff557c2c1c0fe9d00ce3e150647edd367489 1437 atomes_1.1.12-1.dsc
- e279fc48d3dc2ea68c399b9cb96d5ff2cb61a9affa282e321d246085f6e768ac 1143728 atomes-data_1.1.12-1_amd64.deb
+ 95df7f2a8acb002b26827d82d084caddf23f1844b53adce6a4240bb7127c9af1 1441 atomes_1.1.12-1.dsc
+ c96aa68be62242f5a3bfe4ec74994bd638bd65da54faa65d841da1d3017b32c4 1144148 atomes-data_1.1.12-1_all.deb
  d74acbb5391a42a520589ea4bcdda081698f8cac988430c0036e11192ab9721c 1756640 atomes-dbgsym_1.1.12-1_amd64.deb
- 25b34484a397bcd562b8d25ed4c58dbaacf5da635354d7be2e4cb17bde95c32e 980036 atomes_1.1.12-1_amd64.deb
+ 86d9b977228b41cd84018efc799c98711efcf0d6e0636ae36e56488b6a14deaf 980452 atomes_1.1.12-1_amd64.deb
 Build-Origin: Debian
 Build-Architecture: amd64
-Build-Date: Thu, 20 Jul 2023 15:34:59 +0200
+Build-Date: Fri, 21 Jul 2023 11:57:36 +0200
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
 Installed-Build-Depends:
@@ -541,8 +541,8 @@ Environment:
 
 -----BEGIN PGP SIGNATURE-----
 
-iI4EARYKADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCZLk4ChgcYXRvbWVzQGlw
-Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cMwcAEAzkgZfcrRllsb9B27Bf3JRa/v
-2I169ODus8KRL45lYuMBAKJMDliiwb7wlQ6rhTOqaUvM6qRscmlQWNZdpcNVnIIB
-=/z9X
+iI4EARYKADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCZLpWnxgcYXRvbWVzQGlw
+Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cPhQQEA8WX9iE3zfIv9eSz7oCrQRyIM
+7IpY8JSzoaceBXZjwJwBAPmaIsEpy+DIhyZsT2uXB7LaOSfWJ2nGdImwQCBTtkYM
+=cEpK
 -----END PGP SIGNATURE-----

@@ -45,8 +45,8 @@ Description: This package, atomes, provides an atomic-scale 3D modeling toolbox
  Atomes also provides an advanced input preparation system
  for further calculations using well known molecular dynamics codes:
  Classical MD: DLPOLY and LAMMPS
- - ab-initio MD: CPMD and CP2K
- - QM-MM MD: CPMD and CP2K
+  - ab-initio MD: CPMD and CP2K
+  - QM-MM MD: CPMD and CP2K
  To prepare the input files for these calculations is likely
  to be the key, and most complicated step towards MD simulations.
  Atomes offers a user-friendly assistant to help and guide
@@ -55,7 +55,7 @@ Description: This package, atomes, provides an atomic-scale 3D modeling toolbox
  This package provides the binaries.
 
 Package: atomes-data
-Architecture: any
+Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends}
 Enhances: atomes
@@ -72,8 +72,8 @@ Description: This package, atomes, provides an atomic-scale 3D modeling toolbox
  Atomes also provides an advanced input preparation system
  for further calculations using well known molecular dynamics codes:
  Classical MD: DLPOLY and LAMMPS
- - ab-initio MD: CPMD and CP2K
- - QM-MM MD: CPMD and CP2K
+  - ab-initio MD: CPMD and CP2K
+  - QM-MM MD: CPMD and CP2K
  To prepare the input files for these calculations is likely
  to be the key, and most complicated step towards MD simulations.
  Atomes offers a user-friendly assistant to help and guide

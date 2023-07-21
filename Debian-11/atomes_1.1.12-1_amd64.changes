@@ -5,7 +5,7 @@ Format: 1.8
 Date: Mon, 17 Jul 2023 17:26:00 +0200
 Source: atomes
 Binary: atomes atomes-data atomes-dbgsym
-Architecture: source amd64
+Architecture: source all amd64
 Version: 1.1.12-1
 Distribution: unstable
 Urgency: medium
@@ -20,34 +20,34 @@ Changes:
  .
    * Initial release of version 1.1.12 (Closes: #1019387)
 Checksums-Sha1:
- 0025465af46d49c4e96be91aa4c64e0522aab2fb 1437 atomes_1.1.12-1.dsc
- 13083787fb43ec14dfce3890bf159401d2cbaa2b 2161072 atomes_1.1.12.orig.tar.xz
- e82cdcc7dc048a0ba6d3b33020974b70043955d9 17768 atomes_1.1.12-1.debian.tar.xz
- e6bd0a233aa2802cfe6ecfca088a86086cf8cbfe 1143728 atomes-data_1.1.12-1_amd64.deb
+ bff0d86643481072d9dc2c9bb65b931b0ed0b8f1 1441 atomes_1.1.12-1.dsc
+ 46a92c7085b03dae8856039dfc2bafb074ae2492 2156392 atomes_1.1.12.orig.tar.xz
+ 1a2fa599d3aca56eb12a9bbb466cd14ebc9ac699 13584 atomes_1.1.12-1.debian.tar.xz
+ 1e59b2bbe1c974480e6a29b215e7dfa844280d7a 1144148 atomes-data_1.1.12-1_all.deb
  feff9b7205fec3d6fe57866b74a36d555bc12631 1765492 atomes-dbgsym_1.1.12-1_amd64.deb
- 6caab2e622d0f6c4b57d2226d9d6b16b512d11a7 16393 atomes_1.1.12-1_amd64.buildinfo
- 2986054a19b866ecbef566556b7f7a8ed81e18e7 970920 atomes_1.1.12-1_amd64.deb
+ 8814e4f93c511a2d81494dec4751dff0228b1cea 16391 atomes_1.1.12-1_amd64.buildinfo
+ fe8f9d3410b07000ac94a8e1c76fb51de6e0f2c7 971328 atomes_1.1.12-1_amd64.deb
 Checksums-Sha256:
- 6629da69a8b95b7c32e8d2224e1e5eb1457904b0ab6bb680cfefbbcc7529076b 1437 atomes_1.1.12-1.dsc
- 1d10fee281badcf8757af12eddbd26cc7dc01d73667539351fd6b63f0294b5ea 2161072 atomes_1.1.12.orig.tar.xz
- 295a9cb172301e226e0de8306a0cb64401ad99704ca54149d88f1b48eabf780d 17768 atomes_1.1.12-1.debian.tar.xz
- e279fc48d3dc2ea68c399b9cb96d5ff2cb61a9affa282e321d246085f6e768ac 1143728 atomes-data_1.1.12-1_amd64.deb
+ 2828602341f68bf43cd0d4db513b9d2765c15e7bdfce752bcba8cb8fcc503a0f 1441 atomes_1.1.12-1.dsc
+ f45f51df7674d2062fbd5efffd550319df7b3c311730846e5c85c562765ff138 2156392 atomes_1.1.12.orig.tar.xz
+ d787c32abd33b8b7974b20fce7e47be95b5b60196f43c10ca8e8bf302e9ff6ac 13584 atomes_1.1.12-1.debian.tar.xz
+ c96aa68be62242f5a3bfe4ec74994bd638bd65da54faa65d841da1d3017b32c4 1144148 atomes-data_1.1.12-1_all.deb
  cdee401442073f92aa5c4483dc0265a741dd66fc9ffc7d466b741752c050750c 1765492 atomes-dbgsym_1.1.12-1_amd64.deb
- c493143a18375123759310e35189889ddee4bf2360ba8f23d07511a566d7afdc 16393 atomes_1.1.12-1_amd64.buildinfo
- 37151bc12ebc7afc71f7cae06e07221c7f74cb9a323fb8284a95b3714b063236 970920 atomes_1.1.12-1_amd64.deb
+ b106eb4b34557c5249c8e1a623b56f4ddc5d03081027ebb3180250928abf5b53 16391 atomes_1.1.12-1_amd64.buildinfo
+ e89919b25c9a5e605a4543227c1494e7f8dbe31d023fb69d9700a5817ab143fa 971328 atomes_1.1.12-1_amd64.deb
 Files:
- ee7714c4b9b49e4e9c9185554b414338 1437 science optional atomes_1.1.12-1.dsc
- e7dfe51a4090a07a163c29d9d8cbe2ad 2161072 science optional atomes_1.1.12.orig.tar.xz
- 033804978c92f2e4a47f22ffd013298b 17768 science optional atomes_1.1.12-1.debian.tar.xz
- aa401fe331264ea8900cd39d1765e3c7 1143728 science optional atomes-data_1.1.12-1_amd64.deb
+ 3be58fa8667347db77ddeed9b4b75672 1441 science optional atomes_1.1.12-1.dsc
+ cd5a967b9308ae41654ab9231b4faace 2156392 science optional atomes_1.1.12.orig.tar.xz
+ 20c11549ed09b865c616157df2e14970 13584 science optional atomes_1.1.12-1.debian.tar.xz
+ ba7c216f1aa51b3ef66d506e810507a6 1144148 science optional atomes-data_1.1.12-1_all.deb
  1debb6729c5e7dc4235c465cade23e48 1765492 debug optional atomes-dbgsym_1.1.12-1_amd64.deb
- b3aeed95c41c5232738846358c9497e4 16393 science optional atomes_1.1.12-1_amd64.buildinfo
- 5cbc4e6f4b46e872327b15060cd76702 970920 science optional atomes_1.1.12-1_amd64.deb
+ fa151ed73612d7af090f938ecbf516a0 16391 science optional atomes_1.1.12-1_amd64.buildinfo
+ c4b9aafe2c74f60e51270c61f69a16db 971328 science optional atomes_1.1.12-1_amd64.deb
 
 -----BEGIN PGP SIGNATURE-----
 
-iI4EARYIADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCZLk3ORgcYXRvbWVzQGlw
-Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cMQMwEAgPCPK0PdKqvOhbq61OyLKa48
-ck5Ono9aRHxI5mXxp7cBAKRYeaAFTCDa/v01oElMZLuV5g8S0KPatuLC4BeDFXwI
-=1YIy
+iI4EARYIADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCZLpVTBgcYXRvbWVzQGlw
+Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cPuSQEAvKzGgOdUYUqZXHjnEpPcj43v
+HC6vcgaqznqTL2LDtJ4A/1pH0qoRdkXvvLIVNr8XIR8VfRh8rcw2uMwJ1Dbd2kAF
+=T9IW
 -----END PGP SIGNATURE-----

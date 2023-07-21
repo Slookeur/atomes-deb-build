@@ -4,7 +4,7 @@ Hash: SHA512
 Format: 3.0 (quilt)
 Source: atomes
 Binary: atomes, atomes-data
-Architecture: any
+Architecture: any all
 Version: 1.1.12-1
 Maintainer: Sébastien Le Roux <sebastien.leroux@ipcms.unistra.fr>
 Homepage: https://atomes.ipcms.fr/
@@ -12,21 +12,21 @@ Standards-Version: 4.6.2
 Build-Depends: debhelper-compat (= 13), automake, autoconf, pkg-config, gfortran, libgfortran5, libgtk-3-dev, libxml2-dev, libpango1.0-dev, libglu1-mesa-dev, libepoxy-dev, libavutil-dev, libavcodec-dev, libavformat-dev, libswscale-dev, desktop-file-utils, appstream-util
 Package-List:
  atomes deb science optional arch=any
- atomes-data deb science optional arch=any
+ atomes-data deb science optional arch=all
 Checksums-Sha1:
- 0dc478b755f12f7b51b1594234ed825cfd3b06d3 2145796 atomes_1.1.12.orig.tar.xz
- f4f95c04655673f32daa723bf01980803c88b70f 17732 atomes_1.1.12-1.debian.tar.xz
+ 8821d44b3a085d09110f9ec79f178962b7f08e93 2141776 atomes_1.1.12.orig.tar.xz
+ bb4fa6afd94261815df59ef2d29856f9755174fb 13592 atomes_1.1.12-1.debian.tar.xz
 Checksums-Sha256:
- 3959bb98efacb2699fee1243b80c6401601ec0a135494aa5ec0e1ab277ca3f51 2145796 atomes_1.1.12.orig.tar.xz
- 424102d37ba06e628c623a8edc2d1901d543287677629a493e250c45d7f6b791 17732 atomes_1.1.12-1.debian.tar.xz
+ 200e80c7c51e628004128b08a70b0a42f17e8fdbb2c93e03f6fe04a99b6ca99b 2141776 atomes_1.1.12.orig.tar.xz
+ 06d56abd7c542b4e387ade7b27f048de738f232bfa32fdd2cd87318347bb8ce7 13592 atomes_1.1.12-1.debian.tar.xz
 Files:
- 02eb0afbff3c092ae9e18bf551b25ffd 2145796 atomes_1.1.12.orig.tar.xz
- f04128a826e20363e3df2aeea4d47e02 17732 atomes_1.1.12-1.debian.tar.xz
+ 79512ddaadddd8161f26248ddad484c8 2141776 atomes_1.1.12.orig.tar.xz
+ 79791bd442d98e98a501ff1f9227354d 13592 atomes_1.1.12-1.debian.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iI4EARYKADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCZLk4AxgcYXRvbWVzQGlw
-Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cNv5gEAqYhtj7qwEzQB5O+qxkX5/iY6
-Qbs6+SV9cLT6U6/qw5YA/0x7VuckHCpZDOA1orkIMif8dN1Tbk4szKVd8tRb/7AE
-=83AZ
+iI4EARYKADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCZLpWkRgcYXRvbWVzQGlw
+Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cPYAgEAxgiv3odeBSDS939qXHGwx7cj
+0Of9zcJNOuCwynxC8ioBAIpyGvK9uW4RPNgKxo/5bOHv0qVO81EKX5/esku1RU0M
+=X8/Z
 -----END PGP SIGNATURE-----
