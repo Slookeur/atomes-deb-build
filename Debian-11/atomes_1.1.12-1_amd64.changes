@@ -2,7 +2,7 @@
 Hash: SHA256
 
 Format: 1.8
-Date: Mon, 17 Jul 2023 17:26:00 +0200
+Date: Thu, 7 Sep 2023 13:30:00 +0200
 Source: atomes
 Binary: atomes atomes-data atomes-dbgsym
 Architecture: source all amd64
@@ -20,34 +20,34 @@ Changes:
  .
    * Initial release of version 1.1.12 (Closes: #1019387)
 Checksums-Sha1:
- bff0d86643481072d9dc2c9bb65b931b0ed0b8f1 1441 atomes_1.1.12-1.dsc
- 46a92c7085b03dae8856039dfc2bafb074ae2492 2156392 atomes_1.1.12.orig.tar.xz
- 1a2fa599d3aca56eb12a9bbb466cd14ebc9ac699 13584 atomes_1.1.12-1.debian.tar.xz
- 1e59b2bbe1c974480e6a29b215e7dfa844280d7a 1144148 atomes-data_1.1.12-1_all.deb
- feff9b7205fec3d6fe57866b74a36d555bc12631 1765492 atomes-dbgsym_1.1.12-1_amd64.deb
- 8814e4f93c511a2d81494dec4751dff0228b1cea 16391 atomes_1.1.12-1_amd64.buildinfo
- fe8f9d3410b07000ac94a8e1c76fb51de6e0f2c7 971328 atomes_1.1.12-1_amd64.deb
+ 633d9488dc0f3c5f2069a258034ec58e802ed71c 1441 atomes_1.1.12-1.dsc
+ 9efa5434e591827e51989ed40802a8207e2a79c9 2228288 atomes_1.1.12.orig.tar.xz
+ e18a3b1d79652c2f29ec79ec44b07947a9d3ddf9 13584 atomes_1.1.12-1.debian.tar.xz
+ 124742042535a2109a9d182ab5255e7470bbf368 1143232 atomes-data_1.1.12-1_all.deb
+ e9028ca735233d7f799bc9784b8fb1c5bf57a97d 1753540 atomes-dbgsym_1.1.12-1_amd64.deb
+ 003969a4cdaeadc28c65a6adf1a3c2e839ff1c4f 16439 atomes_1.1.12-1_amd64.buildinfo
+ 7a99f702ba3a5447742573089401a91f10b6062e 967148 atomes_1.1.12-1_amd64.deb
 Checksums-Sha256:
- 2828602341f68bf43cd0d4db513b9d2765c15e7bdfce752bcba8cb8fcc503a0f 1441 atomes_1.1.12-1.dsc
- f45f51df7674d2062fbd5efffd550319df7b3c311730846e5c85c562765ff138 2156392 atomes_1.1.12.orig.tar.xz
- d787c32abd33b8b7974b20fce7e47be95b5b60196f43c10ca8e8bf302e9ff6ac 13584 atomes_1.1.12-1.debian.tar.xz
- c96aa68be62242f5a3bfe4ec74994bd638bd65da54faa65d841da1d3017b32c4 1144148 atomes-data_1.1.12-1_all.deb
- cdee401442073f92aa5c4483dc0265a741dd66fc9ffc7d466b741752c050750c 1765492 atomes-dbgsym_1.1.12-1_amd64.deb
- b106eb4b34557c5249c8e1a623b56f4ddc5d03081027ebb3180250928abf5b53 16391 atomes_1.1.12-1_amd64.buildinfo
- e89919b25c9a5e605a4543227c1494e7f8dbe31d023fb69d9700a5817ab143fa 971328 atomes_1.1.12-1_amd64.deb
+ 3438e03ab93a4e5e796ac847ae09852bb29c9b0551b5ddcd904ee1d547aa11bb 1441 atomes_1.1.12-1.dsc
+ 05dd5a37c671847b956d36cb865595026b0fd800c5730cef2d7b575e6000ed88 2228288 atomes_1.1.12.orig.tar.xz
+ c7f3aeac56fb234f17c9711fc3d6a6333b85e51a5e904b161ba595e831827886 13584 atomes_1.1.12-1.debian.tar.xz
+ c7ae6f7bd2e56889617e117e08a59476acf0dd2b54b68dbc4da6d3bba58142cd 1143232 atomes-data_1.1.12-1_all.deb
+ a7355a1a004a56feb02d8e4256ef71d71ba1cf1bf12c1281f60817c49ae00d29 1753540 atomes-dbgsym_1.1.12-1_amd64.deb
+ 6a05b5030d953c06d727a4210a338457566bd1e2e4eaa236496e46fabbd72b96 16439 atomes_1.1.12-1_amd64.buildinfo
+ 975a6104df46119cbde28cd44ed3f04d47902c84436b9dbc67319975a5529e51 967148 atomes_1.1.12-1_amd64.deb
 Files:
- 3be58fa8667347db77ddeed9b4b75672 1441 science optional atomes_1.1.12-1.dsc
- cd5a967b9308ae41654ab9231b4faace 2156392 science optional atomes_1.1.12.orig.tar.xz
- 20c11549ed09b865c616157df2e14970 13584 science optional atomes_1.1.12-1.debian.tar.xz
- ba7c216f1aa51b3ef66d506e810507a6 1144148 science optional atomes-data_1.1.12-1_all.deb
- 1debb6729c5e7dc4235c465cade23e48 1765492 debug optional atomes-dbgsym_1.1.12-1_amd64.deb
- fa151ed73612d7af090f938ecbf516a0 16391 science optional atomes_1.1.12-1_amd64.buildinfo
- c4b9aafe2c74f60e51270c61f69a16db 971328 science optional atomes_1.1.12-1_amd64.deb
+ 7f54468b966444732ca3517d3172624f 1441 science optional atomes_1.1.12-1.dsc
+ 12d5414a75f23c1ebee30b9dee533708 2228288 science optional atomes_1.1.12.orig.tar.xz
+ f4e48457f80d822be0f58b0a68d34365 13584 science optional atomes_1.1.12-1.debian.tar.xz
+ 348e4dc69d3e79d51dfa655a790eba47 1143232 science optional atomes-data_1.1.12-1_all.deb
+ 3b6151f8c1cf5e0d9f0cee617c57f72c 1753540 debug optional atomes-dbgsym_1.1.12-1_amd64.deb
+ ee459335e8c8305accbac6ee4362e652 16439 science optional atomes_1.1.12-1_amd64.buildinfo
+ 5a29c5b77626d20641c38168792ffc0e 967148 science optional atomes_1.1.12-1_amd64.deb
 
 -----BEGIN PGP SIGNATURE-----
 
-iI4EARYIADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCZLpVTBgcYXRvbWVzQGlw
-Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cPuSQEAvKzGgOdUYUqZXHjnEpPcj43v
-HC6vcgaqznqTL2LDtJ4A/1pH0qoRdkXvvLIVNr8XIR8VfRh8rcw2uMwJ1Dbd2kAF
-=T9IW
+iI4EARYIADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCZPm2BRgcYXRvbWVzQGlw
+Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cOyIwD/QaynT3HgMDE43k6958S0z9bp
+dKkgSF92RuqMxT1soEMBAJfZTLBMJ1a6buafqARNxhe8gE/alAh0G2lTth/65IQP
+=+3oh
 -----END PGP SIGNATURE-----
