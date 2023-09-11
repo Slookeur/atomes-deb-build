@@ -1,29 +1,26 @@
------BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA512
-
 Format: 1.0
 Source: atomes
 Binary: atomes atomes-data atomes-dbgsym
 Architecture: all amd64 source
 Version: 1.1.12-1
 Checksums-Md5:
- 91ba4b15be2d7707845e41aef7cdfab9 1441 atomes_1.1.12-1.dsc
- 348e4dc69d3e79d51dfa655a790eba47 1143232 atomes-data_1.1.12-1_all.deb
- 6bb581a446d63798aae6f65579b1fd11 1748056 atomes-dbgsym_1.1.12-1_amd64.deb
- 435025e862b4f9023627d08a92879a51 975372 atomes_1.1.12-1_amd64.deb
+ e0cbb5df36c72b1633be1488a40a77b1 1131 atomes_1.1.12-1.dsc
+ f804e55721ccf850375168b40bfdb537 1142968 atomes-data_1.1.12-1_all.deb
+ 4c81d039dbce7223d1e31c199e017faa 1748272 atomes-dbgsym_1.1.12-1_amd64.deb
+ fba4a568358b0d7dda7c1fb253fdefa1 974812 atomes_1.1.12-1_amd64.deb
 Checksums-Sha1:
- 1ee5ef13e9071546ae1befafaf88dba221229ba3 1441 atomes_1.1.12-1.dsc
- 124742042535a2109a9d182ab5255e7470bbf368 1143232 atomes-data_1.1.12-1_all.deb
- 97087b12d1f003c2a3d955dbada124896ada894d 1748056 atomes-dbgsym_1.1.12-1_amd64.deb
- b90dae7f914676dd7beacda7e07536649e8f146e 975372 atomes_1.1.12-1_amd64.deb
+ 4b20f5d855decb08a060643fd4d90f2295b4d463 1131 atomes_1.1.12-1.dsc
+ 22c9d62be171f2f6a6c09c97e40c309cb0dd3343 1142968 atomes-data_1.1.12-1_all.deb
+ 0471a400b4c33b99c41c8a3d42b2e5cf2195b2ee 1748272 atomes-dbgsym_1.1.12-1_amd64.deb
+ 481560214db8b15304f0411cc3ed0fe06780a894 974812 atomes_1.1.12-1_amd64.deb
 Checksums-Sha256:
- fe16ee67d9c5cbe9655d6c897ddc225534dbe0c9f0b6717329e16c8a5bdff657 1441 atomes_1.1.12-1.dsc
- c7ae6f7bd2e56889617e117e08a59476acf0dd2b54b68dbc4da6d3bba58142cd 1143232 atomes-data_1.1.12-1_all.deb
- 8d3f2fca8c7df2b49c6b0a18deac1229f1ed315253a558ca1adf9c659f213b5c 1748056 atomes-dbgsym_1.1.12-1_amd64.deb
- f63a652a4174a4bb9c66bdaaf18473f0460fd096fbbb940a8ac615e37bc11e1c 975372 atomes_1.1.12-1_amd64.deb
+ 793239987f8da5efa5d26ebffee047df8fb73876a312870e244271b70c7bab2a 1131 atomes_1.1.12-1.dsc
+ 3e3715edb2f822f1b7edfca6becad3a291a2de6ea9008fd1bad88333bf9c50bd 1142968 atomes-data_1.1.12-1_all.deb
+ a9c74c1fb68d6e7929defe3894f5077836579018d4667e9c7bfbfdc6a46e1274 1748272 atomes-dbgsym_1.1.12-1_amd64.deb
+ d841dd43d983325953a63e5b5dadb2fe124d3c810a015cab61f3d4dbe66d1da2 974812 atomes_1.1.12-1_amd64.deb
 Build-Origin: Debian
 Build-Architecture: amd64
-Build-Date: Thu, 07 Sep 2023 13:40:20 +0200
+Build-Date: Mon, 11 Sep 2023 11:23:46 +0200
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
 Installed-Build-Depends:
@@ -537,12 +534,4 @@ Installed-Build-Depends:
 Environment:
  DEB_BUILD_OPTIONS="parallel=2"
  LANG="fr_FR.UTF-8"
- SOURCE_DATE_EPOCH="1694086200"
-
------BEGIN PGP SIGNATURE-----
-
-iI4EARYKADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCZPm2sxgcYXRvbWVzQGlw
-Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cP6owEAvozeOiaIrGyBaPG+oIKxK9Yr
-/dhVpD12a8jIEeu59QkBAJ2ZSZ5IFWf6w8m5z1czvR+fwyH05AlvtEiCCbafXpkA
-=2VqE
------END PGP SIGNATURE-----
+ SOURCE_DATE_EPOCH="1694426400"
