@@ -1,8 +1,8 @@
 Source: atomes
 Section: science
 Priority: optional
-Maintainer: Sébastien Le Roux <sebastien.leroux@ipcms.unistra.fr>
-#Maintainer: Debichem Team <debichem-devel@lists.alioth.debian.org>
+Maintainer: Debichem Team <debichem-devel@lists.alioth.debian.org>
+Uploaders: Sébastien Le Roux <sebastien.leroux@ipcms.unistra.fr>
 Build-Depends: debhelper-compat (= 13),
                automake,
                autoconf,
@@ -22,35 +22,35 @@ Build-Depends: debhelper-compat (= 13),
                appstream-util
 Standards-Version: 4.6.2
 Homepage: https://atomes.ipcms.fr/
-#Vcs-Browser: https://salsa.debian.org/debichem-team/atomes
-#Vcs-Git: https://salsa.debian.org/debichem-team/atomes.git
+Vcs-Browser: https://salsa.debian.org/debichem-team/atomes
+Vcs-Git: https://salsa.debian.org/debichem-team/atomes.git
 Rules-Requires-Root: no
 
 Package: atomes
 Architecture: any
 Depends: atomes-data (= ${source:Version}),
-         ${shlibs:Depends}, ${misc:Depends}, 
+         ${shlibs:Depends}, ${misc:Depends},
          libgtk-3-0,
          libglu1-mesa,
          bash-completion
-Description: This package, atomes, provides an atomic-scale 3D modeling toolbox
+Description: atomic-scale 3D modeling toolbox
  Atomes is a tool box to analyze (physico-chemical properties calculations),
  visualize (atoms, bonds, colormaps, measurements, coordination polyedra ...)
- create (crystal builder, molecular library, surface creation
- and passivation ...) 3D atomistic models.
- Atomes offers a workspace capable of handling many projects
- opened simultaneously.
- The different projects in the workspace can exchange data:
- analysis results, atomic coordinates...
- Atomes also provides an advanced input preparation system
- for further calculations using well known molecular dynamics codes:
+ create (crystal builder, molecular library, surface creation and
+ passivation ...) 3D atomistic models.
+ Atomes offers a workspace capable of handling many projects opened
+ simultaneously.
+ The different projects in the workspace can exchange data: analysis results,
+ atomic coordinates...
+ Atomes also provides an advanced input preparation system for further
+ calculations using well known molecular dynamics codes:
  Classical MD: DLPOLY and LAMMPS
   - ab-initio MD: CPMD and CP2K
   - QM-MM MD: CPMD and CP2K
- To prepare the input files for these calculations is likely
- to be the key, and most complicated step towards MD simulations.
- Atomes offers a user-friendly assistant to help and guide
- the scientist step by step to achieve this crucial step.
+ To prepare the input files for these calculations is likely to be the key, and
+ most complicated step towards MD simulations.
+ Atomes offers a user-friendly assistant to help and guide the scientist step
+ by step to achieve this crucial step.
  .
  This package provides the binaries.
 
@@ -60,23 +60,23 @@ Multi-Arch: foreign
 Depends: ${misc:Depends}
 Enhances: atomes
 Suggests: atomes
-Description: This package, atomes, provides an atomic-scale 3D modeling toolbox
+Description: atomic-scale 3D modeling toolbox (data)
  Atomes is a tool box to analyze (physico-chemical properties calculations),
  visualize (atoms, bonds, colormaps, measurements, coordination polyedra ...)
- create (crystal builder, molecular library, surface creation
- and passivation ...) 3D atomistic models.
- Atomes offers a workspace capable of handling many projects
- opened simultaneously.
- The different projects in the workspace can exchange data:
- analysis results, atomic coordinates...
- Atomes also provides an advanced input preparation system
- for further calculations using well known molecular dynamics codes:
+ create (crystal builder, molecular library, surface creation and
+ passivation ...) 3D atomistic models.
+ Atomes offers a workspace capable of handling many projects opened
+ simultaneously.
+ The different projects in the workspace can exchange data: analysis results,
+ atomic coordinates...
+ Atomes also provides an advanced input preparation system for further
+ calculations using well known molecular dynamics codes:
  Classical MD: DLPOLY and LAMMPS
   - ab-initio MD: CPMD and CP2K
   - QM-MM MD: CPMD and CP2K
- To prepare the input files for these calculations is likely
- to be the key, and most complicated step towards MD simulations.
- Atomes offers a user-friendly assistant to help and guide
- the scientist step by step to achieve this crucial step.
+ To prepare the input files for these calculations is likely to be the key, and
+ most complicated step towards MD simulations.
+ Atomes offers a user-friendly assistant to help and guide the scientist step
+ by step to achieve this crucial step.
  .
- This package  contains data files for atomes.
+ This package contains data files for atomes.

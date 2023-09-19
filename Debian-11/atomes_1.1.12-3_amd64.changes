@@ -1,0 +1,50 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Tue, 19 Sep 2023 15:45:00 +0200
+Source: atomes
+Binary: atomes atomes-data atomes-dbgsym
+Architecture: source all amd64
+Version: 1.1.12-3
+Distribution: unstable
+Urgency: medium
+Maintainer: Debichem Team <debichem-devel@lists.alioth.debian.org>
+Changed-By: Sébastien Le Roux <sebastien.leroux@ipcms.unistra.fr>
+Description:
+ atomes     - atomic-scale 3D modeling toolbox
+ atomes-data - atomic-scale 3D modeling toolbox (data)
+Changes:
+ atomes (1.1.12-3) unstable; urgency=medium
+ .
+   * Bug corrections and improvements.
+   * See: https://github.com/Slookeur/Atomes-GNU/releases/tag/v1.1.12
+Checksums-Sha1:
+ 4f54d7987c735218595c977d85869d2812631ceb 1625 atomes_1.1.12-3.dsc
+ 71b41b39045805f8879a606a5729c44c447de771 14044 atomes_1.1.12-3.debian.tar.xz
+ 864b8c9fe8f58a31a5bf089de5aa719cb2cebc78 1142936 atomes-data_1.1.12-3_all.deb
+ fe552f6490805879f07c7a0d17e52e7ea5ee2cb7 1753420 atomes-dbgsym_1.1.12-3_amd64.deb
+ 4869af1668dbb108364ef261a5c5de5fa9d7938c 16439 atomes_1.1.12-3_amd64.buildinfo
+ 870e27e201d74333995d276e2649ad31c959077a 967432 atomes_1.1.12-3_amd64.deb
+Checksums-Sha256:
+ 873516c9a9d929c5a6f87a4dbb7a29951fdb1a9639cb4ab4021e5f22253e335a 1625 atomes_1.1.12-3.dsc
+ 36f2fab48076fbb33d8b16e8b2b7592871df6c2e44b5d46200f856515a3217f8 14044 atomes_1.1.12-3.debian.tar.xz
+ c4d2a9529a2bee6731128bc05311a16c6da35a2ec53faef8fdfea188a9a30d94 1142936 atomes-data_1.1.12-3_all.deb
+ 52c42be4d276810a698303c5e3785ca67712f4323bd75381c414c1a7776a096a 1753420 atomes-dbgsym_1.1.12-3_amd64.deb
+ 8f18a2b7a986450b73741eb56a8b5f8c9d63a0ae510855b2a1161d3a67e65111 16439 atomes_1.1.12-3_amd64.buildinfo
+ 14dc3c0f99344909113fd4bf5fb7d92c8c98cb59d3ac2eb89382712b183c7796 967432 atomes_1.1.12-3_amd64.deb
+Files:
+ 5437a190d67f2dcf0f6d52968653b55e 1625 science optional atomes_1.1.12-3.dsc
+ 5e5ef547dc83bd9d3a1f474c27b421ba 14044 science optional atomes_1.1.12-3.debian.tar.xz
+ 4e2e13607d706633a5220cf1257c4d2b 1142936 science optional atomes-data_1.1.12-3_all.deb
+ 0d9dc8a8f1761f5a13101ff322f44f18 1753420 debug optional atomes-dbgsym_1.1.12-3_amd64.deb
+ 364fbe52554bac065f679fd1eab669dd 16439 science optional atomes_1.1.12-3_amd64.buildinfo
+ 3de74d2bf606585d4fa02d716e3180ee 967432 science optional atomes_1.1.12-3_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iI4EARYIADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCZQm+GhgcYXRvbWVzQGlw
+Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cNQaQD8Dhj37WGyG7aetqYwh8PitzFQ
+HOqZPdlVOyUPnHsFLJkBAL8DZpd5ALkCvdd0BodiiSoUDHHVnulXLovTkEhV8GEA
+=+voC
+-----END PGP SIGNATURE-----

@@ -31,7 +31,8 @@ if [ $DOWN -eq 1 ]; then
   tar -zxf v$VERSION.tar.gz
   mv Atomes-GNU-$VERSION atomes-$VERSION
   rm v$VERSION.tar.gz
-#scp -r leroux@pc-chess:files/git-files/atomes/atomes-all/atomes-$VERSION .
+else
+  scp -r leroux@pc-chess:files/git-files/atomes/atomes-all/atomes-$VERSION .
 fi
 
 BUILD=1

@@ -1,0 +1,22 @@
+Description: removing FLAGS from the contents of the built executable file in
+ order to enhance build reproducibility. Otherwise the build path would be
+ shipped inside /usr/bin/atomes.
+Author: Pierre Gruet <pgt@debian.org>
+Forwarded: not-needed
+Last-Update: 2023-09-19
+
+--- a/src/gui/main.c
++++ b/src/gui/main.c
+@@ -214,10 +214,10 @@
+   }
+   printf ("OpenMP version         : %1.1f (%s)\n", v, v_string);
+ #endif
+-  printf ("FC    Compiler         : %s\n", FC);
++  /*printf ("FC    Compiler         : %s\n", FC);
+   printf ("FC    Compiler flags   : %s\n", FCFLAGS);
+   printf ("C     Compiler         : %s\n", CC);
+-  printf ("C     Compiler flags   : %s\n", CFLAGS);
++  printf ("C     Compiler flags   : %s\n", CFLAGS);*/
+ 
+   printf ("%s", bug);
+   printf ("%s", PACKAGE_BUGREPORT);

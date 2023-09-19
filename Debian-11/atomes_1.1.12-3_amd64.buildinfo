@@ -5,25 +5,25 @@ Format: 1.0
 Source: atomes
 Binary: atomes atomes-data atomes-dbgsym
 Architecture: all amd64 source
-Version: 1.1.12-1
+Version: 1.1.12-3
 Checksums-Md5:
- 7afa2133e87507495589e07ae90c9398 1441 atomes_1.1.12-1.dsc
- a5332fb8d22c64ddad771c59ea552ea5 1142792 atomes-data_1.1.12-1_all.deb
- 7921608dd915c8fb56c83378e9063a41 1753816 atomes-dbgsym_1.1.12-1_amd64.deb
- be649163578a0ed597644755f29e1375 967076 atomes_1.1.12-1_amd64.deb
+ 5437a190d67f2dcf0f6d52968653b55e 1625 atomes_1.1.12-3.dsc
+ 4e2e13607d706633a5220cf1257c4d2b 1142936 atomes-data_1.1.12-3_all.deb
+ 0d9dc8a8f1761f5a13101ff322f44f18 1753420 atomes-dbgsym_1.1.12-3_amd64.deb
+ 3de74d2bf606585d4fa02d716e3180ee 967432 atomes_1.1.12-3_amd64.deb
 Checksums-Sha1:
- 2894830f241b5e8388616fb050e8514b9d5a018b 1441 atomes_1.1.12-1.dsc
- 885e7a919929782bda954bfc0f8a6b1cafcd2322 1142792 atomes-data_1.1.12-1_all.deb
- 4d13e1ae03ce84152ef5f474571f334388a8276e 1753816 atomes-dbgsym_1.1.12-1_amd64.deb
- 99bdbdfcc2191200d2502359529a07f24a103024 967076 atomes_1.1.12-1_amd64.deb
+ 4f54d7987c735218595c977d85869d2812631ceb 1625 atomes_1.1.12-3.dsc
+ 864b8c9fe8f58a31a5bf089de5aa719cb2cebc78 1142936 atomes-data_1.1.12-3_all.deb
+ fe552f6490805879f07c7a0d17e52e7ea5ee2cb7 1753420 atomes-dbgsym_1.1.12-3_amd64.deb
+ 870e27e201d74333995d276e2649ad31c959077a 967432 atomes_1.1.12-3_amd64.deb
 Checksums-Sha256:
- f950f273449ab29b6aeed4250b3aecd56aad763f3c0873701a79a618485eb540 1441 atomes_1.1.12-1.dsc
- de527cb14c7ca6090332901439f82c640693cae45ecdc1813b11251bd359b39d 1142792 atomes-data_1.1.12-1_all.deb
- 8b0e2ecf0b272d13deb7872c05a031818bfebdfe81feb980ac02e59b03773d55 1753816 atomes-dbgsym_1.1.12-1_amd64.deb
- 0a039c4c06e906ab2b8db9161ccad69fbcae5aee9d0dcaec896f67ee95d1b42a 967076 atomes_1.1.12-1_amd64.deb
+ 873516c9a9d929c5a6f87a4dbb7a29951fdb1a9639cb4ab4021e5f22253e335a 1625 atomes_1.1.12-3.dsc
+ c4d2a9529a2bee6731128bc05311a16c6da35a2ec53faef8fdfea188a9a30d94 1142936 atomes-data_1.1.12-3_all.deb
+ 52c42be4d276810a698303c5e3785ca67712f4323bd75381c414c1a7776a096a 1753420 atomes-dbgsym_1.1.12-3_amd64.deb
+ 14dc3c0f99344909113fd4bf5fb7d92c8c98cb59d3ac2eb89382712b183c7796 967432 atomes_1.1.12-3_amd64.deb
 Build-Origin: Debian
 Build-Architecture: amd64
-Build-Date: Mon, 11 Sep 2023 11:20:11 +0200
+Build-Date: Tue, 19 Sep 2023 17:28:25 +0200
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
 Installed-Build-Depends:
@@ -300,7 +300,7 @@ Installed-Build-Depends:
  libpam-modules (= 1.4.0-9+deb11u1),
  libpam-modules-bin (= 1.4.0-9+deb11u1),
  libpam-runtime (= 1.4.0-9+deb11u1),
- libpam-systemd (= 247.3-7+deb11u2),
+ libpam-systemd (= 247.3-7+deb11u4),
  libpam0g (= 1.4.0-9+deb11u1),
  libpango-1.0-0 (= 1.46.2-3),
  libpango1.0-dev (= 1.46.2-3),
@@ -368,7 +368,7 @@ Installed-Build-Depends:
  libswresample3 (= 7:4.3.6-0+deb11u1),
  libswscale-dev (= 7:4.3.6-0+deb11u1),
  libswscale5 (= 7:4.3.6-0+deb11u1),
- libsystemd0 (= 247.3-7+deb11u2),
+ libsystemd0 (= 247.3-7+deb11u4),
  libtasn1-6 (= 4.16.0-2+deb11u1),
  libthai-data (= 0.1.28-3),
  libthai-dev (= 0.1.28-3),
@@ -384,7 +384,7 @@ Installed-Build-Depends:
  libtwolame0 (= 0.4.0-2),
  libubsan1 (= 10.2.1-6),
  libuchardet0 (= 0.0.7-1),
- libudev1 (= 247.3-7+deb11u2),
+ libudev1 (= 247.3-7+deb11u4),
  libudfread0 (= 1.1.1-1),
  libunistring2 (= 0.9.10-4),
  libuuid1 (= 2.36.1-8+deb11u1),
@@ -404,8 +404,8 @@ Installed-Build-Depends:
  libwayland-dev (= 1.18.0-2~exp1.1),
  libwayland-egl1 (= 1.18.0-2~exp1.1),
  libwayland-server0 (= 1.18.0-2~exp1.1),
- libwebp6 (= 0.6.1-2.1+deb11u1),
- libwebpmux3 (= 0.6.1-2.1+deb11u1),
+ libwebp6 (= 0.6.1-2.1+deb11u2),
+ libwebpmux3 (= 0.6.1-2.1+deb11u2),
  libx11-6 (= 2:1.7.2-1+deb11u1),
  libx11-data (= 2:1.7.2-1+deb11u1),
  libx11-dev (= 2:1.7.2-1+deb11u1),
@@ -495,8 +495,8 @@ Installed-Build-Depends:
  sed (= 4.7-1),
  sensible-utils (= 0.0.14),
  shared-mime-info (= 2.0-1),
- systemd (= 247.3-7+deb11u2),
- systemd-sysv (= 247.3-7+deb11u2),
+ systemd (= 247.3-7+deb11u4),
+ systemd-sysv (= 247.3-7+deb11u4),
  sysvinit-utils (= 2.96-7+deb11u1),
  tar (= 1.34+dfsg-1),
  tzdata (= 2021a-1+deb11u10),
@@ -520,12 +520,12 @@ Installed-Build-Depends:
 Environment:
  DEB_BUILD_OPTIONS="parallel=1"
  LANG="fr_FR.UTF-8"
- SOURCE_DATE_EPOCH="1694426400"
+ SOURCE_DATE_EPOCH="1695131100"
 
 -----BEGIN PGP SIGNATURE-----
 
-iI4EARYIADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCZP7bzBgcYXRvbWVzQGlw
-Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cORiAEAkNV+J7BqFGSzzSvcLZwO2C7G
-I5sJHBhJzjx9FB88xTsBALhHdt1cP1UPpw4jpuXvTB9/HVaq2ZNgQoRmKEt7stMF
-=q0MV
+iI4EARYIADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCZQm+GhgcYXRvbWVzQGlw
+Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cPB8wD9Fev84xvXPNPor/Ek6WQJn6Xj
+wuYIlUeS+5+StBJbcCIBANT4XNhhpzA9QO3NWlmCfgqXCgEiiiVSR8H+csS8LgkC
+=W6RL
 -----END PGP SIGNATURE-----

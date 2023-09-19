@@ -1,0 +1,2 @@
+# False positive, "coul" is the intended word
+atomes: spelling-error-in-binary coul could [usr/bin/atomes]

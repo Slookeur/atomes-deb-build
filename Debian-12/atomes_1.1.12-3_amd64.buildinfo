@@ -1,26 +1,29 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
 Format: 1.0
 Source: atomes
 Binary: atomes atomes-data atomes-dbgsym
 Architecture: all amd64 source
-Version: 1.1.12-1
+Version: 1.1.12-3
 Checksums-Md5:
- e0cbb5df36c72b1633be1488a40a77b1 1131 atomes_1.1.12-1.dsc
- f804e55721ccf850375168b40bfdb537 1142968 atomes-data_1.1.12-1_all.deb
- 4c81d039dbce7223d1e31c199e017faa 1748272 atomes-dbgsym_1.1.12-1_amd64.deb
- fba4a568358b0d7dda7c1fb253fdefa1 974812 atomes_1.1.12-1_amd64.deb
+ 2499afd304230a728b225056529b93ab 1625 atomes_1.1.12-3.dsc
+ 4e2e13607d706633a5220cf1257c4d2b 1142936 atomes-data_1.1.12-3_all.deb
+ 546ee57fbc2533e9a16c951b900f8e6a 1748372 atomes-dbgsym_1.1.12-3_amd64.deb
+ dfdc215191c6321df5613822d79afd84 976376 atomes_1.1.12-3_amd64.deb
 Checksums-Sha1:
- 4b20f5d855decb08a060643fd4d90f2295b4d463 1131 atomes_1.1.12-1.dsc
- 22c9d62be171f2f6a6c09c97e40c309cb0dd3343 1142968 atomes-data_1.1.12-1_all.deb
- 0471a400b4c33b99c41c8a3d42b2e5cf2195b2ee 1748272 atomes-dbgsym_1.1.12-1_amd64.deb
- 481560214db8b15304f0411cc3ed0fe06780a894 974812 atomes_1.1.12-1_amd64.deb
+ f51ee1e0aa5b8160ceaa0731def1a33acaa3872d 1625 atomes_1.1.12-3.dsc
+ 864b8c9fe8f58a31a5bf089de5aa719cb2cebc78 1142936 atomes-data_1.1.12-3_all.deb
+ c2a164fd6187886a38899b1e7e9d0b1b1c4e640e 1748372 atomes-dbgsym_1.1.12-3_amd64.deb
+ fe0e7c927c7b15949cffe73b2c8c41590f3c69b5 976376 atomes_1.1.12-3_amd64.deb
 Checksums-Sha256:
- 793239987f8da5efa5d26ebffee047df8fb73876a312870e244271b70c7bab2a 1131 atomes_1.1.12-1.dsc
- 3e3715edb2f822f1b7edfca6becad3a291a2de6ea9008fd1bad88333bf9c50bd 1142968 atomes-data_1.1.12-1_all.deb
- a9c74c1fb68d6e7929defe3894f5077836579018d4667e9c7bfbfdc6a46e1274 1748272 atomes-dbgsym_1.1.12-1_amd64.deb
- d841dd43d983325953a63e5b5dadb2fe124d3c810a015cab61f3d4dbe66d1da2 974812 atomes_1.1.12-1_amd64.deb
+ 18a94d24178d3bdb44c95c3a7ac16bccfb2bd705ec7badb5758513dd85081900 1625 atomes_1.1.12-3.dsc
+ c4d2a9529a2bee6731128bc05311a16c6da35a2ec53faef8fdfea188a9a30d94 1142936 atomes-data_1.1.12-3_all.deb
+ 2d7b067d9d34092a6b7e1fc41271a32f58db9d5cba2e49735b5088343c54f670 1748372 atomes-dbgsym_1.1.12-3_amd64.deb
+ a281a5b8011826715a2f9fad98f35e6887f2cebc6ae7c012214b4831673c6a10 976376 atomes_1.1.12-3_amd64.deb
 Build-Origin: Debian
 Build-Architecture: amd64
-Build-Date: Mon, 11 Sep 2023 11:23:46 +0200
+Build-Date: Tue, 19 Sep 2023 17:23:20 +0200
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
 Installed-Build-Depends:
@@ -412,10 +415,10 @@ Installed-Build-Depends:
  libwayland-dev (= 1.21.0-1),
  libwayland-egl1 (= 1.21.0-1),
  libwayland-server0 (= 1.21.0-1),
- libwebp-dev (= 1.2.4-0.2),
- libwebp7 (= 1.2.4-0.2),
- libwebpdemux2 (= 1.2.4-0.2),
- libwebpmux3 (= 1.2.4-0.2),
+ libwebp-dev (= 1.2.4-0.2+deb12u1),
+ libwebp7 (= 1.2.4-0.2+deb12u1),
+ libwebpdemux2 (= 1.2.4-0.2+deb12u1),
+ libwebpmux3 (= 1.2.4-0.2+deb12u1),
  libx11-6 (= 2:1.8.4-2+deb12u1),
  libx11-data (= 2:1.8.4-2+deb12u1),
  libx11-dev (= 2:1.8.4-2+deb12u1),
@@ -475,7 +478,7 @@ Installed-Build-Depends:
  libzstd1 (= 1.5.4+dfsg2-5),
  libzvbi-common (= 0.2.41-1),
  libzvbi0 (= 0.2.41-1),
- linux-libc-dev (= 6.1.38-4),
+ linux-libc-dev (= 6.1.52-1),
  login (= 1:4.13+dfsg1-1+b1),
  m4 (= 1.4.19-3),
  mailcap (= 3.70+nmu1),
@@ -534,4 +537,12 @@ Installed-Build-Depends:
 Environment:
  DEB_BUILD_OPTIONS="parallel=2"
  LANG="fr_FR.UTF-8"
- SOURCE_DATE_EPOCH="1694426400"
+ SOURCE_DATE_EPOCH="1695131100"
+
+-----BEGIN PGP SIGNATURE-----
+
+iI4EARYKADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCZQm88xgcYXRvbWVzQGlw
+Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cNz2QD9E9oP+BjtI3Jlw9QrpfsbfjEK
+sq8jf4y55NcSwpiOxdIBAJkrhmKRjr9VoZMGmYIxDJpMw3OikSeIgaQ/zhJUZmkD
+=B3ON
+-----END PGP SIGNATURE-----
