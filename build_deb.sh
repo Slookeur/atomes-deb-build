@@ -37,7 +37,6 @@ fi
 
 BUILD=1
 if [ $BUILD -eq 1 ]; then
-  tar -zcf atomes-$VERSION.tar.gz  atomes-$VERSION
   rm -f *.orig.* 
   cd atomes-$VERSION
   cp -r ../debian-package-data debian
@@ -47,31 +46,31 @@ if [ $BUILD -eq 1 ]; then
   export DEBFULLNAME="Sébastien Le Roux"
   dh_make --createorig -s -y
   dpkg-buildpackage -katomes@ipcms.unistra.fr
-
-  TEST=1
-  if [ $TEST -eq 1 ]; then
-    echo "Lintian on changes:" > ../results.lintian
-    echo " " >> ../results.lintian
-    lintian  -EviIL +pedantic ../atomes_*changes &>> ../results.lintian
-    echo " " >> ../results.lintian
-    echo "Lintian on deb:" >> ../results.lintian
-    echo " " >> ../results.lintian
-    lintian -EviIL +pedantic ../atomes_*amd64.deb &>> ../results.lintian
-    echo " " >> ../results.lintian
-    echo "Lintian on buildinfo:" >> ../results.lintian
-    echo " " >> ../results.lintian
-    lintian -EviIL +pedantic ../atomes_*amd64.buildinfo &>> ../results.lintian
-    echo " " >> ../results.lintian
-    echo "Lintian on dsc:" >> ../results.lintian
-    echo " " >> ../results.lintian
-    lintian -EviIL +pedantic ../atomes_*.dsc &>> ../results.lintian
-    scan-copyrights >& ../scan.copy
-    licensecheck --check=. --recursive --copyright . >> ../license.check
-  fi
   cd ..
 fi
 
-COPY=1
+TEST=1
+if [ $TEST -eq 1 ]; then
+  lintian  -EviIL +pedantic ./atomes_*changes >& results.lintian
+  cd atomes-$VERSION
+  licensecheck --recursive --copyright . >& ../license.check
+  scan-copyrights >& ../scan.copy
+  cd ..
+fi
+
+PIUPARTS=0
+if [ $PIUPARTS -eq 1 ]; then
+  # To use piuparts remove the atomes-data dependency
+  echo "Piuparts on atomes.deb" > results.piuparts
+  echo " " >> results.piuparts
+  sudo piuparts ./atomes_$VERSION*.deb &>> results.piuparts
+  echo " " >> results.piuparts
+  echo "Piuparts on atomes-data.deb" >> results.piuparts
+  echo " " >> results.piuparts
+  sudo piuparts ./atomes-data*.deb &>> results.piuparts
+fi
+
+COPY=0
 if [ $COPY -eq 1 ]; then
   scp build_deb.sh leroux@pc-chess:files/git-files/atomes/atomes-deb-build/atomes-deb-build/
   debian=`lsb_release -a|grep Release|awk '{print $2}'`
