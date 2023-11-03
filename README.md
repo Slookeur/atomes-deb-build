@@ -30,7 +30,7 @@ Atomes offers a user-friendly assistant to help and guide the user step by step 
 
 ## DEB building
 
-This repository contains the latest version of the Debian requires to build a '.deb' package, source tarball and source DEB, and DEB for the Atomes program ...
+This repository contains the latest version of the Debian packages and the files requires to build a '.deb' package, for the Atomes program ...
 ... and the script to build it !
 
 ## Build instructions
