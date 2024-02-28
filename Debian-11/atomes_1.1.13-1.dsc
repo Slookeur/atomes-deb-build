@@ -13,19 +13,19 @@ Build-Depends: debhelper-compat (= 13), autotools-dev
 Package-List:
  atomes deb unknown optional arch=any
 Checksums-Sha1:
- 6434ab1cd3b2895e37b9e23c22cc8b81bb5f8aca 2230216 atomes_1.1.13.orig.tar.xz
- 524beb522b91f91c159fd29258e918aaed241865 7912 atomes_1.1.13-1.debian.tar.xz
+ be1b6700cf4aa1d88589173707cf1fa07309428e 2230192 atomes_1.1.13.orig.tar.xz
+ daac92ec625444b030be066f8b5c48e2f416bc57 7912 atomes_1.1.13-1.debian.tar.xz
 Checksums-Sha256:
- c00c5edf18d30f62eb2917c5fca76b5595c064bc4de74b0433ab2c0a6bd60deb 2230216 atomes_1.1.13.orig.tar.xz
- 17787c21f6b6a23798b477b5529320f0d60b76b184aee06539857c115231ca48 7912 atomes_1.1.13-1.debian.tar.xz
+ 34e453bb75626a1d0f657320a2463421a8642bf4726d19077dbeedb679b627c4 2230192 atomes_1.1.13.orig.tar.xz
+ 513ce8292b307017e468bd9731f6f8a1dc9a7cb377b9e730199a70ec7ad7a29b 7912 atomes_1.1.13-1.debian.tar.xz
 Files:
- a9ef73e117a74b0a8f47e032b1a3838a 2230216 atomes_1.1.13.orig.tar.xz
- d4f62d42e286b332f945abd4d045858a 7912 atomes_1.1.13-1.debian.tar.xz
+ 32138f736ce18be70a4980f44237cd71 2230192 atomes_1.1.13.orig.tar.xz
+ 4f36bb6b18f4a73dba855bf18e1962a9 7912 atomes_1.1.13-1.debian.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iI4EARYIADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCZd9puhgcYXRvbWVzQGlw
-Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cM8vQEA4sPXP+3w262blF5l1e+SK86G
-DlHmvnnLzI0mBghxBpcBAPEgIZLv57XP5ByXQNo+0J7Z9aRjBZil0x3t1K3BtRMN
-=Uxbu
+iI4EARYIADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCZd95xxgcYXRvbWVzQGlw
+Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cNwCAD+M7bhkUE4N9/rYgvzowxvU/P4
+yhwnc65+orFNHMAAV4UBANUZSLllsqRMGnr8xKQy7RoqeyVT20LuEhqngCeyPOcF
+=oNRX
 -----END PGP SIGNATURE-----
