@@ -28,7 +28,7 @@ Rules-Requires-Root: no
 
 Package: atomes
 Architecture: any
-Depends: atomes-data (= ${source:Version}),
+Depends: atomes-data (= ${source:Version}), 
          ${shlibs:Depends}, ${misc:Depends},
          libgtk-3-0,
          libglu1-mesa,

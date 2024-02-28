@@ -1,7 +1,7 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA256
 
-Format: 3.0 (quilt)
+Format: 1.0
 Source: atomes
 Binary: atomes, atomes-data
 Architecture: any all
@@ -17,19 +17,16 @@ Package-List:
  atomes deb science optional arch=any
  atomes-data deb science optional arch=all
 Checksums-Sha1:
- 0215cce044bd340e85706e4c11ae8d897ce0960f 2229628 atomes_1.1.12.orig.tar.xz
- 71b41b39045805f8879a606a5729c44c447de771 14044 atomes_1.1.12-3.debian.tar.xz
+ 160a0f292ea0de9e002231f3eeca68cec177451b 10238666 atomes_1.1.12-3.tar.gz
 Checksums-Sha256:
- d78b274810c79044cb2d5a3ae2ed18f8ad3b36ffad004a74b25f4e40caef90ee 2229628 atomes_1.1.12.orig.tar.xz
- 36f2fab48076fbb33d8b16e8b2b7592871df6c2e44b5d46200f856515a3217f8 14044 atomes_1.1.12-3.debian.tar.xz
+ 45fb68856ab9b0ec857248e41cd36e7211df59aee9696e4c52f9b007c1f12c40 10238666 atomes_1.1.12-3.tar.gz
 Files:
- aa819b17c6643b379e14c26424929490 2229628 atomes_1.1.12.orig.tar.xz
- 5e5ef547dc83bd9d3a1f474c27b421ba 14044 atomes_1.1.12-3.debian.tar.xz
+ 620c97271611c3b4c816363d07d32b6c 10238666 atomes_1.1.12-3.tar.gz
 
 -----BEGIN PGP SIGNATURE-----
 
-iI4EARYIADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCZQm+GRgcYXRvbWVzQGlw
-Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cNCZwEAw1brTB0CCkUrv02RgZWci5wl
-M/Pv/KaoJeHG3JP0nE8A/0gsxUCl9bLXFo868xE9UtnJwd1+6ot0W6v4YzlNWCgN
-=8lSc
+iI4EARYIADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCZUEX3RgcYXRvbWVzQGlw
+Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cMbUgD6A5W1qi5RgaYbVanuLTut/HMu
+XTN5B3HuWlEO57w34nkA/2TfHVF5uNntutp4pHJ3Lv0s0+E2yhWW4t0uZEGrQsYC
+=8P1r
 -----END PGP SIGNATURE-----

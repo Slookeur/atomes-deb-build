@@ -1,0 +1,48 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Wed, 28 Feb 2024 18:11:59 +0100
+Source: atomes
+Binary: atomes atomes-dbgsym
+Architecture: source amd64
+Version: 1.1.13-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Sébastien Le Roux <sebastien.leroux@ipcms.unistra.fr>
+Changed-By: Sébastien Le Roux <sebastien.leroux@ipcms.unistra.fr>
+Description:
+ atomes     - <insert up to 60 chars description>
+Changes:
+ atomes (1.1.13-1) unstable; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 28d5c60940c81e11a71fba799aa4e636d1907552 1175 atomes_1.1.13-1.dsc
+ 6434ab1cd3b2895e37b9e23c22cc8b81bb5f8aca 2230216 atomes_1.1.13.orig.tar.xz
+ 524beb522b91f91c159fd29258e918aaed241865 7912 atomes_1.1.13-1.debian.tar.xz
+ 3ebd21470e6ea144921b8a1de50087719bb327ad 1758548 atomes-dbgsym_1.1.13-1_amd64.deb
+ bbb8452ea2cc7fdaba5726752a0fae8a979c7455 5653 atomes_1.1.13-1_amd64.buildinfo
+ 08481b78d1dfcee32a76e9ff7acc81f4cc81c8b1 2093280 atomes_1.1.13-1_amd64.deb
+Checksums-Sha256:
+ c0b4830f9c848f9aca02a4d1e2610ff6fcc6dcfc6e5c0b549423aed1cc286ee1 1175 atomes_1.1.13-1.dsc
+ c00c5edf18d30f62eb2917c5fca76b5595c064bc4de74b0433ab2c0a6bd60deb 2230216 atomes_1.1.13.orig.tar.xz
+ 17787c21f6b6a23798b477b5529320f0d60b76b184aee06539857c115231ca48 7912 atomes_1.1.13-1.debian.tar.xz
+ 0ab4b1288e844996ee65cd90c5b3f704c64a1e1290f0d969dd87ed4e9cd87ad5 1758548 atomes-dbgsym_1.1.13-1_amd64.deb
+ 7d1ee09a0f197c6422207fe41410f8825db0a7067d17b3d6217c6ca3add8fe56 5653 atomes_1.1.13-1_amd64.buildinfo
+ 5a1c0688d37fa2abf982127ef0fe218145b32be1961a858cf8d31cc9fe208e5d 2093280 atomes_1.1.13-1_amd64.deb
+Files:
+ 919b6c0f35e33e5b6a67f70ac931967d 1175 unknown optional atomes_1.1.13-1.dsc
+ a9ef73e117a74b0a8f47e032b1a3838a 2230216 unknown optional atomes_1.1.13.orig.tar.xz
+ d4f62d42e286b332f945abd4d045858a 7912 unknown optional atomes_1.1.13-1.debian.tar.xz
+ 7bf19321340e1eea041082b4c1ea53a2 1758548 debug optional atomes-dbgsym_1.1.13-1_amd64.deb
+ 490d432d0389391eb48be5d2edf757a1 5653 unknown optional atomes_1.1.13-1_amd64.buildinfo
+ 07d8a5c6ab54eb1dcc2faf54023d57ac 2093280 unknown optional atomes_1.1.13-1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iI4EARYIADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCZd9puxgcYXRvbWVzQGlw
+Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cO1xgEAr5sjqsZSrPEC3wQXIab65j0U
+36xIeLk1mL3GE7nvxSQA/ihn+tQD2mA0uKFQ5KTYVQkmRVBMO3XjgwUEs0LsCkkC
+=tAFv
+-----END PGP SIGNATURE-----

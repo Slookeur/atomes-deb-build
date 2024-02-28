@@ -11,10 +11,10 @@ function autoclean
   rm -f configure~
 }
 
-VERSION="1.1.12"
-OVER="1.1.11"
+VERSION="1.1.13"
+OVER="1.1.12"
 
-CLEAN=1
+CLEAN=0
 if [ $CLEAN -eq 1 ]; then
   rm -f "*_"$OVER"*"
   if [ -d atomes-$VERSION ]; then
@@ -25,7 +25,7 @@ if [ $CLEAN -eq 1 ]; then
   fi
 fi
 
-DOWN=1
+DOWN=0
 if [ $DOWN -eq 1 ]; then
   wget https://github.com/Slookeur/Atomes-GNU/archive/refs/tags/v$VERSION.tar.gz
   tar -zxf v$VERSION.tar.gz
@@ -35,7 +35,7 @@ else
   scp -r leroux@pc-chess:files/git-files/atomes/atomes-all/atomes-$VERSION .
 fi
 
-BUILD=1
+BUILD=0
 if [ $BUILD -eq 1 ]; then
   rm -f *.orig.* 
   cd atomes-$VERSION
@@ -70,7 +70,7 @@ if [ $PIUPARTS -eq 1 ]; then
   sudo piuparts ./atomes-data*.deb &>> results.piuparts
 fi
 
-COPY=0
+COPY=1
 if [ $COPY -eq 1 ]; then
   scp build_deb.sh leroux@pc-chess:files/git-files/atomes/atomes-deb-build/atomes-deb-build/
   debian=`lsb_release -a|grep Release|awk '{print $2}'`
