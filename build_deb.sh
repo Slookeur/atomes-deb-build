@@ -14,7 +14,7 @@ function autoclean
 VERSION="1.1.13"
 OVER="1.1.12"
 
-CLEAN=0
+CLEAN=1
 if [ $CLEAN -eq 1 ]; then
   rm -f "*_"$OVER"*"
   if [ -d atomes-$VERSION ]; then
@@ -25,7 +25,7 @@ if [ $CLEAN -eq 1 ]; then
   fi
 fi
 
-DOWN=0
+DOWN=1
 if [ $DOWN -eq 1 ]; then
   wget https://github.com/Slookeur/Atomes-GNU/archive/refs/tags/v$VERSION.tar.gz
   tar -zxf v$VERSION.tar.gz
@@ -35,7 +35,7 @@ else
   scp -r leroux@pc-chess:files/git-files/atomes/atomes-all/atomes-$VERSION .
 fi
 
-BUILD=0
+BUILD=1
 if [ $BUILD -eq 1 ]; then
   rm -f *.orig.* 
   cd atomes-$VERSION
