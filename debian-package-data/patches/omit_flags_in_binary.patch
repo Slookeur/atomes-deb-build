@@ -7,7 +7,7 @@ Last-Update: 2023-09-19
 
 --- a/src/gui/main.c
 +++ b/src/gui/main.c
-@@ -214,10 +214,10 @@
+@@ -223,10 +223,10 @@
    }
    printf ("OpenMP version         : %1.1f (%s)\n", v, v_string);
  #endif

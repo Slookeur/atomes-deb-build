@@ -1,3 +1,10 @@
+atomes (1.1.14-1) unstable; urgency=medium
+
+  * Bug corrections and improvements.
+  * See: https://github.com/Slookeur/Atomes-GNU/releases/tag/v1.1.14
+
+ -- Sébastien Le Roux <sebastien.leroux@ipcms.unistra.fr>  Wed, 20 Mar 2024 16:15:00 +0200
+
 atomes (1.1.13-1) unstable; urgency=medium
 
   * Bug corrections and improvements.
