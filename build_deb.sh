@@ -11,12 +11,13 @@ function autoclean
   rm -f configure~
 }
 
-VERSION="1.1.13"
-OVER="1.1.12"
+VERSION="1.1.14"
+OVER="1.1.13"
 
-CLEAN=1
+CLEAN=0
 if [ $CLEAN -eq 1 ]; then
-  rm -f "*_"$OVER"*"
+  rm -f "*"$OVER"*"
+  rm -f "*"$VERSION"*"
   if [ -d atomes-$VERSION ]; then
     rm -rf atomes-$VERSION
   fi
@@ -25,7 +26,7 @@ if [ $CLEAN -eq 1 ]; then
   fi
 fi
 
-DOWN=1
+DOWN=0
 if [ $DOWN -eq 1 ]; then
   wget https://github.com/Slookeur/Atomes-GNU/archive/refs/tags/v$VERSION.tar.gz
   tar -zxf v$VERSION.tar.gz
@@ -35,7 +36,7 @@ else
   scp -r leroux@pc-chess:files/git-files/atomes/atomes-all/atomes-$VERSION .
 fi
 
-BUILD=1
+BUILD=0
 if [ $BUILD -eq 1 ]; then
   rm -f *.orig.* 
   cd atomes-$VERSION
@@ -49,7 +50,7 @@ if [ $BUILD -eq 1 ]; then
   cd ..
 fi
 
-TEST=1
+TEST=0
 if [ $TEST -eq 1 ]; then
   lintian  -EviIL +pedantic ./atomes_*changes >& results.lintian
   cd atomes-$VERSION
