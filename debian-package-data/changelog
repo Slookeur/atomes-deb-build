@@ -1,21 +1,38 @@
+atomes (1.1.15-1) unstable; urgency=medium
+
+  * New upstream version
+
+ --  Sébastien Le Roux <sebastien.leroux@ipcms.unistra.fr>  Fri, 04 Oct 2024 14:26:10 +0200
+
+atomes (1.1.14-1.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * debian/control: Removed hard-coded dependency on libgtk-3-0 (Closes:
+    #1068217)
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Sat, 13 Apr 2024 19:42:07 +0200
+
 atomes (1.1.14-1) unstable; urgency=medium
 
-  * Bug corrections and improvements.
-  * See: https://github.com/Slookeur/Atomes-GNU/releases/tag/v1.1.14
+  * New upstream version
+  * Refreshing patches
 
- -- Sébastien Le Roux <sebastien.leroux@ipcms.unistra.fr>  Wed, 20 Mar 2024 16:15:00 +0200
+  [ Pierre Gruet ]
+  * Replacing obsolete pkg-config by pkgconf in the build-dependencies
 
-atomes (1.1.13-1) unstable; urgency=medium
+ -- Sébastien Le Roux <sebastien.leroux@ipcms.unistra.fr>  Wed, 20 Mar 2024 16:40:00 +0200
 
-  * Bug corrections and improvements.
-  * See: https://github.com/Slookeur/Atomes-GNU/releases/tag/v1.1.13
+atomes (1.1.12+repack-2) unstable; urgency=medium
 
- -- Sébastien Le Roux <sebastien.leroux@ipcms.unistra.fr>  Wed, 28 Feb 2024 18:04:00 +0200
- 
-atomes (1.1.12-3) unstable; urgency=medium
+  * Team upload
+  * Removing -fstack-protector-strong from FCFLAGS on arm64 to circumvent gcc
+    bug 111528
 
-  * Bug corrections and improvements.
-  * See: https://github.com/Slookeur/Atomes-GNU/releases/tag/v1.1.12
+ -- Pierre Gruet <pgt@debian.org>  Wed, 27 Sep 2023 09:41:46 +0200
+
+atomes (1.1.12+repack-1) unstable; urgency=medium
+
+  * New upstream version
 
  -- Sébastien Le Roux <sebastien.leroux@ipcms.unistra.fr>  Tue, 19 Sep 2023 15:45:00 +0200
 

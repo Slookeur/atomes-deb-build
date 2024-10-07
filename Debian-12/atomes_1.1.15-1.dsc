@@ -2,7 +2,7 @@ Format: 3.0 (quilt)
 Source: atomes
 Binary: atomes, atomes-data
 Architecture: any all
-Version: 1.1.14-1
+Version: 1.1.15-1
 Maintainer: Debichem Team <debichem-devel@lists.alioth.debian.org>
 Uploaders: Sébastien Le Roux <sebastien.leroux@ipcms.unistra.fr>
 Homepage: https://atomes.ipcms.fr/
@@ -14,11 +14,11 @@ Package-List:
  atomes deb science optional arch=any
  atomes-data deb science optional arch=all
 Checksums-Sha1:
- abb4299887c3cdd5928b7cffc5e49a65c308ab1f 2257792 atomes_1.1.14.orig.tar.xz
- e1ea108796c2c04fcebfb8bea5ee0a0b4bdf27a6 14008 atomes_1.1.14-1.debian.tar.xz
+ 05ababda29325a2b231bc44726d5650f9e182d82 3557684 atomes_1.1.15.orig.tar.xz
+ d90e6b261e849018e58faa147ff92682afed28d8 14216 atomes_1.1.15-1.debian.tar.xz
 Checksums-Sha256:
- 2787f2ab65cdd188b36b763cc72f5550e7996874d3f78efaeeab91890ddee8e2 2257792 atomes_1.1.14.orig.tar.xz
- ddcb06e4b92afa8ffa8d1be394898629aeb7380c8c38c021b5d4571cb7921d37 14008 atomes_1.1.14-1.debian.tar.xz
+ 977263850f3e7f61a85cf1c9eb67151348c0990adb2622d3f88d9f58b01f842b 3557684 atomes_1.1.15.orig.tar.xz
+ 669235b5e4a9f81a5dcd15f8c9f4414c6b06885e229b52290815803711ee0ce4 14216 atomes_1.1.15-1.debian.tar.xz
 Files:
- 6eadbff18772c55f31625809bd2a2bf3 2257792 atomes_1.1.14.orig.tar.xz
- 848d58d214a46c52bc9b7007a48e37ac 14008 atomes_1.1.14-1.debian.tar.xz
+ adb05ee126922576a70e1bfd813a353a 3557684 atomes_1.1.15.orig.tar.xz
+ 07382917cef1f20e653b8a44e30e1ff1 14216 atomes_1.1.15-1.debian.tar.xz

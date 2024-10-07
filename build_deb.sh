@@ -11,10 +11,10 @@ function autoclean
   rm -f configure~
 }
 
-VERSION="1.1.14"
-OVER="1.1.13"
+VERSION="1.1.15"
+OVER="1.1.14"
 
-CLEAN=0
+CLEAN=1
 if [ $CLEAN -eq 1 ]; then
   rm -f "*"$OVER"*"
   rm -f "*"$VERSION"*"
@@ -26,7 +26,7 @@ if [ $CLEAN -eq 1 ]; then
   fi
 fi
 
-DOWN=0
+DOWN=1
 if [ $DOWN -eq 1 ]; then
   wget https://github.com/Slookeur/Atomes-GNU/archive/refs/tags/v$VERSION.tar.gz
   tar -zxf v$VERSION.tar.gz
@@ -36,7 +36,7 @@ else
   scp -r leroux@pc-chess:files/git-files/atomes/atomes-all/atomes-$VERSION .
 fi
 
-BUILD=0
+BUILD=1
 if [ $BUILD -eq 1 ]; then
   rm -f *.orig.* 
   cd atomes-$VERSION
@@ -46,11 +46,12 @@ if [ $BUILD -eq 1 ]; then
   export DEBEMAIL="sebastien.leroux@ipcms.unistra.fr"
   export DEBFULLNAME="Sébastien Le Roux"
   dh_make --createorig -s -y
-  dpkg-buildpackage -katomes@ipcms.unistra.fr
+  dpkg-buildpackage -b --no-sign
+  # -katomes@ipcms.unistra.fr
   cd ..
 fi
 
-TEST=0
+TEST=1
 if [ $TEST -eq 1 ]; then
   lintian  -EviIL +pedantic ./atomes_*changes >& results.lintian
   cd atomes-$VERSION
@@ -59,7 +60,7 @@ if [ $TEST -eq 1 ]; then
   cd ..
 fi
 
-PIUPARTS=0
+PIUPARTS=1
 if [ $PIUPARTS -eq 1 ]; then
   # To use piuparts remove the atomes-data dependency
   echo "Piuparts on atomes.deb" > results.piuparts
