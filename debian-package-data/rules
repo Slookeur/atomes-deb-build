@@ -4,5 +4,9 @@
 
 export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 
+ifeq ($(shell dpkg --print-architecture),arm64)
+	export DEB_FCFLAGS_MAINT_STRIP=-fstack-protector-strong
+endif
+
 %:
 	dh $@

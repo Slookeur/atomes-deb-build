@@ -3,7 +3,7 @@ Description: removing FLAGS from the contents of the built executable file in
  shipped inside /usr/bin/atomes.
 Author: Pierre Gruet <pgt@debian.org>
 Forwarded: not-needed
-Last-Update: 2023-09-19
+Last-Update: 2024-03-20
 
 --- a/src/gui/main.c
 +++ b/src/gui/main.c

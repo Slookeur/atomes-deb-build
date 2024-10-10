@@ -7,23 +7,23 @@ Binary: atomes atomes-data atomes-dbgsym
 Architecture: all amd64 source
 Version: 1.1.15-1
 Checksums-Md5:
- 5c5eca8b7c70105044c27e011e903009 1625 atomes_1.1.15-1.dsc
+ d8595becfaf212f2f2e5f0a16dbc5a5d 1625 atomes_1.1.15-1.dsc
  a33bdf579bde56e5412cb492051f5ef7 1144848 atomes-data_1.1.15-1_all.deb
- 7bb66a06ff179922c30a0d773956e0d5 1772440 atomes-dbgsym_1.1.15-1_amd64.deb
- ccb6485d80e25960b1df1410a160ae8e 977804 atomes_1.1.15-1_amd64.deb
+ 0fb7113d8a37a3fb31bcdcd8d5d59de0 1772628 atomes-dbgsym_1.1.15-1_amd64.deb
+ a74e6f82cd687540ac66b0e88eacc44b 977796 atomes_1.1.15-1_amd64.deb
 Checksums-Sha1:
- e77ebbd39b70aafe4acf4d3a975339f839cb3ca8 1625 atomes_1.1.15-1.dsc
+ 1e94ef5df8dad8e3434bb6f71e78eef01f924f77 1625 atomes_1.1.15-1.dsc
  a373ecc0d40cfacf3de3d2ca0d166411d3d85cbb 1144848 atomes-data_1.1.15-1_all.deb
- 58276448f5a90e00128c4566a755749d99ee72e7 1772440 atomes-dbgsym_1.1.15-1_amd64.deb
- a6c0722a99abec3860f599866da2ff9570ce4a12 977804 atomes_1.1.15-1_amd64.deb
+ 96b3fbc4ddfec6ac7fe342690279424bd9a90329 1772628 atomes-dbgsym_1.1.15-1_amd64.deb
+ 04536a2eff7dd7d0725add6a278c2f9915dc4a98 977796 atomes_1.1.15-1_amd64.deb
 Checksums-Sha256:
- 3d68f5e4faa066138ed5f12dee8e8bf2a8de4baa3b50bd1a3d5749898a9cb0c7 1625 atomes_1.1.15-1.dsc
+ f4330ebc1c8cd85efc3cb0d8b6b314b75430c9e9db392b3eacacf79b74493f2c 1625 atomes_1.1.15-1.dsc
  3c4cbdb125b20270f4fa7bae1ecd9a2799a45d2739aeb1ccd55542d32f766032 1144848 atomes-data_1.1.15-1_all.deb
- de04a48c6820f1526409441c2210e742e55c34fea957043f727820a4039f8c67 1772440 atomes-dbgsym_1.1.15-1_amd64.deb
- 9cbea4e183672ededbbb3565d26774d0ab642326e1c054f8ed2493eacad61289 977804 atomes_1.1.15-1_amd64.deb
+ 95395f32d913ea8a7dcd8ade96c88386d231a0aa53327064d2900e1c61033834 1772628 atomes-dbgsym_1.1.15-1_amd64.deb
+ 137e33aebf82c28564d83fa4d0f49a4be82bffe9d13544fd5fb1802f4eda3792 977796 atomes_1.1.15-1_amd64.deb
 Build-Origin: Debian
 Build-Architecture: amd64
-Build-Date: Mon, 07 Oct 2024 15:58:01 +0200
+Build-Date: Thu, 10 Oct 2024 11:57:33 +0200
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
 Installed-Build-Depends:
@@ -524,8 +524,8 @@ Environment:
 
 -----BEGIN PGP SIGNATURE-----
 
-iI4EARYIADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCZwPo6hgcYXRvbWVzQGlw
-Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cPiqwD9EfUOcbuvMRz3nATSM6hOVj3R
-SPpLhSlGL9ecozO3dBkA/3lyrUf2s5FCbOFi9AC7aJR6lMPNrN7t2HxV5nniujUE
-=nR7F
+iI4EARYIADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCZwelDhgcYXRvbWVzQGlw
+Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cNYXwEAkJ4eUazk1Z4jM2oMdgQnW77i
+N0ISGIadk/UwQWnFx0MBAIPPju8gdgNBmed30INVho0zw3ZWS+ZNffUQV/sEU8gG
+=olyX
 -----END PGP SIGNATURE-----
