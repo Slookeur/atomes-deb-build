@@ -1,5 +1,5 @@
 Format: 1.8
-Date: Wen, 18 Dec 2024 11:03:45 +0200
+Date: Wed, 18 Dec 2024 11:03:45 +0200
 Source: atomes
 Binary: atomes atomes-data atomes-dbgsym
 Architecture: all amd64
@@ -16,17 +16,17 @@ Changes:
  .
    * New upstream version
 Checksums-Sha1:
- ffcb575e0e5906ced1db62cd0e47472d217cc415 1143356 atomes-data_1.1.16-1_all.deb
- 43739416cfa7c6081d91da8057535652233bc163 1765468 atomes-dbgsym_1.1.16-1_amd64.deb
- d79c4f888ea291685ee8b7e756764d05a6ca4faa 16440 atomes_1.1.16-1_amd64.buildinfo
- f23e1543b3d3fbeaa3b0e9a2767b5dc1e8ea0d49 987932 atomes_1.1.16-1_amd64.deb
+ 444b4bfd7a73b4d2eae3812bb6e9c9b9ea0f372e 1143364 atomes-data_1.1.16-1_all.deb
+ aa1d126495cdf0e1927527bc96e36fd82b97c3a9 1765548 atomes-dbgsym_1.1.16-1_amd64.deb
+ 4aac337ffc52d9c6102402c55afec74d2f62aed9 16440 atomes_1.1.16-1_amd64.buildinfo
+ dc1b62c227672dbd439b1a02ca87a54e98d40878 987608 atomes_1.1.16-1_amd64.deb
 Checksums-Sha256:
- d4609f92a15ecea96b021aa524c881bb264285569db97a98287fe60aab667c10 1143356 atomes-data_1.1.16-1_all.deb
- 6259de90847322fc6fa49d4a04b22bbe2763fc6ac190c1f8d1f70391b1b3cb9b 1765468 atomes-dbgsym_1.1.16-1_amd64.deb
- b33a7b8ce0c5f1df509bc141a0d0a17f2d0a55a3a1ef9370582404e0fdb005cc 16440 atomes_1.1.16-1_amd64.buildinfo
- c03682b5989e6a9fccef8d7f9bc3726e47379b839ad3eb4a888f9ea22df6a278 987932 atomes_1.1.16-1_amd64.deb
+ eb01bbaae943d22c12c31988372f69f1d0067d67db11f24271c585dd871ffd9b 1143364 atomes-data_1.1.16-1_all.deb
+ 3cafd441d67de3e861fc9639731a51d5b4d917381b4022f2ebfc3f93244dae1c 1765548 atomes-dbgsym_1.1.16-1_amd64.deb
+ 078df68f41317d0b26f6ea4c95127fdfa40c07eea92f4ce8192ca8ca0d7487bd 16440 atomes_1.1.16-1_amd64.buildinfo
+ 68ee354aa1e445a3e87214e2f2402ce27455c130b11acfe2acdddcf5598991f6 987608 atomes_1.1.16-1_amd64.deb
 Files:
- db96563d093ff629046abc2d679aab91 1143356 science optional atomes-data_1.1.16-1_all.deb
- d8c8ae648e0e42228b6c40d16b984cdd 1765468 debug optional atomes-dbgsym_1.1.16-1_amd64.deb
- 474fc255993341bd6fa62e2d01a271b0 16440 science optional atomes_1.1.16-1_amd64.buildinfo
- b7b5b9d2ad86f572d6525cda72d73df7 987932 science optional atomes_1.1.16-1_amd64.deb
+ e5cd3678e35f1ad46dea9d8fd1dd840a 1143364 science optional atomes-data_1.1.16-1_all.deb
+ 012fed45d44303353b9ae52d39103eca 1765548 debug optional atomes-dbgsym_1.1.16-1_amd64.deb
+ a1a749250aecc174846221590f859b2b 16440 science optional atomes_1.1.16-1_amd64.buildinfo
+ 43775c34e7e355526f0dade97eaacb4b 987608 science optional atomes_1.1.16-1_amd64.deb
