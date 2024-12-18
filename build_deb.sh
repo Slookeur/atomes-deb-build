@@ -11,8 +11,8 @@ function autoclean
   rm -f configure~
 }
 
-VERSION="1.1.15"
-OVER="1.1.14"
+VERSION="1.1.16"
+OVER="1.1.15"
 
 CLEAN=1
 if [ $CLEAN -eq 1 ]; then
