@@ -19,34 +19,34 @@ Changes:
  .
    * New upstream version 1.1.17
 Checksums-Sha1:
- 6fc061e94d4977c3e43a1902d944c8a238e270c0 1625 atomes_1.1.17-1.dsc
- 1d0e7c78a175a247b662b1261036b1df6da9776d 3566428 atomes_1.1.17.orig.tar.xz
+ c6701323b4fa24b626b127927cfcc5b82e50e12c 1625 atomes_1.1.17-1.dsc
+ ae32226a07fce5df0862a55a53e21b55f1a231c2 3566244 atomes_1.1.17.orig.tar.xz
  35d53fbc71c859f54c694eacd5f187da29c8c2ce 14376 atomes_1.1.17-1.debian.tar.xz
- 301f88202cd5c99d25b93f4f15e598c8ff056457 1143932 atomes-data_1.1.17-1_all.deb
+ 69f4a86bdf00a0adde7c4726e497306c835ce644 1143916 atomes-data_1.1.17-1_all.deb
  3019e6f73c9f5639adfd8367959fbdff9530b871 1772652 atomes-dbgsym_1.1.17-1_amd64.deb
- 9ed57ccd480e6a8e7458b065c308fb0c17e1a9c5 16563 atomes_1.1.17-1_amd64.buildinfo
- 7ee01e1574aa3f186b822c067b6c42b081cd8a1d 979316 atomes_1.1.17-1_amd64.deb
+ 739ecfb2badb890ff27812585b03908f98bcff31 16563 atomes_1.1.17-1_amd64.buildinfo
+ d713609c526e0c6f1943c6366227f828bbd2cd36 979324 atomes_1.1.17-1_amd64.deb
 Checksums-Sha256:
- d2af8f877d4c83095e8d66993ee8ced7151a40e569138e55c0e7e8616a165f2c 1625 atomes_1.1.17-1.dsc
- c74e979537830458f5292d38d9f9a9b6a03e202325ade2f329b72a1e1b925724 3566428 atomes_1.1.17.orig.tar.xz
+ 4148903de34ad860482e26da1cd00ad7b71c5658afef7b06b53d2f1d741a388e 1625 atomes_1.1.17-1.dsc
+ 0e7982bf1d625a2a619656dc619592d4e3de9db3e950eddf9256cae95d5e1d7e 3566244 atomes_1.1.17.orig.tar.xz
  62a3598274ae38b9bd823d91992806de521984b79bd019ae0ff7209055d81205 14376 atomes_1.1.17-1.debian.tar.xz
- baa004ab034dc57d31a977663eeacb4baaf0bbb0d599ceb6243ad5b5870bd3f9 1143932 atomes-data_1.1.17-1_all.deb
+ efe5d5ee504f9e23c284bf25f2776adee86baf957f92cb90a77a3e3747e1fc69 1143916 atomes-data_1.1.17-1_all.deb
  04e5ef662e893cb5154b0b6909ea2389204e1ebae86c17612b759d989c8b5407 1772652 atomes-dbgsym_1.1.17-1_amd64.deb
- a36ce6729f24d883bade103879c38c6198d417b44f2a4823693e66b7c8f3a2f1 16563 atomes_1.1.17-1_amd64.buildinfo
- f120a9411292d26caf71572670f71a62c5567109c544fa92986a7653ffdb0414 979316 atomes_1.1.17-1_amd64.deb
+ 6a85d30bf047c42ae8c2785d818830cf411c70664bf8f849f270d265a0b45dc3 16563 atomes_1.1.17-1_amd64.buildinfo
+ c2ba188db303e54c97824360ddd6c9720e3e410b680704e7b0a52010cbc2ef2a 979324 atomes_1.1.17-1_amd64.deb
 Files:
- 9213fdebe3b1886f3f6faa0357188a61 1625 science optional atomes_1.1.17-1.dsc
- de0b1a72a564ac4fb7348969d4e1509e 3566428 science optional atomes_1.1.17.orig.tar.xz
+ 68f25e40b6e4a3fd4f99cc015a5d799f 1625 science optional atomes_1.1.17-1.dsc
+ 63916dad5cb8bf14dbd40342b24cbd42 3566244 science optional atomes_1.1.17.orig.tar.xz
  b812ef7bb4dddfe1b4ad6d1c9d212dd6 14376 science optional atomes_1.1.17-1.debian.tar.xz
- bd4d7386f4899244f67fe34b6a4b763a 1143932 science optional atomes-data_1.1.17-1_all.deb
+ 500b95a25b3199589daebaaa93260aa6 1143916 science optional atomes-data_1.1.17-1_all.deb
  b5a6333df726be9eee7121f5934cff68 1772652 debug optional atomes-dbgsym_1.1.17-1_amd64.deb
- cb07a306a5484dcf2d27a598a0f5d038 16563 science optional atomes_1.1.17-1_amd64.buildinfo
- e1f80471a82e0c212b5d5ff98dea8293 979316 science optional atomes_1.1.17-1_amd64.deb
+ 0a2b3c73a33bfbc440e00702f9665c4c 16563 science optional atomes_1.1.17-1_amd64.buildinfo
+ 8edc813d7de7c57f99cfef0f0f67ff47 979324 science optional atomes_1.1.17-1_amd64.deb
 
 -----BEGIN PGP SIGNATURE-----
 
-iI4EARYIADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCZ7dPQBgcYXRvbWVzQGlw
-Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cMPqQD/RY0YKkzn6UFjZ88o6cwVJmeJ
-s5fyMvU6KHdqmLHtxqkBALPtFW3tgZ15Qai2AA6HNSrDyWz2+P3Nst2/ftV5lcAC
-=O/89
+iI4EARYIADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCZ7dSehgcYXRvbWVzQGlw
+Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cMDSAEAwJRNco4m1LjkiyOGESSbtL8S
+YmoJ6I0+Q8YDxN+JJlgA/j41Gz7RmTJSP06YwScItv8giQtrcA6ktYtf8IiG2qcD
+=r0yW
 -----END PGP SIGNATURE-----
