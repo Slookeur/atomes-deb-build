@@ -28,9 +28,9 @@ fi
 
 DOWN=1
 if [ $DOWN -eq 1 ]; then
-  wget https://github.com/Slookeur/Atomes-GNU/archive/refs/tags/v$VERSION.tar.gz
+  wget https://github.com/Slookeur/atomes-GNU/archive/refs/tags/v$VERSION.tar.gz
   tar -zxf v$VERSION.tar.gz
-  mv Atomes-GNU-$VERSION atomes-$VERSION
+  mv atomes-GNU-$VERSION atomes-$VERSION
   rm v$VERSION.tar.gz
 else
   scp -r leroux@pc-chess:files/git-files/atomes/atomes-all/atomes-$VERSION .
