@@ -2,7 +2,7 @@ Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: atomes
 Upstream-Contact: atomes@ipcms.unistra.fr
                   Sébastien Le Roux <sebastien.leroux@ipcms.unistra.fr>
-Source: https://github.com/Slookeur/atomes-GNU/
+Source: https://github.com/Slookeur/Atomes-GNU/
 
 Files:     *
 Copyright: 2022-2023 Dr. Sébastien Le Roux

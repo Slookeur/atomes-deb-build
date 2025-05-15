@@ -11,13 +11,13 @@ function autoclean
   rm -f configure~
 }
 
-VERSION="1.1.17"
-OVER="1.1.16"
+VERSION="1.1.18"
+OVER="1.1.17"
 
 CLEAN=1
 if [ $CLEAN -eq 1 ]; then
-  rm -f "*"$OVER"*"
-  rm -f "*"$VERSION"*"
+  rm -f "\*"$OVER"\*"
+  rm -f "\*"$VERSION"\*"
   if [ -d atomes-$VERSION ]; then
     rm -rf atomes-$VERSION
   fi

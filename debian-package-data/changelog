@@ -1,8 +1,18 @@
+atomes (1.1.18-1) unstable; urgency=medium
+
+  * New upstream version 1.1.18
+
+ -- Sébastien Le Roux <sebastien.leroux@ipcms.unistra.fr>  Wed, 14 May 2025 16:29:03 +0200
+
 atomes (1.1.17-1) unstable; urgency=medium
 
   * New upstream version 1.1.17
 
- -- Sébastien Le Roux <sebastien.leroux@ipcms.unistra.fr>  Thu, 20 Feb 2025 16:29:53 +0100
+  [ Pierre Gruet ]
+  * Raising Standards version to 4.7.1 (no change)
+  * Bumping d/copyright years
+
+ -- Sébastien Le Roux <sebastien.leroux@ipcms.unistra.fr>  Fri, 21 Feb 2025 10:48:19 +0100
 
 atomes (1.1.16-1) unstable; urgency=medium
 
