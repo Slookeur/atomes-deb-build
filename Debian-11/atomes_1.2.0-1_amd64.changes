@@ -1,0 +1,52 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Fri, 05 Sep 2025 13:00:00 +0200
+Source: atomes
+Binary: atomes atomes-data atomes-dbgsym
+Architecture: source all amd64
+Version: 1.2.0-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debichem Team <debichem-devel@lists.alioth.debian.org>
+Changed-By: Sébastien Le Roux <sebastien.leroux@ipcms.unistra.fr>
+Description:
+ atomes     - atomic-scale 3D modeling toolbox
+ atomes-data - atomic-scale 3D modeling toolbox (data)
+Changes:
+ atomes (1.2.0-1) unstable; urgency=medium
+ .
+   * New upstream version 1.2.0
+Checksums-Sha1:
+ aafa8d50b6843e14a8a424372b68be2c4be96d3d 1618 atomes_1.2.0-1.dsc
+ 082fce7f1d6ad89f8df0a034e24d33680efb5782 3603816 atomes_1.2.0.orig.tar.xz
+ dcbea8586412ed1c3f8bf9d4ba57fbff5bd099ec 14444 atomes_1.2.0-1.debian.tar.xz
+ 6f629b8f3120f95d458ab8cc276b1042d58b5d02 1144384 atomes-data_1.2.0-1_all.deb
+ 0efb8f34b94b483ea961d9347edd72cbab2daf51 1865992 atomes-dbgsym_1.2.0-1_amd64.deb
+ e11a535803f89405f9fd586f71ef5246736e4176 16553 atomes_1.2.0-1_amd64.buildinfo
+ 4544dd0b49d90860aa400b8116ad2809420fbd08 1019156 atomes_1.2.0-1_amd64.deb
+Checksums-Sha256:
+ 087069a64fd3b79cac3767cc697248e30494258735dc3a7a7e3d94cc93a93431 1618 atomes_1.2.0-1.dsc
+ 5596e1033d059466b5dca239a148a790593d31a27de3920d4ded7fcd230a7506 3603816 atomes_1.2.0.orig.tar.xz
+ ff1e528b975c5fddd0d86e45201fafd1145b4a41cfcf0ab1efc08be65206b2fa 14444 atomes_1.2.0-1.debian.tar.xz
+ 2a5f47cddd57a3bd4ece28c9972a694d6b7f288b88aa1bbf405e34dd80726a5f 1144384 atomes-data_1.2.0-1_all.deb
+ a7420fefa4e0178102a227814002322020c78a604fc3fb10bffb8cb194c36e15 1865992 atomes-dbgsym_1.2.0-1_amd64.deb
+ 060cd96015ac6fefab8db071ba073a3a15bd429726bbd849d377b76b404a62ee 16553 atomes_1.2.0-1_amd64.buildinfo
+ c6260e4b6cefde9d7a9074f9f3d6551396b3749875778410981c44d1f238fa63 1019156 atomes_1.2.0-1_amd64.deb
+Files:
+ c11c35df896c2319de4674e1cf9fa6d7 1618 science optional atomes_1.2.0-1.dsc
+ 9057d9e35dc94a1f31c0fb880dbb43e3 3603816 science optional atomes_1.2.0.orig.tar.xz
+ a201b466a23a21ad57eb9a8054efb4f2 14444 science optional atomes_1.2.0-1.debian.tar.xz
+ 65607023504f6cdc2f854385b45009da 1144384 science optional atomes-data_1.2.0-1_all.deb
+ 73a1c18daa7331ce996fa98452e6e329 1865992 debug optional atomes-dbgsym_1.2.0-1_amd64.deb
+ 41262e263c8d3ed5e6aeea765750fda9 16553 science optional atomes_1.2.0-1_amd64.buildinfo
+ e119b1cffc7f1de12c588e40ddf60d4d 1019156 science optional atomes_1.2.0-1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iI4EARYIADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCaLl69RgcYXRvbWVzQGlw
+Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cMidQD+OhotD89/kInkT0Sf1wbTTsJ9
+zNYcuR2j23xCHleOkeIA/i14tZreMUYFJjCHMLDHB7FoBrC991qAgf60HJ57ssMK
+=DXh+
+-----END PGP SIGNATURE-----

@@ -5,7 +5,7 @@ Format: 3.0 (quilt)
 Source: atomes
 Binary: atomes, atomes-data
 Architecture: any all
-Version: 1.1.18-1
+Version: 1.2.0-1
 Maintainer: Debichem Team <debichem-devel@lists.alioth.debian.org>
 Uploaders: Sébastien Le Roux <sebastien.leroux@ipcms.unistra.fr>
 Homepage: https://atomes.ipcms.fr/
@@ -17,19 +17,19 @@ Package-List:
  atomes deb science optional arch=any
  atomes-data deb science optional arch=all
 Checksums-Sha1:
- cacf8210cd6e967fe5dd9af9f7bfe270a543bf98 3566848 atomes_1.1.18.orig.tar.xz
- 0abb3961bc29ef6dcf7beb7977b7649dea42fc05 14424 atomes_1.1.18-1.debian.tar.xz
+ 082fce7f1d6ad89f8df0a034e24d33680efb5782 3603816 atomes_1.2.0.orig.tar.xz
+ dcbea8586412ed1c3f8bf9d4ba57fbff5bd099ec 14444 atomes_1.2.0-1.debian.tar.xz
 Checksums-Sha256:
- 38c7751609fa787c3a3b5f3e8a23c5438cec1c96458dc839494c5080ade64718 3566848 atomes_1.1.18.orig.tar.xz
- 9333bb89dfa3879a1bff098181b1b3960ab900c4d81788a5fa80804b09ce8790 14424 atomes_1.1.18-1.debian.tar.xz
+ 5596e1033d059466b5dca239a148a790593d31a27de3920d4ded7fcd230a7506 3603816 atomes_1.2.0.orig.tar.xz
+ ff1e528b975c5fddd0d86e45201fafd1145b4a41cfcf0ab1efc08be65206b2fa 14444 atomes_1.2.0-1.debian.tar.xz
 Files:
- a2531a0cf890c4cb53957ae5dd262fbd 3566848 atomes_1.1.18.orig.tar.xz
- 6bad4e785d0f46a5c657951fd9c1c364 14424 atomes_1.1.18-1.debian.tar.xz
+ 9057d9e35dc94a1f31c0fb880dbb43e3 3603816 atomes_1.2.0.orig.tar.xz
+ a201b466a23a21ad57eb9a8054efb4f2 14444 atomes_1.2.0-1.debian.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iI4EARYIADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCaCWWjxgcYXRvbWVzQGlw
-Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cP8qgEAhXm0lkXu9sf/zSBePnAeQRL5
-f3Y4nW7iGwrGdqRXFv0BAP4WgfiLZHm+UnJbI7wazh61Bz7gkFrqLXfVxsDdZ54L
-=c6bM
+iI4EARYIADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCaLl69BgcYXRvbWVzQGlw
+Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cM3KQEAl3rXGE6Xyxc3hrYSitLHT0Ts
+6ddBG+VCoFzI4zNeeNwBAKZdAh6R46VzrcA4NnowZ8UA4WpNIT2pt2KwJf+fFw0F
+=I1Ln
 -----END PGP SIGNATURE-----
