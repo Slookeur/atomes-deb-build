@@ -19,34 +19,34 @@ Changes:
  .
    * New upstream version 1.2.0
 Checksums-Sha1:
- aafa8d50b6843e14a8a424372b68be2c4be96d3d 1618 atomes_1.2.0-1.dsc
- 082fce7f1d6ad89f8df0a034e24d33680efb5782 3603816 atomes_1.2.0.orig.tar.xz
- dcbea8586412ed1c3f8bf9d4ba57fbff5bd099ec 14444 atomes_1.2.0-1.debian.tar.xz
- 6f629b8f3120f95d458ab8cc276b1042d58b5d02 1144384 atomes-data_1.2.0-1_all.deb
- 0efb8f34b94b483ea961d9347edd72cbab2daf51 1865992 atomes-dbgsym_1.2.0-1_amd64.deb
- e11a535803f89405f9fd586f71ef5246736e4176 16553 atomes_1.2.0-1_amd64.buildinfo
- 4544dd0b49d90860aa400b8116ad2809420fbd08 1019156 atomes_1.2.0-1_amd64.deb
+ 617a1352dcb049bf193ddcfc5afd80bb56a08e09 1618 atomes_1.2.0-1.dsc
+ 071d1f87fcacac5c02a2f451782bb1e810100bb7 3603760 atomes_1.2.0.orig.tar.xz
+ 83a6c912a0aaedccb54d364eeae39a1507d81d12 14452 atomes_1.2.0-1.debian.tar.xz
+ 0b00b0c4b9eca338683bcb36495c6da60f862039 1145244 atomes-data_1.2.0-1_all.deb
+ 500a7668bc666d5fe7281a18ef37bbd43fc7aa19 1866024 atomes-dbgsym_1.2.0-1_amd64.deb
+ f16c109e7cf857e2a60a50ddc233907b58e35deb 16697 atomes_1.2.0-1_amd64.buildinfo
+ 6e746d3a953f462af13713257645d0aa10383cf2 1018760 atomes_1.2.0-1_amd64.deb
 Checksums-Sha256:
- 087069a64fd3b79cac3767cc697248e30494258735dc3a7a7e3d94cc93a93431 1618 atomes_1.2.0-1.dsc
- 5596e1033d059466b5dca239a148a790593d31a27de3920d4ded7fcd230a7506 3603816 atomes_1.2.0.orig.tar.xz
- ff1e528b975c5fddd0d86e45201fafd1145b4a41cfcf0ab1efc08be65206b2fa 14444 atomes_1.2.0-1.debian.tar.xz
- 2a5f47cddd57a3bd4ece28c9972a694d6b7f288b88aa1bbf405e34dd80726a5f 1144384 atomes-data_1.2.0-1_all.deb
- a7420fefa4e0178102a227814002322020c78a604fc3fb10bffb8cb194c36e15 1865992 atomes-dbgsym_1.2.0-1_amd64.deb
- 060cd96015ac6fefab8db071ba073a3a15bd429726bbd849d377b76b404a62ee 16553 atomes_1.2.0-1_amd64.buildinfo
- c6260e4b6cefde9d7a9074f9f3d6551396b3749875778410981c44d1f238fa63 1019156 atomes_1.2.0-1_amd64.deb
+ 264b04eaa36a84164287a57b84b4b472ed902b5d01ff93fbb8493cbbb9cf874e 1618 atomes_1.2.0-1.dsc
+ 0f6eedf0e5c98f4cf9c784f6ea72efbcfa43e8884773aecc089ee525ffcb0f62 3603760 atomes_1.2.0.orig.tar.xz
+ b8ecc276151f03511dbaf15fea050a123aea67c98ac7c16bae3f0dfa3d80f4b8 14452 atomes_1.2.0-1.debian.tar.xz
+ 8d062fe788349d12e73b40a9e82a2ccb33eb65a35726cf4138398a067e43a6aa 1145244 atomes-data_1.2.0-1_all.deb
+ 10bc8b487dbabe7966df5a9406310ca7d11efe36fbd7eee667984dd88dcda84e 1866024 atomes-dbgsym_1.2.0-1_amd64.deb
+ 75c3e776f27e7f4f31b64c6fd64a8726ae11251f9e7403410b8bed62b47c8024 16697 atomes_1.2.0-1_amd64.buildinfo
+ 2d647f45319830aa2c7411834de4f0cf4843f9780b5ea588fac6781190da13e3 1018760 atomes_1.2.0-1_amd64.deb
 Files:
- c11c35df896c2319de4674e1cf9fa6d7 1618 science optional atomes_1.2.0-1.dsc
- 9057d9e35dc94a1f31c0fb880dbb43e3 3603816 science optional atomes_1.2.0.orig.tar.xz
- a201b466a23a21ad57eb9a8054efb4f2 14444 science optional atomes_1.2.0-1.debian.tar.xz
- 65607023504f6cdc2f854385b45009da 1144384 science optional atomes-data_1.2.0-1_all.deb
- 73a1c18daa7331ce996fa98452e6e329 1865992 debug optional atomes-dbgsym_1.2.0-1_amd64.deb
- 41262e263c8d3ed5e6aeea765750fda9 16553 science optional atomes_1.2.0-1_amd64.buildinfo
- e119b1cffc7f1de12c588e40ddf60d4d 1019156 science optional atomes_1.2.0-1_amd64.deb
+ c3eeccc9e0e5ff588ed1f965b4795580 1618 science optional atomes_1.2.0-1.dsc
+ d8f575b8c48bce49cdc44d1f825cfd96 3603760 science optional atomes_1.2.0.orig.tar.xz
+ 7e848e4a86e96bbdd9e300affe4f8708 14452 science optional atomes_1.2.0-1.debian.tar.xz
+ 5b5bf0068e277757b5562ef08f402971 1145244 science optional atomes-data_1.2.0-1_all.deb
+ d8bdc1b23b868d07d8a5d2225a8331a9 1866024 debug optional atomes-dbgsym_1.2.0-1_amd64.deb
+ 47edb68df556d4ca222bdd93a9f75f72 16697 science optional atomes_1.2.0-1_amd64.buildinfo
+ 80a80b88315daf67e408ba6d6632c0b3 1018760 science optional atomes_1.2.0-1_amd64.deb
 
 -----BEGIN PGP SIGNATURE-----
 
-iI4EARYIADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCaLl69RgcYXRvbWVzQGlw
-Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cMidQD+OhotD89/kInkT0Sf1wbTTsJ9
-zNYcuR2j23xCHleOkeIA/i14tZreMUYFJjCHMLDHB7FoBrC991qAgf60HJ57ssMK
-=DXh+
+iI4EARYIADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCaL6XBBgcYXRvbWVzQGlw
+Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cN2BgD/ebmcczYRJYkeE9hp8+jo6eQv
+1kIOYUJ10uDpGJZwCgMA/Ah3JY6JV05RT41zTdAYvJIF7+OJrjdog4g3/3qqAjUM
+=EpUU
 -----END PGP SIGNATURE-----

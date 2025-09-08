@@ -3,11 +3,11 @@ Description: removing FLAGS from the contents of the built executable file in
  shipped inside /usr/bin/atomes.
 Author: Pierre Gruet <pgt@debian.org>
 Forwarded: not-needed
-Last-Update: 2024-03-20
+Last-Update: 2025-09-05
 
 --- a/src/gui/main.c
 +++ b/src/gui/main.c
-@@ -223,10 +223,10 @@
+@@ -224,10 +224,10 @@
    }
    printf ("OpenMP version         : %1.1f (%s)\n", v, v_string);
  #endif
