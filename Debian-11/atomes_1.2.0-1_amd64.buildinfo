@@ -7,23 +7,23 @@ Binary: atomes atomes-data atomes-dbgsym
 Architecture: all amd64 source
 Version: 1.2.0-1
 Checksums-Md5:
- c3eeccc9e0e5ff588ed1f965b4795580 1618 atomes_1.2.0-1.dsc
- 5b5bf0068e277757b5562ef08f402971 1145244 atomes-data_1.2.0-1_all.deb
+ a59862b2694c604d76d42f99f18441c8 1618 atomes_1.2.0-1.dsc
+ 734f44423a0873bd7bec01e145b06def 1145228 atomes-data_1.2.0-1_all.deb
  d8bdc1b23b868d07d8a5d2225a8331a9 1866024 atomes-dbgsym_1.2.0-1_amd64.deb
  80a80b88315daf67e408ba6d6632c0b3 1018760 atomes_1.2.0-1_amd64.deb
 Checksums-Sha1:
- 617a1352dcb049bf193ddcfc5afd80bb56a08e09 1618 atomes_1.2.0-1.dsc
- 0b00b0c4b9eca338683bcb36495c6da60f862039 1145244 atomes-data_1.2.0-1_all.deb
+ 12b8e3d6b25c9fb0e655cc4719ff0a3c853a1bd2 1618 atomes_1.2.0-1.dsc
+ 8afdac40423aaa015092c1acc6074ab3ff187e2e 1145228 atomes-data_1.2.0-1_all.deb
  500a7668bc666d5fe7281a18ef37bbd43fc7aa19 1866024 atomes-dbgsym_1.2.0-1_amd64.deb
  6e746d3a953f462af13713257645d0aa10383cf2 1018760 atomes_1.2.0-1_amd64.deb
 Checksums-Sha256:
- 264b04eaa36a84164287a57b84b4b472ed902b5d01ff93fbb8493cbbb9cf874e 1618 atomes_1.2.0-1.dsc
- 8d062fe788349d12e73b40a9e82a2ccb33eb65a35726cf4138398a067e43a6aa 1145244 atomes-data_1.2.0-1_all.deb
+ 7d98821d60a222a34c9f9b473199eb3979ff1a1d89db081babe0ca79e3fd21f8 1618 atomes_1.2.0-1.dsc
+ 0002a63c1d9c6dcad0b82c404fc5c139f9ee7d1b5d44627ee08b50084b9e80bc 1145228 atomes-data_1.2.0-1_all.deb
  10bc8b487dbabe7966df5a9406310ca7d11efe36fbd7eee667984dd88dcda84e 1866024 atomes-dbgsym_1.2.0-1_amd64.deb
  2d647f45319830aa2c7411834de4f0cf4843f9780b5ea588fac6781190da13e3 1018760 atomes_1.2.0-1_amd64.deb
 Build-Origin: Debian
 Build-Architecture: amd64
-Build-Date: Mon, 08 Sep 2025 10:42:43 +0200
+Build-Date: Fri, 19 Sep 2025 16:19:44 +0200
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
 Installed-Build-Depends:
@@ -524,8 +524,8 @@ Environment:
 
 -----BEGIN PGP SIGNATURE-----
 
-iI4EARYIADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCaL6XBBgcYXRvbWVzQGlw
-Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cMF8AD/QwX7x5ca7g0KRZ4cQOaefz/d
-6YLRrM+nATcYxoeBI0QA/RvKSA4rhdmjpZbMB7mi9pBR6ChENPLX7KqWrSpO2icD
-=Ji4T
+iI4EARYIADYWIQQkkm03PUIT9ReMNBuz4KPuLR7ZwwUCaM1mgRgcYXRvbWVzQGlw
+Y21zLnVuaXN0cmEuZnIACgkQs+Cj7i0e2cOsIgEAo9PuSl4Te7L5FfVQTAEAc77z
+DZREpPNM+4+8++cSRzUA/3fHnFGD8uqybF7a4kC9jDV1y05c7qFpfMSsfJBW8r8J
+=jfFH
 -----END PGP SIGNATURE-----

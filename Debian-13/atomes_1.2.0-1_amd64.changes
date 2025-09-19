@@ -16,17 +16,17 @@ Changes:
  .
    * New upstream version 1.2.0
 Checksums-Sha1:
- 0b00b0c4b9eca338683bcb36495c6da60f862039 1145244 atomes-data_1.2.0-1_all.deb
+ 8afdac40423aaa015092c1acc6074ab3ff187e2e 1145228 atomes-data_1.2.0-1_all.deb
  4a3848de33b3a351630ac0bf1ce0ca3e18f7a6e8 1863960 atomes-dbgsym_1.2.0-1_amd64.deb
- d9203ecd5aef945eb9d23fb3f39eefdded9bfb1e 16285 atomes_1.2.0-1_amd64.buildinfo
+ 1a9b79094326406f84d76482720354bb3380a5e6 16285 atomes_1.2.0-1_amd64.buildinfo
  e7ffd76bf88268c22c85414d310ade003d41dcf3 1022144 atomes_1.2.0-1_amd64.deb
 Checksums-Sha256:
- 8d062fe788349d12e73b40a9e82a2ccb33eb65a35726cf4138398a067e43a6aa 1145244 atomes-data_1.2.0-1_all.deb
+ 0002a63c1d9c6dcad0b82c404fc5c139f9ee7d1b5d44627ee08b50084b9e80bc 1145228 atomes-data_1.2.0-1_all.deb
  455e27a98eaf34e949c4d3705a2814451aa33939522bcc5b964bc06ac60d3dad 1863960 atomes-dbgsym_1.2.0-1_amd64.deb
- 482d41043ed646a3e395768f04dc546317365cfc86aa7a84e328622fa3a56a51 16285 atomes_1.2.0-1_amd64.buildinfo
+ 47ebc15d5ca151d78804a079b8d30f0f57e3bb3f4788694168afd1e4642d03b9 16285 atomes_1.2.0-1_amd64.buildinfo
  b2678991be2d006bd32a420f515da13c50bd039f249d21bf8887bf53ef455109 1022144 atomes_1.2.0-1_amd64.deb
 Files:
- 5b5bf0068e277757b5562ef08f402971 1145244 science optional atomes-data_1.2.0-1_all.deb
+ 734f44423a0873bd7bec01e145b06def 1145228 science optional atomes-data_1.2.0-1_all.deb
  eec4ebc682f02d6fac7e6df0eb83138a 1863960 debug optional atomes-dbgsym_1.2.0-1_amd64.deb
- 55932c9a6a97bf9f8676dd0d18558117 16285 science optional atomes_1.2.0-1_amd64.buildinfo
+ 01ea82a238f9658eaefb145a891785ef 16285 science optional atomes_1.2.0-1_amd64.buildinfo
  f934983b26587c4e0388049510a1c251 1022144 science optional atomes_1.2.0-1_amd64.deb

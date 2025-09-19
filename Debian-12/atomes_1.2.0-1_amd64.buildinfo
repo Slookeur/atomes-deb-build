@@ -4,20 +4,20 @@ Binary: atomes atomes-data atomes-dbgsym
 Architecture: all amd64
 Version: 1.2.0-1
 Checksums-Md5:
- 5b5bf0068e277757b5562ef08f402971 1145244 atomes-data_1.2.0-1_all.deb
+ 734f44423a0873bd7bec01e145b06def 1145228 atomes-data_1.2.0-1_all.deb
  4ac31c67303dcd39b7c01ad45e9ba0cb 1862212 atomes-dbgsym_1.2.0-1_amd64.deb
  93298190524faf620b5fe371b2340a24 1028256 atomes_1.2.0-1_amd64.deb
 Checksums-Sha1:
- 0b00b0c4b9eca338683bcb36495c6da60f862039 1145244 atomes-data_1.2.0-1_all.deb
+ 8afdac40423aaa015092c1acc6074ab3ff187e2e 1145228 atomes-data_1.2.0-1_all.deb
  f73ae4449803c060ec0dab7e609eac47506da7bb 1862212 atomes-dbgsym_1.2.0-1_amd64.deb
  f5b123ead73eac9b7797242e1b32ada554b17872 1028256 atomes_1.2.0-1_amd64.deb
 Checksums-Sha256:
- 8d062fe788349d12e73b40a9e82a2ccb33eb65a35726cf4138398a067e43a6aa 1145244 atomes-data_1.2.0-1_all.deb
+ 0002a63c1d9c6dcad0b82c404fc5c139f9ee7d1b5d44627ee08b50084b9e80bc 1145228 atomes-data_1.2.0-1_all.deb
  0df540d334914ce698da42ff56013c69432da2ee9f99a0e2d5ee16ed57b05db5 1862212 atomes-dbgsym_1.2.0-1_amd64.deb
  bd61e4dacfc75417c07570650cff6c1041be86a2fb4f73fda5ccc5fbd88305f9 1028256 atomes_1.2.0-1_amd64.deb
 Build-Origin: Debian
 Build-Architecture: amd64
-Build-Date: Mon, 08 Sep 2025 10:41:37 +0200
+Build-Date: Fri, 19 Sep 2025 16:19:34 +0200
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
 Installed-Build-Depends:
