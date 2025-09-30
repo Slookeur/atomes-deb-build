@@ -2,22 +2,22 @@ Format: 1.0
 Source: atomes
 Binary: atomes atomes-data atomes-dbgsym
 Architecture: all amd64
-Version: 1.2.0-1
+Version: 1.2.1-1
 Checksums-Md5:
- 734f44423a0873bd7bec01e145b06def 1145228 atomes-data_1.2.0-1_all.deb
- 4ac31c67303dcd39b7c01ad45e9ba0cb 1862212 atomes-dbgsym_1.2.0-1_amd64.deb
- 93298190524faf620b5fe371b2340a24 1028256 atomes_1.2.0-1_amd64.deb
+ 8e76117854c6a20558d82e5a2aa87050 1145892 atomes-data_1.2.1-1_all.deb
+ 546a34010d093b6f9f5f15d5cd264551 1862224 atomes-dbgsym_1.2.1-1_amd64.deb
+ 214ccbae2c1b5e01ca1cd34016a0fcf3 1027956 atomes_1.2.1-1_amd64.deb
 Checksums-Sha1:
- 8afdac40423aaa015092c1acc6074ab3ff187e2e 1145228 atomes-data_1.2.0-1_all.deb
- f73ae4449803c060ec0dab7e609eac47506da7bb 1862212 atomes-dbgsym_1.2.0-1_amd64.deb
- f5b123ead73eac9b7797242e1b32ada554b17872 1028256 atomes_1.2.0-1_amd64.deb
+ 9bfd5cd62b27e9de5961f1d12441e69280d7d146 1145892 atomes-data_1.2.1-1_all.deb
+ 96da645100c5a6f1d7b8175fe39dcc87ba205fa8 1862224 atomes-dbgsym_1.2.1-1_amd64.deb
+ 4f456a6a8a15fb834347d591d0d540915f87ff2b 1027956 atomes_1.2.1-1_amd64.deb
 Checksums-Sha256:
- 0002a63c1d9c6dcad0b82c404fc5c139f9ee7d1b5d44627ee08b50084b9e80bc 1145228 atomes-data_1.2.0-1_all.deb
- 0df540d334914ce698da42ff56013c69432da2ee9f99a0e2d5ee16ed57b05db5 1862212 atomes-dbgsym_1.2.0-1_amd64.deb
- bd61e4dacfc75417c07570650cff6c1041be86a2fb4f73fda5ccc5fbd88305f9 1028256 atomes_1.2.0-1_amd64.deb
+ c4840db04cb59961f31ad5c06c2b3db1e93d85d45b60e5f368d1f8bd5b5dd746 1145892 atomes-data_1.2.1-1_all.deb
+ 7d465cf358b166e40db2a6777a03d304f7e46880352003b9772d0cc6fa4cb80f 1862224 atomes-dbgsym_1.2.1-1_amd64.deb
+ 30f35c685d119d32cc7c4ccfc20a2299b140132eb751599c67d805fa9be0595b 1027956 atomes_1.2.1-1_amd64.deb
 Build-Origin: Debian
 Build-Architecture: amd64
-Build-Date: Fri, 19 Sep 2025 16:19:34 +0200
+Build-Date: Tue, 30 Sep 2025 16:29:22 +0200
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
 Installed-Build-Depends:
@@ -143,7 +143,7 @@ Installed-Build-Depends:
  libcap2 (= 1:2.66-4),
  libcc1-0 (= 12.2.0-14),
  libchromaprint1 (= 1.5.1-2+b1),
- libcjson1 (= 1.7.15-1+deb12u2),
+ libcjson1 (= 1.7.15-1+deb12u4),
  libcodec2-1.0 (= 1.0.5-1),
  libcolord2 (= 1.4.6-2.2),
  libcom-err2 (= 1.47.0-2),
@@ -152,7 +152,7 @@ Installed-Build-Depends:
  libcryptsetup12 (= 2:2.6.1-4~deb12u2),
  libctf-nobfd0 (= 2.40-2),
  libctf0 (= 2.40-2),
- libcups2 (= 2.4.2-3+deb12u8),
+ libcups2 (= 2.4.2-3+deb12u9),
  libcurl3-gnutls (= 7.88.1-10+deb12u12),
  libdatrie-dev (= 0.2.13-2+b1),
  libdatrie1 (= 0.2.13-2+b1),
@@ -533,4 +533,4 @@ Installed-Build-Depends:
 Environment:
  DEB_BUILD_OPTIONS="parallel=2"
  LANG="fr_FR.UTF-8"
- SOURCE_DATE_EPOCH="1757070000"
+ SOURCE_DATE_EPOCH="1759230000"

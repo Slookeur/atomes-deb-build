@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Tue, 30 Sep 2025 13:00:00 +0200
+Source: atomes
+Binary: atomes atomes-data atomes-dbgsym
+Architecture: all amd64
+Version: 1.2.1-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debichem Team <debichem-devel@lists.alioth.debian.org>
+Changed-By: Sébastien Le Roux <sebastien.leroux@ipcms.unistra.fr>
+Description:
+ atomes     - atomic-scale 3D modeling toolbox
+ atomes-data - atomic-scale 3D modeling toolbox (data)
+Changes:
+ atomes (1.2.1-1) unstable; urgency=medium
+ .
+   * New upstream version 1.2.1
+Checksums-Sha1:
+ 9bfd5cd62b27e9de5961f1d12441e69280d7d146 1145892 atomes-data_1.2.1-1_all.deb
+ 96da645100c5a6f1d7b8175fe39dcc87ba205fa8 1862224 atomes-dbgsym_1.2.1-1_amd64.deb
+ 925516b445b31d60c96b5a74b77d112c6562f613 16518 atomes_1.2.1-1_amd64.buildinfo
+ 4f456a6a8a15fb834347d591d0d540915f87ff2b 1027956 atomes_1.2.1-1_amd64.deb
+Checksums-Sha256:
+ c4840db04cb59961f31ad5c06c2b3db1e93d85d45b60e5f368d1f8bd5b5dd746 1145892 atomes-data_1.2.1-1_all.deb
+ 7d465cf358b166e40db2a6777a03d304f7e46880352003b9772d0cc6fa4cb80f 1862224 atomes-dbgsym_1.2.1-1_amd64.deb
+ b1a35c3e2fb0bff8cb296087e3851eb99663f3db8163c58b22f04ce758fc6514 16518 atomes_1.2.1-1_amd64.buildinfo
+ 30f35c685d119d32cc7c4ccfc20a2299b140132eb751599c67d805fa9be0595b 1027956 atomes_1.2.1-1_amd64.deb
+Files:
+ 8e76117854c6a20558d82e5a2aa87050 1145892 science optional atomes-data_1.2.1-1_all.deb
+ 546a34010d093b6f9f5f15d5cd264551 1862224 debug optional atomes-dbgsym_1.2.1-1_amd64.deb
+ 18a836847b56658f59ba385a40aabc6a 16518 science optional atomes_1.2.1-1_amd64.buildinfo
+ 214ccbae2c1b5e01ca1cd34016a0fcf3 1027956 science optional atomes_1.2.1-1_amd64.deb
