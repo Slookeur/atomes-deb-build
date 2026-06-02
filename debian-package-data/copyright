@@ -5,7 +5,7 @@ Upstream-Contact: atomes@ipcms.unistra.fr
 Source: https://github.com/Slookeur/Atomes-GNU/
 
 Files:     *
-Copyright: 2022-2023 Dr. Sébastien Le Roux
+Copyright: 2022-2026 Dr. Sébastien Le Roux
 License:   AGPL-3.0-or-later
 
 Files:     Makefile.in

@@ -3,11 +3,11 @@ Description: removing FLAGS from the contents of the built executable file in
  shipped inside /usr/bin/atomes.
 Author: Pierre Gruet <pgt@debian.org>
 Forwarded: not-needed
-Last-Update: 2024-03-20
+Last-Update: 2026-06-02
 
 --- a/src/gui/main.c
 +++ b/src/gui/main.c
-@@ -224,10 +224,10 @@
+@@ -254,10 +254,10 @@
    }
    printf ("OpenMP version         : %1.1f (%s)\n", v, v_string);
  #endif
@@ -18,5 +18,5 @@ Last-Update: 2024-03-20
 -  printf ("C     Compiler flags   : %s\n", CFLAGS);
 +  printf ("C     Compiler flags   : %s\n", CFLAGS);*/
  
-   printf ("%s", bug);
-   printf ("%s", PACKAGE_BUGREPORT);
+   printf ("%s", _("\nReport a bug to <"));
+   printf ("%s>\n\n", PACKAGE_BUGREPORT);
