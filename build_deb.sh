@@ -11,8 +11,8 @@ function autoclean
   rm -f configure~
 }
 
-VERSION="1.3.0"
-OVER="1.2.1"
+VERSION="1.3.1"
+OVER="1.3.0"
 
 CLEAN=1
 if [ $CLEAN -eq 1 ]; then
@@ -79,5 +79,5 @@ if [ $COPY -eq 1 ]; then
   scp atomes_* leroux@pc-chess:files/git-files/atomes/atomes-deb-build/atomes-deb-build/Debian-$debian/
   scp atomes-dbg* leroux@pc-chess:files/git-files/atomes/atomes-deb-build/atomes-deb-build/Debian-$debian/
   scp atomes-data* leroux@pc-chess:files/git-files/atomes/atomes-deb-build/atomes-deb-build/Debian-$debian/
-  scp -r debian-package-data leroux@pc-chess:files/git-files/atomes/atomes-deb-build/atomes-deb-build/
+  #scp -r debian-package-data leroux@pc-chess:files/git-files/atomes/atomes-deb-build/atomes-deb-build/
 fi

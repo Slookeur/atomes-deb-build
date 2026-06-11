@@ -2,22 +2,22 @@ Format: 1.0
 Source: atomes
 Binary: atomes atomes-data atomes-dbgsym
 Architecture: all amd64
-Version: 1.3.0-1
+Version: 1.3.1-1
 Checksums-Md5:
- 02f2c9832e1334513d879e68d853f909 1144464 atomes-data_1.3.0-1_all.deb
- 3bdf371cdda483fc0a8b77e18575c8d4 1980540 atomes-dbgsym_1.3.0-1_amd64.deb
- c4a308208e22897cb7aad94a34e22185 1150660 atomes_1.3.0-1_amd64.deb
+ b3503f61c97bb6247f620bf05ab20831 1145544 atomes-data_1.3.1-1_all.deb
+ e3dbd3b937e6cfd12a63d3db68436da9 1980120 atomes-dbgsym_1.3.1-1_amd64.deb
+ 08ce9bb9736126dddf4eb6e7d6be7891 1151140 atomes_1.3.1-1_amd64.deb
 Checksums-Sha1:
- 8b0476c80f4880a28dc9fad04cd163a786836e31 1144464 atomes-data_1.3.0-1_all.deb
- 717798a2310138ba12c1790591cd69c9ab3ff9e2 1980540 atomes-dbgsym_1.3.0-1_amd64.deb
- 842bd94407679ca711eb5bd8cf8c9d022f2366ef 1150660 atomes_1.3.0-1_amd64.deb
+ 713e38d55f5ed20ac3840d3820bb1fd6f5467ef8 1145544 atomes-data_1.3.1-1_all.deb
+ 27ff82ce5e7378609e2c5fd4d47b1f612ea6f7c5 1980120 atomes-dbgsym_1.3.1-1_amd64.deb
+ aebb0236fc64ec846e8225e11930d18fd1eeaaea 1151140 atomes_1.3.1-1_amd64.deb
 Checksums-Sha256:
- 528a84cf028e3c64d6fd5e94c698008c9d1ea466b998de5412acdb103b91de32 1144464 atomes-data_1.3.0-1_all.deb
- 7afe2048103553e549fcd3b0c0a5e7c16586d02965af0bd2b2821db6e78b82f4 1980540 atomes-dbgsym_1.3.0-1_amd64.deb
- 2b61dc35df0d03045e6911c64d28910c5bac59f85d54c9a1388589b8eb193228 1150660 atomes_1.3.0-1_amd64.deb
+ c8dcedb6fbdbd57bea36839c6ea0134e26793e2d07194ce868031e2e3f0fdb7d 1145544 atomes-data_1.3.1-1_all.deb
+ c52aa65a5d773905fa775faa9c38dbaf9ef7e8bb9a3413a6ebd5c2b08283e826 1980120 atomes-dbgsym_1.3.1-1_amd64.deb
+ c399f94bb387dde1be4aa99c735610d49fbf40b8b7137b1f8d2571c60524bfea 1151140 atomes_1.3.1-1_amd64.deb
 Build-Origin: Debian
 Build-Architecture: amd64
-Build-Date: Thu, 11 Jun 2026 14:53:11 +0200
+Build-Date: Thu, 11 Jun 2026 21:32:40 +0200
 Installed-Build-Depends:
  adduser (= 3.152),
  adwaita-icon-theme (= 48.1-1),
@@ -541,4 +541,4 @@ Installed-Build-Depends:
 Environment:
  DEB_BUILD_OPTIONS="parallel=2"
  LANG="fr_FR.UTF-8"
- SOURCE_DATE_EPOCH="1781180541"
+ SOURCE_DATE_EPOCH="1781205749"
