@@ -4,24 +4,24 @@ Binary: atomes atomes-data atomes-dbgsym
 Architecture: all amd64
 Version: 1.3.0-1
 Checksums-Md5:
- 33061b0a4ea80ebc99c9666d74fbd30c 1144812 atomes-data_1.3.0-1_all.deb
- 54903de3228b087598b1fc5a81efc034 1980324 atomes-dbgsym_1.3.0-1_amd64.deb
- cecada4454c4a35789aea41495f19bab 1149956 atomes_1.3.0-1_amd64.deb
+ 02f2c9832e1334513d879e68d853f909 1144464 atomes-data_1.3.0-1_all.deb
+ 3bdf371cdda483fc0a8b77e18575c8d4 1980540 atomes-dbgsym_1.3.0-1_amd64.deb
+ c4a308208e22897cb7aad94a34e22185 1150660 atomes_1.3.0-1_amd64.deb
 Checksums-Sha1:
- ff191b62cef86a89c81e6b71cd832f8a857b3f2c 1144812 atomes-data_1.3.0-1_all.deb
- 0ac532a179a14c3a1f5ed11d9526089b9d8b4284 1980324 atomes-dbgsym_1.3.0-1_amd64.deb
- 7ffb7b00e4dc5b1fd2a390cc4ed7175e6e3b3ff6 1149956 atomes_1.3.0-1_amd64.deb
+ 8b0476c80f4880a28dc9fad04cd163a786836e31 1144464 atomes-data_1.3.0-1_all.deb
+ 717798a2310138ba12c1790591cd69c9ab3ff9e2 1980540 atomes-dbgsym_1.3.0-1_amd64.deb
+ 842bd94407679ca711eb5bd8cf8c9d022f2366ef 1150660 atomes_1.3.0-1_amd64.deb
 Checksums-Sha256:
- b0004025e4622ab56fdcc8297bce8d30203d8de7f4dccf66c53ea7fe9f29539d 1144812 atomes-data_1.3.0-1_all.deb
- a0c5ec7455c52393c1fc0f42bd4361bc1e9cbdf3c5df252fd72ed3111d3e8574 1980324 atomes-dbgsym_1.3.0-1_amd64.deb
- e117486c86556a187385ef257a990a60fb9b8a29f711d97ab7f719996f311311 1149956 atomes_1.3.0-1_amd64.deb
+ 528a84cf028e3c64d6fd5e94c698008c9d1ea466b998de5412acdb103b91de32 1144464 atomes-data_1.3.0-1_all.deb
+ 7afe2048103553e549fcd3b0c0a5e7c16586d02965af0bd2b2821db6e78b82f4 1980540 atomes-dbgsym_1.3.0-1_amd64.deb
+ 2b61dc35df0d03045e6911c64d28910c5bac59f85d54c9a1388589b8eb193228 1150660 atomes_1.3.0-1_amd64.deb
 Build-Origin: Debian
 Build-Architecture: amd64
-Build-Date: Thu, 11 Jun 2026 13:53:01 +0200
+Build-Date: Thu, 11 Jun 2026 14:50:05 +0200
 Installed-Build-Depends:
  adduser (= 3.152),
  adwaita-icon-theme (= 48.1-1),
- appstream-util (= 0.8.3-1),
+ appstream (= 1.0.5-1),
  at-spi2-common (= 2.56.2-1+deb13u1),
  autoconf (= 2.72-3.1),
  automake (= 1:1.17-4),
@@ -108,9 +108,8 @@ Installed-Build-Depends:
  libacl1 (= 2.3.2-2+b1),
  libaom3 (= 3.12.1-1),
  libapparmor1 (= 4.1.0-1),
- libappstream-glib8 (= 0.8.3-1),
+ libappstream5 (= 1.0.5-1),
  libarchive-zip-perl (= 1.68-1),
- libarchive13t64 (= 3.7.4-4+deb13u1),
  libasan8 (= 14.2.0-19),
  libatk-bridge2.0-0t64 (= 2.56.2-1+deb13u1),
  libatk-bridge2.0-dev (= 2.56.2-1+deb13u1),
@@ -282,7 +281,6 @@ Installed-Build-Depends:
  liblerc4 (= 4.0.0+ds-5),
  libllvm19 (= 1:19.1.7-3+b1),
  liblsan0 (= 14.2.0-19),
- liblz4-1 (= 1.10.0-4),
  liblzma-dev (= 5.8.1-1),
  liblzma5 (= 5.8.1-1),
  liblzo2-2 (= 2.10-3+b1),
@@ -376,6 +374,7 @@ Installed-Build-Depends:
  libssl3t64 (= 3.5.6-1~deb13u2),
  libstdc++-14-dev (= 14.2.0-19),
  libstdc++6 (= 14.2.0-19),
+ libstemmer0d (= 2.2.0-4+b2),
  libsvtav1enc2 (= 2.3.0+dfsg-1),
  libswresample-dev (= 7:7.1.4-0+deb13u1),
  libswresample5 (= 7:7.1.4-0+deb13u1),
@@ -467,6 +466,7 @@ Installed-Build-Depends:
  libxkbcommon0 (= 1.7.0-2),
  libxml2 (= 2.12.7+dfsg+really2.9.14-2.1+deb13u2),
  libxml2-dev (= 2.12.7+dfsg+really2.9.14-2.1+deb13u2),
+ libxmlb2 (= 0.3.22-1),
  libxrandr-dev (= 2:1.5.4-1+b3),
  libxrandr2 (= 2:1.5.4-1+b3),
  libxrender-dev (= 1:0.9.12-1),
@@ -476,7 +476,6 @@ Installed-Build-Depends:
  libxtst6 (= 2:1.2.5-1),
  libxvidcore4 (= 2:1.3.7-1+b2),
  libxxf86vm1 (= 1:1.1.4-1+b4),
- libxxhash0 (= 0.8.3-2),
  libyaml-0-2 (= 0.2.5-2),
  libz3-4 (= 4.13.3-1),
  libzmq5 (= 4.3.5-1+b3),
@@ -542,4 +541,4 @@ Installed-Build-Depends:
 Environment:
  DEB_BUILD_OPTIONS="parallel=2"
  LANG="fr_FR.UTF-8"
- SOURCE_DATE_EPOCH="1781175600"
+ SOURCE_DATE_EPOCH="1781180541"
