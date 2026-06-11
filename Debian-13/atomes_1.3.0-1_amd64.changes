@@ -16,17 +16,17 @@ Changes:
  .
    * New upstream version 1.3.0
 Checksums-Sha1:
- a9eed26d9e54fe1454c885ef794cdedbf7f94a04 1145332 atomes-data_1.3.0-1_all.deb
- 44b641edaf7e4abef5c2b7dd27c961b628d3f4ff 1980316 atomes-dbgsym_1.3.0-1_amd64.deb
- c543b8b49bd7d197d18f71466cf1b864a6f79184 17037 atomes_1.3.0-1_amd64.buildinfo
- 0d713ec1e7e429053e62267db98fc352c8e414ed 1150612 atomes_1.3.0-1_amd64.deb
+ ff191b62cef86a89c81e6b71cd832f8a857b3f2c 1144812 atomes-data_1.3.0-1_all.deb
+ 0ac532a179a14c3a1f5ed11d9526089b9d8b4284 1980324 atomes-dbgsym_1.3.0-1_amd64.deb
+ 56bc972113e3846ee4bd06f44ccf1e65fccf7613 17037 atomes_1.3.0-1_amd64.buildinfo
+ 7ffb7b00e4dc5b1fd2a390cc4ed7175e6e3b3ff6 1149956 atomes_1.3.0-1_amd64.deb
 Checksums-Sha256:
- c44e6635f659a8786b6150b8b2fdfd856436364a79a4fc3835f669e01ec8d1d3 1145332 atomes-data_1.3.0-1_all.deb
- 19beeece642816cd8da25d48cb8ae5a1a0eccad43f01d80a3d9edcfc59d6c628 1980316 atomes-dbgsym_1.3.0-1_amd64.deb
- 5e1341f1f0e31c82a872858e6dee830e7dd5f756ff7f20fc5fc555fdafaaee3c 17037 atomes_1.3.0-1_amd64.buildinfo
- cddab388cb43cf9297b763e6985ac7f1f2a7fbf3d7f84ce09b8c0d878b2f4634 1150612 atomes_1.3.0-1_amd64.deb
+ b0004025e4622ab56fdcc8297bce8d30203d8de7f4dccf66c53ea7fe9f29539d 1144812 atomes-data_1.3.0-1_all.deb
+ a0c5ec7455c52393c1fc0f42bd4361bc1e9cbdf3c5df252fd72ed3111d3e8574 1980324 atomes-dbgsym_1.3.0-1_amd64.deb
+ 11a4d0db3fa23af1e91e1ffd6894531f333a0d278f1fb6a4dffdb0bd72a64104 17037 atomes_1.3.0-1_amd64.buildinfo
+ e117486c86556a187385ef257a990a60fb9b8a29f711d97ab7f719996f311311 1149956 atomes_1.3.0-1_amd64.deb
 Files:
- 9aff248dc1d29d0781e73337b8d413e8 1145332 science optional atomes-data_1.3.0-1_all.deb
- a49cd2f944d7a5278e043d6dbabee67c 1980316 debug optional atomes-dbgsym_1.3.0-1_amd64.deb
- 78f83c36079a14e59d595f10ce808660 17037 science optional atomes_1.3.0-1_amd64.buildinfo
- b0a912062ea206df43ebcc71a9614ae3 1150612 science optional atomes_1.3.0-1_amd64.deb
+ 33061b0a4ea80ebc99c9666d74fbd30c 1144812 science optional atomes-data_1.3.0-1_all.deb
+ 54903de3228b087598b1fc5a81efc034 1980324 debug optional atomes-dbgsym_1.3.0-1_amd64.deb
+ 4be6478fc112e84b031eb4f0eb6bd460 17037 science optional atomes_1.3.0-1_amd64.buildinfo
+ cecada4454c4a35789aea41495f19bab 1149956 science optional atomes_1.3.0-1_amd64.deb

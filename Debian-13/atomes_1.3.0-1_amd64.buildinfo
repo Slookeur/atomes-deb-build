@@ -4,20 +4,20 @@ Binary: atomes atomes-data atomes-dbgsym
 Architecture: all amd64
 Version: 1.3.0-1
 Checksums-Md5:
- 9aff248dc1d29d0781e73337b8d413e8 1145332 atomes-data_1.3.0-1_all.deb
- a49cd2f944d7a5278e043d6dbabee67c 1980316 atomes-dbgsym_1.3.0-1_amd64.deb
- b0a912062ea206df43ebcc71a9614ae3 1150612 atomes_1.3.0-1_amd64.deb
+ 33061b0a4ea80ebc99c9666d74fbd30c 1144812 atomes-data_1.3.0-1_all.deb
+ 54903de3228b087598b1fc5a81efc034 1980324 atomes-dbgsym_1.3.0-1_amd64.deb
+ cecada4454c4a35789aea41495f19bab 1149956 atomes_1.3.0-1_amd64.deb
 Checksums-Sha1:
- a9eed26d9e54fe1454c885ef794cdedbf7f94a04 1145332 atomes-data_1.3.0-1_all.deb
- 44b641edaf7e4abef5c2b7dd27c961b628d3f4ff 1980316 atomes-dbgsym_1.3.0-1_amd64.deb
- 0d713ec1e7e429053e62267db98fc352c8e414ed 1150612 atomes_1.3.0-1_amd64.deb
+ ff191b62cef86a89c81e6b71cd832f8a857b3f2c 1144812 atomes-data_1.3.0-1_all.deb
+ 0ac532a179a14c3a1f5ed11d9526089b9d8b4284 1980324 atomes-dbgsym_1.3.0-1_amd64.deb
+ 7ffb7b00e4dc5b1fd2a390cc4ed7175e6e3b3ff6 1149956 atomes_1.3.0-1_amd64.deb
 Checksums-Sha256:
- c44e6635f659a8786b6150b8b2fdfd856436364a79a4fc3835f669e01ec8d1d3 1145332 atomes-data_1.3.0-1_all.deb
- 19beeece642816cd8da25d48cb8ae5a1a0eccad43f01d80a3d9edcfc59d6c628 1980316 atomes-dbgsym_1.3.0-1_amd64.deb
- cddab388cb43cf9297b763e6985ac7f1f2a7fbf3d7f84ce09b8c0d878b2f4634 1150612 atomes_1.3.0-1_amd64.deb
+ b0004025e4622ab56fdcc8297bce8d30203d8de7f4dccf66c53ea7fe9f29539d 1144812 atomes-data_1.3.0-1_all.deb
+ a0c5ec7455c52393c1fc0f42bd4361bc1e9cbdf3c5df252fd72ed3111d3e8574 1980324 atomes-dbgsym_1.3.0-1_amd64.deb
+ e117486c86556a187385ef257a990a60fb9b8a29f711d97ab7f719996f311311 1149956 atomes_1.3.0-1_amd64.deb
 Build-Origin: Debian
 Build-Architecture: amd64
-Build-Date: Thu, 11 Jun 2026 11:44:46 +0200
+Build-Date: Thu, 11 Jun 2026 13:53:01 +0200
 Installed-Build-Depends:
  adduser (= 3.152),
  adwaita-icon-theme (= 48.1-1),
