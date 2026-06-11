@@ -6,7 +6,7 @@ Uploaders: Sébastien Le Roux <sebastien.leroux@ipcms.unistra.fr>
 Build-Depends: debhelper-compat (= 13),
                automake,
                autoconf,
-               pkg-config,
+               pkgconf,
                gettext,
                gfortran,
                libgfortran5,
@@ -20,8 +20,8 @@ Build-Depends: debhelper-compat (= 13),
                libavformat-dev,
                libswscale-dev,
                desktop-file-utils,
-               appstream-util
-Standards-Version: 4.6.2
+               appstream
+Standards-Version: 4.7.2
 Homepage: https://atomes.ipcms.fr/
 Vcs-Browser: https://salsa.debian.org/debichem-team/atomes
 Vcs-Git: https://salsa.debian.org/debichem-team/atomes.git
@@ -29,9 +29,8 @@ Rules-Requires-Root: no
 
 Package: atomes
 Architecture: any
-Depends: atomes-data (= ${source:Version}), 
+Depends: atomes-data (= ${source:Version}),
          ${shlibs:Depends}, ${misc:Depends},
-         libgtk-3-0,
          libglu1-mesa,
          bash-completion
 Description: atomic-scale 3D modeling toolbox
@@ -77,7 +76,7 @@ Description: atomic-scale 3D modeling toolbox (data)
   - QM-MM MD: CPMD and CP2K
  To prepare the input files for these calculations is likely to be the key, and
  most complicated step towards MD simulations.
- Atomes offers a user-friendly assistant to help and guide the scientist step
+ atomes offers a user-friendly assistant to help and guide the scientist step
  by step to achieve this crucial step.
  .
  This package contains data files for atomes.

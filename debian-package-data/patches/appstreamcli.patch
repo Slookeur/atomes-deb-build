@@ -1,0 +1,54 @@
+Description: using appstreamcli instead of deprecated appstream-util
+ Right now the check is deactivated as there are many errors, letting upstream
+ rework the file.
+Author: Pierre Gruet <pgt@debian.org>
+Bug-Debian: https://bugs.debian.org/1120450
+Forwarded: sebastien.leroux@ipcms.unistra.fr
+Last-Update: 2025-11-10
+
+--- a/Makefile.am
++++ b/Makefile.am
+@@ -43,7 +43,7 @@
+ 		$(mkinstalldirs) $(atomes_metadir); \
+ 	fi
+ 	$(INSTALL_DATA) $(srcdir)/metadata/fr.ipcms.atomes.appdata.xml $(atomes_metadir)
+-	appstream-util validate-relax --nonet $(atomes_metadir)/fr.ipcms.atomes.appdata.xml
++#	appstreamcli validate --no-net $(atomes_metadir)/fr.ipcms.atomes.appdata.xml
+ # Desktop file
+ 	if [ ! -d $(atomes_desktopdir) ]; then \
+ 		$(mkinstalldirs) $(atomes_desktopdir); \
+--- a/atomes.spec
++++ b/atomes.spec
+@@ -69,7 +69,7 @@
+ 
+ %check
+ desktop-file-validate %{buildroot}/%{_datadir}/applications/%{name}.desktop
+-appstream-util validate-relax --nonet %{buildroot}%{_metainfodir}/fr.ipcms.%{name}.appdata.xml
++#appstreamcli validate --no-net %{buildroot}%{_metainfodir}/fr.ipcms.%{name}.appdata.xml
+ 
+ %files
+ %license COPYING
+--- a/configure.ac
++++ b/configure.ac
+@@ -76,7 +76,7 @@
+ AC_CHECK_PROG([PKG_CONFIG], [pkg-config], [yes], [no])
+ AC_CHECK_PROG([UP_MIME], [update-mime-database], [yes], [no])
+ AC_CHECK_PROG([UP_DESKTOP], [update-desktop-database], [yes], [no])
+-AC_CHECK_PROG([UP_APPSTREAM], [appstream-util], [yes], [no])
++AC_CHECK_PROG([UP_APPSTREAM], [appstreamcli], [yes], [no])
+ 
+ 
+ dnl ***************************************************************************
+--- a/configure
++++ b/configure
+@@ -3477,8 +3477,8 @@
+ fi
+ 
+ 
+-# Extract the first word of "appstream-util", so it can be a program name with args.
+-set dummy appstream-util; ac_word=$2
++# Extract the first word of "appstreamcli", so it can be a program name with args.
++set dummy appstreamcli; ac_word=$2
+ { printf "%s\n" "$as_me:${as_lineno-$LINENO}: checking for $ac_word" >&5
+ printf %s "checking for $ac_word... " >&6; }
+ if test ${ac_cv_prog_UP_APPSTREAM+y}

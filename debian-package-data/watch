@@ -1,5 +1,6 @@
-version=4
+Version: 5
 
-opts="filenamemangle=s%(?:.*?)?v?(\d[\d.]*)\.tar\.gz%atomes-$1.tar.gz%" \
-   https://github.com/Slookeur/Atomes-GNU/tags \
-   (?:.*?/)?v?(\d[\d.]*)\.tar\.gz debian uupdate
+Source: https://github.com/Slookeur/Atomes-GNU/tags
+Matching-Pattern: (?:.*?/)?v?(\d[\d.]*)\.tar\.gz
+Filenamemangle: s%(?:.*?)?v?(\d[\d.]*)\.tar\.gz%atomes-$1.tar.gz%
+Update-Script: uupdate
