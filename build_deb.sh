@@ -12,7 +12,7 @@ function autoclean
 }
 
 VERSION="1.3.1"
-OVER="1.3.0"
+OVER="1.3.1"
 
 CLEAN=1
 if [ $CLEAN -eq 1 ]; then
